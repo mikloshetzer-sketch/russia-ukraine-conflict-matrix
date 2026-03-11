@@ -44,7 +44,7 @@ def theme_counts(articles):
         ],
         "air_strikes": [
             "missile", "missiles", "drone", "drones", "air raid",
-            "strike", "strikes", "shelling", "bombing", "explosion"
+            "strike", "strikes", "shelling", "bombing", "explosion", "explosions"
         ],
         "diplomacy": [
             "ceasefire", "truce", "negotiation", "negotiations", "talks",
@@ -68,6 +68,17 @@ def theme_counts(articles):
                 counts[theme] += 1
 
     return counts
+
+
+def translate_assessment(assessment: str) -> str:
+    mapping = {
+        "strong escalation": "erős eszkaláció",
+        "moderate escalation": "mérsékelt eszkaláció",
+        "mixed / unstable": "vegyes / instabil",
+        "moderate de-escalation": "mérsékelt enyhülés",
+        "strong de-escalation": "erősebb enyhülés",
+    }
+    return mapping.get(assessment, assessment)
 
 
 def assessment_to_brief(total_score, assessment, article_count, escalation_count, deescalation_count):
@@ -114,7 +125,7 @@ def build_military_section(counts):
         return (
             f"A katonai dimenzióban a légi csapásokhoz, rakéta- és dróntámadásokhoz kapcsolódó hírek domináltak ({air_strikes} releváns cím), "
             f"miközben a klasszikus frontvonalhoz kötődő tudósítások valamivel kisebb súllyal jelentek meg ({frontline} cím). "
-            "Ez olyan médiaképet jelez, amelyben a távolsági csapásmérés és a városi/infrastrukturális célpontok elleni támadások erősebben tematizálták a konfliktust."
+            "Ez olyan médiaképet jelez, amelyben a távolsági csapásmérés és a városi vagy infrastrukturális célpontok elleni támadások erősebben tematizálták a konfliktust."
         )
 
     return (
@@ -159,8 +170,62 @@ def build_support_section(counts):
     return (
         f"A nemzetközi támogatási környezet a napi médiaképben is látható maradt ({support} releváns cím). "
         "Ez arra utal, hogy a konfliktus értelmezésében továbbra is fontos szerepet játszik a nyugati katonai támogatás, "
-        "a védelmi képességek fenntartása és a gazdasági-nyomásgyakorlási dimenzió."
+        "a védelmi képességek fenntartása és a gazdasági nyomásgyakorlási dimenzió."
     )
+
+
+def build_operational_picture(counts):
+    frontline = counts.get("frontline", 0)
+    air = counts.get("air_strikes", 0)
+
+    if frontline > air:
+        return (
+            "A médiaképet elsősorban a szárazföldi műveletek és frontvonalhoz kapcsolódó hírek határozták meg. "
+            "Ez arra utal, hogy a konfliktus narratívájában a harctéri dinamika dominál, "
+            "nem pedig a mélységi csapások vagy stratégiai infrastruktúra elleni támadások."
+        )
+
+    if air > frontline:
+        return (
+            "A napi tudósításokban a rakéta- és dróntámadások, valamint a légi csapások voltak hangsúlyosabbak. "
+            "Ez a konfliktus azon dimenziójára utal, ahol a felek mélységi célpontok ellen alkalmaznak távolsági fegyverrendszereket."
+        )
+
+    return (
+        "A napi médiakép kiegyensúlyozottan tükrözte a frontvonalon zajló harcokat és a légi csapásokat. "
+        "Ez egy komplex, többdimenziós hadműveleti helyzet narratívájára utal."
+    )
+
+
+def media_narrative(articles):
+    escalation = len([a for a in articles if a.get("score", 0) < 0])
+    deesc = len([a for a in articles if a.get("score", 0) > 0])
+
+    if escalation > deesc * 2:
+        return (
+            "A médiakép erősen konfliktuscentrikus volt: a címek többsége katonai eseményeket, "
+            "csapásokat vagy harctéri fejleményeket hangsúlyozott."
+        )
+
+    if deesc > escalation:
+        return (
+            "A médiában viszonylag erősebb szerepet kaptak a diplomáciai és politikai fejlemények. "
+            "Ez részben a konfliktus politikai kezelésének narratíváját erősítheti."
+        )
+
+    return (
+        "A hírek narratívája vegyes képet mutatott, amelyben a katonai események és a politikai reakciók egyaránt jelen voltak."
+    )
+
+
+def risk_indicator(total_score):
+    if total_score < -50:
+        return "Rövid távon fokozott eszkalációs kockázat érzékelhető."
+    if total_score < -20:
+        return "A konfliktus intenzitása stabilan magas szinten marad."
+    if total_score < 10:
+        return "A helyzet rövid távon instabil, de nem mutat egyértelmű eszkalációs irányt."
+    return "A médiakép alapján rövid távú enyhülési jelzések is megfigyelhetők."
 
 
 def markdown_article_line(article):
@@ -184,6 +249,7 @@ def main():
     article_count = data.get("article_count", 0)
     total_score = data.get("total_score", 0)
     assessment = data.get("assessment", "unknown")
+    assessment_hu = translate_assessment(assessment)
     escalation_count = data.get("escalation_articles", 0)
     deescalation_count = data.get("deescalation_articles", 0)
     neutral_count = data.get("neutral_articles", 0)
@@ -204,6 +270,9 @@ def main():
     military_section = build_military_section(counts)
     diplomatic_section = build_diplomatic_section(counts)
     support_section = build_support_section(counts)
+    operational_picture = build_operational_picture(counts)
+    narrative = media_narrative(articles)
+    risk_text = risk_indicator(total_score)
 
     report_path = reports_dir / f"{date_str}_report.md"
 
@@ -213,7 +282,7 @@ def main():
     lines.append(f"**Dátum:** {date_str}")
     lines.append(f"**Feldolgozott cikkek száma:** {article_count}")
     lines.append(f"**Összesített konfliktusindex:** {total_score}")
-    lines.append(f"**Minősítés:** {assessment}")
+    lines.append(f"**Minősítés:** {assessment_hu}")
     lines.append("")
 
     lines.append("## 1. Helyzetkép")
@@ -230,22 +299,32 @@ def main():
     )
     lines.append("")
 
-    lines.append("## 3. Katonai dimenzió")
+    lines.append("## 3. Operatív helyzetkép")
+    lines.append("")
+    lines.append(operational_picture)
+    lines.append("")
+
+    lines.append("## 4. Katonai dimenzió")
     lines.append("")
     lines.append(military_section)
     lines.append("")
 
-    lines.append("## 4. Diplomáciai és politikai dimenzió")
+    lines.append("## 5. Diplomáciai és politikai dimenzió")
     lines.append("")
     lines.append(diplomatic_section)
     lines.append("")
 
-    lines.append("## 5. Nemzetközi támogatás és külső környezet")
+    lines.append("## 6. Nemzetközi támogatás és külső környezet")
     lines.append("")
     lines.append(support_section)
     lines.append("")
 
-    lines.append("## 6. Domináns kulcsszavak")
+    lines.append("## 7. Médiakeretezés")
+    lines.append("")
+    lines.append(narrative)
+    lines.append("")
+
+    lines.append("## 8. Domináns kulcsszavak")
     lines.append("")
     if keywords:
         for (keyword, category), count in keywords:
@@ -254,7 +333,7 @@ def main():
         lines.append("- Nem rajzolódott ki erős kulcsszó-koncentráció.")
     lines.append("")
 
-    lines.append("## 7. Kiemelt eszkalációs jellegű hírek")
+    lines.append("## 9. Kiemelt eszkalációs jellegű hírek")
     lines.append("")
     if negative_articles:
         for article in negative_articles:
@@ -263,7 +342,7 @@ def main():
         lines.append("- Nem volt markánsan eszkalációs cikk a mintában.")
     lines.append("")
 
-    lines.append("## 8. Kiemelt deeszkalációs jellegű hírek")
+    lines.append("## 10. Kiemelt deeszkalációs jellegű hírek")
     lines.append("")
     if positive_articles:
         for article in positive_articles:
@@ -272,7 +351,12 @@ def main():
         lines.append("- Nem volt markánsan deeszkalációs cikk a mintában.")
     lines.append("")
 
-    lines.append("## 9. Elemzői megjegyzés")
+    lines.append("## 11. Rövid távú kockázati indikátor")
+    lines.append("")
+    lines.append(risk_text)
+    lines.append("")
+
+    lines.append("## 12. Elemzői megjegyzés")
     lines.append("")
     lines.append(
         "A jelentés automatizált RSS-alapú hírgyűjtésre és kulcsszavas pontozásra épül. "
