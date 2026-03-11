@@ -1,101 +1,122 @@
 {
   "report_date": "2026-03-11",
-  "created_at": "2026-03-11T09:48:13.538985",
-  "article_count": 50,
-  "total_score": -76,
-  "conflict_index": -1.52,
-  "assessment": "moderate escalation",
-  "trajectory": "uncertain",
-  "outlook": "Short-term direction remains uncertain.",
-  "commentary": "This automated assessment analyses international news headlines related to the monitored conflict environment. The news environment suggests moderate escalation pressure. Military developments appear regularly in reporting, though the pattern does not yet indicate the highest observable intensity. The system analysed 50 headlines with a cumulative score of -76. To make day-to-day comparison more reliable, a normalized conflict index is calculated by dividing the total score by the number of analysed articles. The short-term trajectory is currently assessed as uncertain. Current outlook: Short-term direction remains uncertain. This index reflects the tone of the information environment rather than the exact number of real-world incidents. Large moves may partly reflect repeated reporting on the same event.",
+  "created_at": "2026-03-11T09:59:15.088001",
+  "article_count": 100,
+  "total_score": -394,
+  "conflict_index": -3.94,
+  "assessment": "strong escalation",
+  "trajectory": "escalating",
+  "outlook": "High short-term escalation pressure.",
+  "commentary": "This automated assessment analyses international news headlines related to the monitored conflict environment. The current information environment indicates strong escalation dynamics. A high concentration of headlines refers to military activity such as strikes, missile launches, retaliatory actions or combat developments. The system analysed 100 headlines with a cumulative score of -394. To make day-to-day comparison more reliable, a normalized conflict index is calculated by dividing the total score by the number of analysed articles. The short-term trajectory is currently assessed as escalating. Current outlook: High short-term escalation pressure. This index reflects the tone of the information environment rather than the exact number of real-world incidents. Large moves may partly reflect repeated reporting on the same event.",
   "top_escalation_signals": [
     {
-      "title": "U.S. and Iran ramp up threats as Hegseth warns of 'most intense day of strikes' - PBS",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOazVDTEpWOThHZHY2dHFZazh0YWhNQW9JMGk4bXVNYWNIVzlTeTA4WlNLLXhYMGRsRHBWMWNBVmtIUkJEVzhjUmFiSU1IVktZSTdLZm5ROV8yNUE1VnVhLUZIWjVid0luT1hmS2MxNnNlY3czT0pMa1VEV05OQ3pqcHhvUkJ5R0ZuZ0dETUZNQkNkZFQ3R29ueDNOVF8wX2ZCYU40UEQ1c1JoUjFIRTd6WUVBWF9iZkNqeXo1ek5QTzZGeVljOUluWW5jOWJnal93S0I00gHYAUFVX3lxTFB5V3dtclAyYms0MlBGbTZnaThKcDNuNmFONmRONjNJeVg1Z1JNVlhwVV9reWJTeS1DcnVKSUpZeDk0eW1FWDYyMGFEQmg4NGtkaFVNV3RlQzNCeUhNVUoxUG1PT0M2S1Q4S0tFRk9ER3hzMlZkVGkxYlQtNmYtSjlQcUUzLS10SnktMTV5dFNqTERUbUZzTG8tQy11eVhubGI0c2lfdEpHdTQwTmZSRDd1OW9lWlNPSWdRSVk2U3E5c0xFWjVFRW9oUi1uNWZZWTc1MDBUd1lKYg?oc=5",
-      "source": "\"iran israel usa war when:7d\" - Google News",
-      "published": "Tue, 10 Mar 2026 13:49:22 GMT",
-      "score": -6
+      "title": "At least 10 people, including two children have been killed and sixteen others wounded in a Russian missile attack on a five-story residential building in Ukraine's Kharkiv city, officials say. Ukrainian President Volodymyr Zelenskyy says Russia struck Ukraine o - facebook.com",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQaFViaEtxelVwcWtLSWN3VVdYbEY4UDdYU09TenhuR0N6akg1dllvTG5zTXI4UkVrZ0lvZjRqcEVtclRobWpuemlRNWE4b0Q0MkxyNTV0QlltR0xkdUZSRjRxa1V0T3JYOFpQV3VXYlRmVkhTalhQSWFEamhpSEpKYmdrd2tUTkZGbG5jUU83b1BUdDlSMlZ3dUhubl9OM3pwNS1wNXh2YmhGa3FnaHRhWkd4RFEzenNiODZFeElfMFVwRDFtb0ZDWUlKYkRGTmc3dFhkV3ZZMGg5TFlRS19ibQ?oc=5",
+      "source": "\"russia missile attack ukraine when:7d\" - Google News",
+      "published": "Sun, 08 Mar 2026 08:16:28 GMT",
+      "score": -18
     },
     {
-      "title": "Iran war: What is happening on day seven of US-Israel attacks? - Al Jazeera",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPNUhuVHRLbmZReTF6SDAzMHAxdlVLOVRkb0xpZnFXQUkwdnhoYVNhTFVfRDE2SHhsV0dMSVQ3d1JvdlNGRFhFaWtpb2ZleHBJc2VrdjFkZ0tKdUhZR0UzWTRwYkxnTl9SUktWWVNCalhCVVdyOHVHbG9ab2RXZ05OR000bnVpd3F4LWhTNHFiRnlSUXhZYmdHNnhNeHVlX2NqT3c?oc=5",
-      "source": "\"iran israel usa war when:7d\" - Google News",
-      "published": "Fri, 06 Mar 2026 14:53:18 GMT",
-      "score": -5
+      "title": "Russia Hits Ukraine With Deadly Barrage of Missiles and Drones - The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQTE9VZmpYeUhWX1M2VUFxQ0NaejhJbDRDYmRNQWZYRGxIeDZPV2lwQThwbTRLaDh5OHRuUzNkUExvRk9QdWNpVXBjNVJtOEJDb1JVSDNfNm1RYm9HeDFMX3Q4LThrQ05oT3FOaXl2MFdYaGJ1SkNfVk50Z0tVUm5HQy1HMVYySERhMkE1WkZJa2ZQUW1zRnIwNGd3?oc=5",
+      "source": "\"russia missile attack ukraine when:7d\" - Google News",
+      "published": "Sat, 07 Mar 2026 11:42:55 GMT",
+      "score": -16
     },
     {
-      "title": "Iran war: What is happening on day nine of US-Israel attacks? - Al Jazeera",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdFJkeTNPZWl1R2RaTVJLd1pqbjRnUlJLSlJ0Q2h3Y1BEcGxrLUUtWFhwUm5RN2R2SzRfcFh6QVUtcDRvRVh6OTJGODJ4cGl6WUxsWXNNSnVPM3M3SWdtVnRwTnRpOG02YU1wa1hmRlUzMVNjSmxiWk9aQzdlM3pfNnREUEIzQWFsWUdCTFZQbzc5dWZ2bFJwX1JxS0JxRkM10gGmAUFVX3lxTE5PbUhKQUh1MTRLOHVCZ1FBNlBRMnp0eGpFUkxIUk1oajRPUkQwVlpTS3dtS2d3ZE1qOTVMaUxvMGFobmVhdFRaUFRTQ3NGQzhJRnNxVHVDWlVjdnBEbTYwdHhfRVVDb21Sd29VZWxXdjNRaFVzeG5BNlhQZ25oZW5RbTJ1TDBIZENlamZsNzNyTTR5azJsdng1V2QzcjFUYnlSeTMyRkE?oc=5",
-      "source": "\"iran israel usa war when:7d\" - Google News",
-      "published": "Sun, 08 Mar 2026 13:18:59 GMT",
-      "score": -5
+      "title": "Two children among at least 10 dead in Russian missile strikes in Ukraine - Sky News",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSkZiWkE3TXYwMXNNTml0N3BqY1l5bXdwa1Z0T0dCeHMxR3pERDE3YnV0MkhaMi1xZUwyVXBPQk1xckhCU05WaW95VmJ4NXhuUF9oWmtUSUVCbWhaczdBSUZzU2hWY2xrekkta21yN2k3cWxqeHFrY1NpTndEaEF2ZDZXdFllRGhLUjdjRWJpUWtnSGdMdk1sbkFuTmRhYS0xTFYtc3Jn?oc=5",
+      "source": "\"russia missile attack ukraine when:7d\" - Google News",
+      "published": "Sat, 07 Mar 2026 19:31:28 GMT",
+      "score": -16
     },
     {
-      "title": "Iran war: What is happening on day eight of US-Israel attacks? - Al Jazeera",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQa0tkTzQwVVFWMEUyZEM4cUY4UGVMaTF5QUlUNkkyUmlSaU52S2NkRi1zYnlDeF9QVm9NZHNMTTJ2WlhwTW9OY2twREdrTFdZZmRDeU5rNWpsNVpGV0F2UnV0cmR5OWV6WWlfM1lhRUd1ZHlmUXdPSl9KYk1nRE9SWlpraU9rWkFnTTg0cTlPeGZDSE5KcER1TnJ3YTMtT3BfSmfSAacBQVVfeXFMUGgxVjFNbnZEbGEwWjdHaVFEQzJWUy1xYnl4UlBhck1LOU4yNFI0UzFGSDF4enQ1amFYbGE4eXd6cEp4WEl0dy1HaTlWby02QTZUSHN5YXdMajNZVzh4c1c4am9CeDBDVG44S2VGMllFZ0hQN0hseVNkb01ZSE5YLU9YTGtxdkIyMGMzalM1NGE2ZzE1aHFCSkZRTzVraGJqb1Zyb2pDaHc?oc=5",
-      "source": "\"iran israel usa war when:7d\" - Google News",
-      "published": "Sat, 07 Mar 2026 05:49:43 GMT",
-      "score": -5
+      "title": "Russia hits Ukraine with drones, missiles, killing at least 10 in Kharkiv - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOSFRPc0U3eGJwTmVTdEoxNF96TmxMSzlWRWZSV2dwdDFUTkE5Y21kS1lEdzI3b2ZfSjB6eDhwOFBMYWItR0ZCaVd4dy1HUnRKQjJuR2xubk13NVNJNDhXR3hCdDZLYXRncEpwTXM3VU1COWtpRlF3MnZLZUVvVVR3RlM0N3hQMk9LQW1RdFVkcGRSUGtEOFhtTjNHWEZwVmMwTVRuYVoyMHFkLXI2djlyWXRmOVNuWDAxY29VR19pLWVWZzRtRl9qZA?oc=5",
+      "source": "\"russia missile attack ukraine when:7d\" - Google News",
+      "published": "Sun, 08 Mar 2026 12:10:27 GMT",
+      "score": -14
     },
     {
-      "title": "Iran war: What is happening on day 10 of US-Israel attacks? - Al Jazeera",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxObVBOREFOX1lQQkRsQzIycDQ1ZFc1b1NDLU1DdmYyYlFDOVVNR1hxek5kQzVNdXFhRWNobE85Tlg3T0FQTEhNd0QxMUdqSUZGY3ZDdmFMLWhzaWl0MGNMZUNjU2tIc2l6SmRoN2JveUFaTXhCc0pGTkVDa2o0S3BXM09BZDRDWWdYVDUwbXVKNE9xS1Z6R3U0bmlXVUpXZ9IBowFBVV95cUxOSXp5Nk9mMmRrdmRMd1hIeWd3MFYxclhMSnR4cXBqRXZseXpsZk1TamZZaVhyc1RvM0dFQkRNZmIwVjRKNGxxNHdJTlNXc2dEdUVfSlhrWXh0bUJXc0hrVmVFejN4MnFjb2ttcEpaMW1vWVpLeHpfdnlvOWVBZlNSYk5xQTFlZmhMR3RYNks2aXdXR3U3YmVSdlRGbVplY0tlWGhR?oc=5",
-      "source": "\"iran israel usa war when:7d\" - Google News",
-      "published": "Mon, 09 Mar 2026 09:01:56 GMT",
-      "score": -5
+      "title": "Russia hits Ukraine with drones, missiles, kills at least 10 in Kharkiv - NBC News",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZUNoX3VtRDRzYWpSdm5EbXB3bXdrTmhkdXJudVQ3Vzl3MWhFVGRrLUlzY2VQSlRtbjB1dkJwS19zOEFfX0VyWVc0SGRGWEpIUlowSFVXTWk0amtFQTJKcGdZUzNSQjJGNlZ3M1NhZm43WUJnRG9hdGxiMVVVb2ExTWFtclEteDd3bFFYSFROQ3dKZDJ4SVZ3MlZQbzBhSy1SVjBEY21FVkxoUG1wdGpj?oc=5",
+      "source": "\"russia missile attack ukraine when:7d\" - Google News",
+      "published": "Sat, 07 Mar 2026 12:51:14 GMT",
+      "score": -14
     }
   ],
   "top_diplomatic_signals": [
     {
-      "title": "Gold rises as Middle East conflict escalates, dollar rally pauses - CNBC",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNM1NsY05YNXIwS29vWnhBLU9RSzdjN0o5c291T1Y4b1Z5alB6YTVqVGFSTDBRcDJwbktiVDRoRzVlRlNNb205R05aNFYzQzBWVkNFZGFWUVR0TmVDRFotdFg3bU5pd19EZXhuejRCb1NkUkUwZUpBNXFGVzVoQ0lCTElGeGJHSENwUXM2b0w1Z1E1aXpDX2RENmlTbmo4Vk9LcGfSAacBQVVfeXFMTWMyTVB6SzY4ZXMxcHlwUG9ienZCN0t0MTZvN1ByUXQ0RzgyOTFyb29YcjlQRGlTZmdSUDBfS0hUY09vUmZ1M0RUQ2ZFTlliV2lsN3liXzRvdnN6RjRjTkllSVVPUWVjc25xVFI0TzZZX2sxQUdRRlBycS0yOFE2bG1Lbm12VnBqTk9JS1o0c3RqT0hXblFrSUpTenNZZFRaUnNNaWhfQUU?oc=5",
-      "source": "\"middle east conflict when:7d\" - Google News",
-      "published": "Thu, 05 Mar 2026 11:06:04 GMT",
-      "score": 1
+      "title": "Putin Urges Immediate Ceasefire in Iran During Talks with Raisi - mezha.net",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE91YUptUGtrSUJVYnV3VWlkaGVPTzBBbDlvQnIxTlVWYzBoYzNfVEJwdWhGdWxRems4ZU9TVGxXM0ZRTG5rRUxmWVJONUYtclZ6TWNrZkh0MDk2NFg4NWRB?oc=5",
+      "source": "\"ceasefire talks ukraine russia when:7d\" - Google News",
+      "published": "Sat, 07 Mar 2026 12:46:57 GMT",
+      "score": 5
     },
     {
-      "title": "Pope urges peace, warns about wider Middle East conflict - OSV News",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObW53Y0ZUejRreFVDeW5BaEMxeTQ0N0lKQ1Jhc1FvOXpmcGdldlZReklOTHFWNkR3Q0htQzBRV3lSVHBKMU42TV90XzRpVEVhUTF4cmFuU0pieTJuaGcyRm1MbGZrZ2ZJMXgxR1lMeTFkVWlqX3hwbFFxOGZUSG55QkhqZlRJT0U?oc=5",
-      "source": "\"middle east conflict when:7d\" - Google News",
-      "published": "Sun, 08 Mar 2026 13:38:57 GMT",
-      "score": 1
+      "title": "Inside Trump’s 1‑hour phone call with Putin: Impact on Oil prices, Iran ceasefire talks- Key points - The Financial Express",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQS2JYSENFYzgxWlc2SnNHcmx6NzduamtxT2xISWN0YzRfY3ZUckh2V1FUc1R5Q0sydllVMjVRbS11VDZ2a0RFblE1a0M1ckh5bTQ1OWxrb2Y1cldBYjNSa1ZEX2FfOTQzZy0wWHEzY182S2Z4eVJqdGp2ZWZmVGdRLXlDRV9odG5WSERTT0RMY2tmaWNoYS14dnBBS2lhT2JURGFuRlUyOHV6QS1mZ2hCWnlqbjUxZXNTQzlaOFIwWTRHUFBOb3J4S05EMS0yRTVYZFhDak5rdlNxdXQ4eFJGLdIB5wFBVV95cUxQSVZKeHFteXRyTHh2ZHF4eXdlQ2tWaTNyN2hVdTRiY2N2Um9wb1VUdnc5M3I5T0FoOFVXTjE0MnVfdW9UY3BjeEIyVjdjN2habTViYjBGZ2E0OFJfNlBsRVFENENRanJ1Zmo4RldhTFFKUHluNmtfOG9MUk91WldIZUhETGkyT0JpVktpUnBNLTI3UnVpTjFqdTRWc2xxWWd4ZkoyZFpfX2FVQ3hjYTBKdWlOWVlJVzF5R0pxa1R0WXdpeVk0aUo4YWx2NVQzeDBVSDNBd2VVaWpIdml5eENITG1qNFNRU2s?oc=5",
+      "source": "\"ceasefire talks ukraine russia when:7d\" - Google News",
+      "published": "Tue, 10 Mar 2026 02:39:51 GMT",
+      "score": 5
+    },
+    {
+      "title": "No ceasefire request, no new talks date: Kremlin details Trump-Putin call - Anadolu Ajansı",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSmE4NzUyUnQ0TG9rVWNjZFRYN1pGaFRYMzhRSjUyalQ3bTFNQWN4TDJjQmtiZXNwYmZ0S2ROWURKU0tEUHBnT2FRMnhkbjlrclpUSng5dHV0QU4yci1sWDJ3eTVmR0xod2ZmczVBMUw5bkRDOG93REhqUkZOR1prRno4ZXdwU0VDWGJITVZRenl5ZE1zNEM5S1hZczJVT2JOS282aFJnb1FpSTVqZUdz?oc=5",
+      "source": "\"ceasefire talks ukraine russia when:7d\" - Google News",
+      "published": "Tue, 10 Mar 2026 10:47:44 GMT",
+      "score": 4
+    },
+    {
+      "title": "Ukraine ready for new peace talks 'at any moment', Zelenskiy says - AL-Monitor",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRUNvSkdYa21xN01zWWhOYVZjam40X2dVWWpEa1Z3VzV2bVFsSHZCT1RaVDVPQlRES0c0OExQay0yUmlKMnEzRnJsTEpFNEVyRlhBVW9XamhBZlJpWW43SFZHaTdsZWxuU3hGeWIxdkgxSDNTbHktOXhhY1hpMXgxdXZMVGFLY3EyZGxaTko3dk9lcXgtWk5BQ0daSmhfcWQwNHc?oc=5",
+      "source": "\"ceasefire talks ukraine russia when:7d\" - Google News",
+      "published": "Mon, 09 Mar 2026 17:02:31 GMT",
+      "score": 4
+    },
+    {
+      "title": "Ukraine peace talks could be postponed for 'a while' due to Iran war - Sky News",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNc1RBeld6aHFrVkFacHYwNEljRWxtbFpVRDNvZkxyMGhOVG5ZZThCQnBQUEl3M1ZZVjdsVHhOTTBMVUdaMzM0M1NSSVFQdlQ3dHJHMGdQeVc3SjY1SGdOS3lMMmdNVXRrTlhHeTE3eVFnak1qUHdZRkt5QXZWb01RbVM5MEpEcXRJcEhVS3hLUmxGbi1HWGptZ3diSlFuU1NsQWpZdA?oc=5",
+      "source": "\"ceasefire talks ukraine russia when:7d\" - Google News",
+      "published": "Thu, 05 Mar 2026 21:52:06 GMT",
+      "score": 4
     }
   ],
   "key_headlines": [
     {
-      "title": "U.S. and Iran ramp up threats as Hegseth warns of 'most intense day of strikes' - PBS",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOazVDTEpWOThHZHY2dHFZazh0YWhNQW9JMGk4bXVNYWNIVzlTeTA4WlNLLXhYMGRsRHBWMWNBVmtIUkJEVzhjUmFiSU1IVktZSTdLZm5ROV8yNUE1VnVhLUZIWjVid0luT1hmS2MxNnNlY3czT0pMa1VEV05OQ3pqcHhvUkJ5R0ZuZ0dETUZNQkNkZFQ3R29ueDNOVF8wX2ZCYU40UEQ1c1JoUjFIRTd6WUVBWF9iZkNqeXo1ek5QTzZGeVljOUluWW5jOWJnal93S0I00gHYAUFVX3lxTFB5V3dtclAyYms0MlBGbTZnaThKcDNuNmFONmRONjNJeVg1Z1JNVlhwVV9reWJTeS1DcnVKSUpZeDk0eW1FWDYyMGFEQmg4NGtkaFVNV3RlQzNCeUhNVUoxUG1PT0M2S1Q4S0tFRk9ER3hzMlZkVGkxYlQtNmYtSjlQcUUzLS10SnktMTV5dFNqTERUbUZzTG8tQy11eVhubGI0c2lfdEpHdTQwTmZSRDd1OW9lWlNPSWdRSVk2U3E5c0xFWjVFRW9oUi1uNWZZWTc1MDBUd1lKYg?oc=5",
-      "source": "\"iran israel usa war when:7d\" - Google News",
-      "published": "Tue, 10 Mar 2026 13:49:22 GMT",
-      "score": -6
+      "title": "At least 10 people, including two children have been killed and sixteen others wounded in a Russian missile attack on a five-story residential building in Ukraine's Kharkiv city, officials say. Ukrainian President Volodymyr Zelenskyy says Russia struck Ukraine o - facebook.com",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQaFViaEtxelVwcWtLSWN3VVdYbEY4UDdYU09TenhuR0N6akg1dllvTG5zTXI4UkVrZ0lvZjRqcEVtclRobWpuemlRNWE4b0Q0MkxyNTV0QlltR0xkdUZSRjRxa1V0T3JYOFpQV3VXYlRmVkhTalhQSWFEamhpSEpKYmdrd2tUTkZGbG5jUU83b1BUdDlSMlZ3dUhubl9OM3pwNS1wNXh2YmhGa3FnaHRhWkd4RFEzenNiODZFeElfMFVwRDFtb0ZDWUlKYkRGTmc3dFhkV3ZZMGg5TFlRS19ibQ?oc=5",
+      "source": "\"russia missile attack ukraine when:7d\" - Google News",
+      "published": "Sun, 08 Mar 2026 08:16:28 GMT",
+      "score": -18
     },
     {
-      "title": "Iran war: What is happening on day seven of US-Israel attacks? - Al Jazeera",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPNUhuVHRLbmZReTF6SDAzMHAxdlVLOVRkb0xpZnFXQUkwdnhoYVNhTFVfRDE2SHhsV0dMSVQ3d1JvdlNGRFhFaWtpb2ZleHBJc2VrdjFkZ0tKdUhZR0UzWTRwYkxnTl9SUktWWVNCalhCVVdyOHVHbG9ab2RXZ05OR000bnVpd3F4LWhTNHFiRnlSUXhZYmdHNnhNeHVlX2NqT3c?oc=5",
-      "source": "\"iran israel usa war when:7d\" - Google News",
-      "published": "Fri, 06 Mar 2026 14:53:18 GMT",
-      "score": -5
+      "title": "Russia Hits Ukraine With Deadly Barrage of Missiles and Drones - The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQTE9VZmpYeUhWX1M2VUFxQ0NaejhJbDRDYmRNQWZYRGxIeDZPV2lwQThwbTRLaDh5OHRuUzNkUExvRk9QdWNpVXBjNVJtOEJDb1JVSDNfNm1RYm9HeDFMX3Q4LThrQ05oT3FOaXl2MFdYaGJ1SkNfVk50Z0tVUm5HQy1HMVYySERhMkE1WkZJa2ZQUW1zRnIwNGd3?oc=5",
+      "source": "\"russia missile attack ukraine when:7d\" - Google News",
+      "published": "Sat, 07 Mar 2026 11:42:55 GMT",
+      "score": -16
     },
     {
-      "title": "Iran war: What is happening on day nine of US-Israel attacks? - Al Jazeera",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdFJkeTNPZWl1R2RaTVJLd1pqbjRnUlJLSlJ0Q2h3Y1BEcGxrLUUtWFhwUm5RN2R2SzRfcFh6QVUtcDRvRVh6OTJGODJ4cGl6WUxsWXNNSnVPM3M3SWdtVnRwTnRpOG02YU1wa1hmRlUzMVNjSmxiWk9aQzdlM3pfNnREUEIzQWFsWUdCTFZQbzc5dWZ2bFJwX1JxS0JxRkM10gGmAUFVX3lxTE5PbUhKQUh1MTRLOHVCZ1FBNlBRMnp0eGpFUkxIUk1oajRPUkQwVlpTS3dtS2d3ZE1qOTVMaUxvMGFobmVhdFRaUFRTQ3NGQzhJRnNxVHVDWlVjdnBEbTYwdHhfRVVDb21Sd29VZWxXdjNRaFVzeG5BNlhQZ25oZW5RbTJ1TDBIZENlamZsNzNyTTR5azJsdng1V2QzcjFUYnlSeTMyRkE?oc=5",
-      "source": "\"iran israel usa war when:7d\" - Google News",
-      "published": "Sun, 08 Mar 2026 13:18:59 GMT",
-      "score": -5
+      "title": "Two children among at least 10 dead in Russian missile strikes in Ukraine - Sky News",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSkZiWkE3TXYwMXNNTml0N3BqY1l5bXdwa1Z0T0dCeHMxR3pERDE3YnV0MkhaMi1xZUwyVXBPQk1xckhCU05WaW95VmJ4NXhuUF9oWmtUSUVCbWhaczdBSUZzU2hWY2xrekkta21yN2k3cWxqeHFrY1NpTndEaEF2ZDZXdFllRGhLUjdjRWJpUWtnSGdMdk1sbkFuTmRhYS0xTFYtc3Jn?oc=5",
+      "source": "\"russia missile attack ukraine when:7d\" - Google News",
+      "published": "Sat, 07 Mar 2026 19:31:28 GMT",
+      "score": -16
     },
     {
-      "title": "Iran war: What is happening on day eight of US-Israel attacks? - Al Jazeera",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQa0tkTzQwVVFWMEUyZEM4cUY4UGVMaTF5QUlUNkkyUmlSaU52S2NkRi1zYnlDeF9QVm9NZHNMTTJ2WlhwTW9OY2twREdrTFdZZmRDeU5rNWpsNVpGV0F2UnV0cmR5OWV6WWlfM1lhRUd1ZHlmUXdPSl9KYk1nRE9SWlpraU9rWkFnTTg0cTlPeGZDSE5KcER1TnJ3YTMtT3BfSmfSAacBQVVfeXFMUGgxVjFNbnZEbGEwWjdHaVFEQzJWUy1xYnl4UlBhck1LOU4yNFI0UzFGSDF4enQ1amFYbGE4eXd6cEp4WEl0dy1HaTlWby02QTZUSHN5YXdMajNZVzh4c1c4am9CeDBDVG44S2VGMllFZ0hQN0hseVNkb01ZSE5YLU9YTGtxdkIyMGMzalM1NGE2ZzE1aHFCSkZRTzVraGJqb1Zyb2pDaHc?oc=5",
-      "source": "\"iran israel usa war when:7d\" - Google News",
-      "published": "Sat, 07 Mar 2026 05:49:43 GMT",
-      "score": -5
+      "title": "Russia hits Ukraine with drones, missiles, killing at least 10 in Kharkiv - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOSFRPc0U3eGJwTmVTdEoxNF96TmxMSzlWRWZSV2dwdDFUTkE5Y21kS1lEdzI3b2ZfSjB6eDhwOFBMYWItR0ZCaVd4dy1HUnRKQjJuR2xubk13NVNJNDhXR3hCdDZLYXRncEpwTXM3VU1COWtpRlF3MnZLZUVvVVR3RlM0N3hQMk9LQW1RdFVkcGRSUGtEOFhtTjNHWEZwVmMwTVRuYVoyMHFkLXI2djlyWXRmOVNuWDAxY29VR19pLWVWZzRtRl9qZA?oc=5",
+      "source": "\"russia missile attack ukraine when:7d\" - Google News",
+      "published": "Sun, 08 Mar 2026 12:10:27 GMT",
+      "score": -14
     },
     {
-      "title": "Iran war: What is happening on day 10 of US-Israel attacks? - Al Jazeera",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxObVBOREFOX1lQQkRsQzIycDQ1ZFc1b1NDLU1DdmYyYlFDOVVNR1hxek5kQzVNdXFhRWNobE85Tlg3T0FQTEhNd0QxMUdqSUZGY3ZDdmFMLWhzaWl0MGNMZUNjU2tIc2l6SmRoN2JveUFaTXhCc0pGTkVDa2o0S3BXM09BZDRDWWdYVDUwbXVKNE9xS1Z6R3U0bmlXVUpXZ9IBowFBVV95cUxOSXp5Nk9mMmRrdmRMd1hIeWd3MFYxclhMSnR4cXBqRXZseXpsZk1TamZZaVhyc1RvM0dFQkRNZmIwVjRKNGxxNHdJTlNXc2dEdUVfSlhrWXh0bUJXc0hrVmVFejN4MnFjb2ttcEpaMW1vWVpLeHpfdnlvOWVBZlNSYk5xQTFlZmhMR3RYNks2aXdXR3U3YmVSdlRGbVplY0tlWGhR?oc=5",
-      "source": "\"iran israel usa war when:7d\" - Google News",
-      "published": "Mon, 09 Mar 2026 09:01:56 GMT",
-      "score": -5
+      "title": "Russia hits Ukraine with drones, missiles, kills at least 10 in Kharkiv - NBC News",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZUNoX3VtRDRzYWpSdm5EbXB3bXdrTmhkdXJudVQ3Vzl3MWhFVGRrLUlzY2VQSlRtbjB1dkJwS19zOEFfX0VyWVc0SGRGWEpIUlowSFVXTWk0amtFQTJKcGdZUzNSQjJGNlZ3M1NhZm43WUJnRG9hdGxiMVVVb2ExTWFtclEteDd3bFFYSFROQ3dKZDJ4SVZ3MlZQbzBhSy1SVjBEY21FVkxoUG1wdGpj?oc=5",
+      "source": "\"russia missile attack ukraine when:7d\" - Google News",
+      "published": "Sat, 07 Mar 2026 12:51:14 GMT",
+      "score": -14
     }
   ]
 }
