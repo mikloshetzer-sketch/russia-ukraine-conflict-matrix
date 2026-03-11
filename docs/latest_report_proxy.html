@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Legfrissebb napi konfliktusjelentés</title>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
+      color: #111827;
+      line-height: 1.7;
+      background: #f8fafc;
+    }
+    .wrap {
+      background: #ffffff;
+      border: 1px solid #d6dee7;
+      border-radius: 10px;
+      padding: 24px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+    h1, h2, h3 {
+      color: #111827;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin: 20px 0;
+    }
+    .error {
+      color: #b91c1c;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div id="report">Jelentés betöltése...</div>
+  </div>
+
+  <script>
+    async function loadLatestReport() {
+      const reportEl = document.getElementById("report");
+
+      try {
+        const summaryUrl = "https://raw.githubusercontent.com/mikloshetzer-sketch/russia-ukraine-conflict-matrix/main/docs/latest_summary.json?ts=" + Date.now();
+        const summaryResp = await fetch(summaryUrl);
+        if (!summaryResp.ok) throw new Error("A latest_summary.json nem érhető el.");
+        const summary = await summaryResp.json();
+
+        const reportDate = summary.report_date;
+        if (!reportDate) throw new Error("A report_date hiányzik a latest_summary.json fájlból.");
+
+        const reportUrl = "https://raw.githubusercontent.com/mikloshetzer-sketch/russia-ukraine-conflict-matrix/main/reports/" + reportDate + "_report.md?ts=" + Date.now();
+        const reportResp = await fetch(reportUrl);
+        if (!reportResp.ok) throw new Error("A napi report markdown fájl nem érhető el.");
+
+        const markdown = await reportResp.text();
+        reportEl.innerHTML = marked.parse(markdown);
+      } catch (err) {
+        reportEl.innerHTML = `<p class="error">Nem sikerült betölteni a napi jelentést.</p><p>${err.message}</p>`;
+      }
+    }
+
+    loadLatestReport();
+  </script>
+</body>
+</html>
