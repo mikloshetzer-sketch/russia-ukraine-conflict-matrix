@@ -38,3 +38,5 @@ jobs:
           git add data/ docs/
           git diff --cached --quiet || git commit -m "Backfill conflict history data"
           git push
+
+          
