@@ -1,17 +1,17 @@
 import json
+import os
 import re
+import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from urllib.parse import urljoin
 
 import requests
-from bs4 import BeautifulSoup
 
-BASE_URL = "https://liveuamap.com"
-TIME_URL_TEMPLATE = "https://liveuamap.com/en/time/{date_str}"
-USER_AGENT = "Mozilla/5.0 (compatible; ConflictMonitor/1.0; +https://github.com/mikloshetzer-sketch)"
+API_BASE_URL = "https://a.liveuamap.com/api"
+REGION_ID = 0  # Ukraine
 DAYS_BACK = 3
-MAX_EVENTS_PER_DAY = 150
+COUNT_PER_REQUEST = 200
+TIMEOUT = 30
 
 KEYWORD_CATEGORIES = {
     "air_strike": [
@@ -43,19 +43,8 @@ EXCLUDED_KEYWORDS = [
 ]
 
 
-def fetch_html(url: str) -> str:
-    response = requests.get(
-        url,
-        headers={"User-Agent": USER_AGENT},
-        timeout=30,
-    )
-    response.raise_for_status()
-    return response.text
-
-
 def clean_text(text: str) -> str:
-    text = re.sub(r"\s+", " ", text or "").strip()
-    return text
+    return re.sub(r"\s+", " ", str(text or "")).strip()
 
 
 def should_exclude(title: str) -> bool:
@@ -77,193 +66,218 @@ def classify_event(title: str) -> list[str]:
     return matched
 
 
-def extract_time_label(text: str) -> str:
-    text = clean_text(text)
-    m = re.match(r"^(in \d+ (minute|minutes|hour|hours)|\d+ day ago|\d+ days ago|yesterday)\b", text.lower())
-    return m.group(0) if m else ""
+def unix_ts(dt: datetime) -> int:
+    return int(dt.timestamp())
 
 
-def normalize_event(event: dict) -> dict:
-    title = clean_text(event.get("title", ""))
-    location = clean_text(event.get("location", ""))
-    published_label = clean_text(event.get("published_label", ""))
-    link = event.get("link", "").strip()
-
-    return {
-        "title": title,
-        "location": location,
-        "published_label": published_label,
-        "link": link,
-        "categories": classify_event(title),
+def request_liveuamap(api_key: str, ts: int, count: int = COUNT_PER_REQUEST):
+    params = {
+        "a": "mpts",
+        "resid": REGION_ID,
+        "time": ts,
+        "count": count,
+        "key": api_key,
     }
 
+    response = requests.get(API_BASE_URL, params=params, timeout=TIMEOUT)
+    response.raise_for_status()
+    return response.json()
 
-def parse_day_page(html: str, source_url: str, limit: int = MAX_EVENTS_PER_DAY) -> list[dict]:
-    soup = BeautifulSoup(html, "html.parser")
+
+def pick_items(payload):
+    """
+    Próbál több lehetséges válaszstruktúrát kezelni.
+    Mivel a pontos API response formátum nem teljesen dokumentált nálunk,
+    több tipikus mezőt is megpróbálunk.
+    """
+    if isinstance(payload, list):
+        return payload
+
+    if not isinstance(payload, dict):
+        return []
+
+    for key in ["data", "items", "points", "markers", "result", "news", "events"]:
+        value = payload.get(key)
+        if isinstance(value, list):
+            return value
+
+    return []
+
+
+def parse_item_date(item, fallback_date: str) -> str:
+    for key in ["date", "event_date", "published_at", "created_at"]:
+        value = item.get(key)
+        if isinstance(value, str) and value.strip():
+            # ha már YYYY-MM-DD formátum van benne
+            if re.match(r"^\d{4}-\d{2}-\d{2}", value.strip()):
+                return value.strip()[:10]
+
+    for key in ["time", "timestamp", "created", "updated"]:
+        value = item.get(key)
+        if isinstance(value, (int, float)):
+            try:
+                return datetime.fromtimestamp(int(value), tz=timezone.utc).date().isoformat()
+            except Exception:
+                pass
+
+    return fallback_date
+
+
+def parse_item_title(item) -> str:
+    candidates = [
+        item.get("title"),
+        item.get("name"),
+        item.get("text"),
+        item.get("description"),
+        item.get("news"),
+    ]
+
+    for c in candidates:
+        c = clean_text(c)
+        if c:
+            return c
+
+    return ""
+
+
+def parse_item_location(item) -> str:
+    candidates = [
+        item.get("location"),
+        item.get("place"),
+        item.get("city"),
+        item.get("region"),
+    ]
+
+    for c in candidates:
+        c = clean_text(c)
+        if c:
+            return c
+
+    lat = item.get("lat")
+    lon = item.get("lng", item.get("lon"))
+    if lat is not None and lon is not None:
+        return f"{lat}, {lon}"
+
+    return ""
+
+
+def parse_item_link(item) -> str:
+    for key in ["link", "url", "source_url"]:
+        value = clean_text(item.get(key))
+        if value:
+            return value
+    return ""
+
+
+def normalize_items(raw_items, fallback_date: str):
     events = []
     seen = set()
 
-    # 1) Első kör: tipikus cikk-linkek a /en/YYYY/.. mintára
-    for a in soup.find_all("a", href=True):
-        href = a.get("href", "")
-        text = clean_text(a.get_text(" ", strip=True))
-
-        if not text:
+    for item in raw_items:
+        if not isinstance(item, dict):
             continue
 
-        full_url = urljoin(BASE_URL, href)
+        title = parse_item_title(item)
+        if not title:
+            continue
 
-        if re.search(r"/en/\d{4}/", href) or re.search(r"/en/\d{4}/", full_url):
-            title = text
+        if should_exclude(title):
+            continue
 
-            if should_exclude(title):
-                continue
+        location = parse_item_location(item)
+        link = parse_item_link(item)
+        event_date = parse_item_date(item, fallback_date)
 
-            key = (title, full_url)
-            if key in seen:
-                continue
+        key = (event_date, title, location, link)
+        if key in seen:
+            continue
+        seen.add(key)
 
-            seen.add(key)
-            events.append(
-                normalize_event(
-                    {
-                        "title": title,
-                        "location": "",
-                        "published_label": "",
-                        "link": full_url,
-                    }
-                )
-            )
+        events.append({
+            "date": event_date,
+            "title": title,
+            "location": location,
+            "published_label": "",
+            "link": link,
+            "categories": classify_event(title),
+            "raw": item,
+        })
 
-        if len(events) >= limit:
-            break
-
-    # 2) Második kör: nyers oldalszöveg feldolgozása, ha kevés a találat
-    if len(events) < 20:
-        raw_text = soup.get_text("\n", strip=True)
-        lines = [clean_text(line) for line in raw_text.splitlines() if clean_text(line)]
-
-        i = 0
-        while i < len(lines):
-            line = lines[i]
-
-            # időjelöléses sorok után gyakran hely + cím jön
-            if re.match(r"^(in \d+ (minute|minutes|hour|hours)|\d+ day ago|\d+ days ago|yesterday)$", line.lower()):
-                published_label = line
-                location = lines[i + 1] if i + 1 < len(lines) else ""
-                title = lines[i + 2] if i + 2 < len(lines) else ""
-
-                if title and not should_exclude(title):
-                    key = (title, location, published_label)
-                    if key not in seen:
-                        seen.add(key)
-                        events.append(
-                            normalize_event(
-                                {
-                                    "title": title,
-                                    "location": location,
-                                    "published_label": published_label,
-                                    "link": source_url,
-                                }
-                            )
-                        )
-                i += 3
-                if len(events) >= limit:
-                    break
-                continue
-
-            i += 1
-
-    return events[:limit]
+    return events
 
 
-def build_day_urls(days_back: int = DAYS_BACK) -> list[tuple[str, str]]:
-    urls = []
-    today = datetime.now(timezone.utc).date()
+def aggregate_daily_stats(events: list[dict]) -> list[dict]:
+    grouped = {}
 
-    for offset in range(days_back):
-        d = today - timedelta(days=offset)
-        date_str = d.strftime("%d.%m.%Y")
-        urls.append((d.isoformat(), TIME_URL_TEMPLATE.format(date_str=date_str)))
+    for event in events:
+        day = event.get("date", "")
+        if not day:
+            continue
 
-    return urls
+        if day not in grouped:
+            grouped[day] = {
+                "date": day,
+                "event_count": 0,
+                "air_strike": 0,
+                "frontline": 0,
+                "civilian_impact": 0,
+                "infrastructure": 0,
+                "political_security": 0,
+                "other": 0,
+            }
 
+        grouped[day]["event_count"] += 1
 
-def aggregate_daily_stats(events_by_day: dict) -> list[dict]:
-    stats = []
+        for category in event.get("categories", []):
+            if category in grouped[day]:
+                grouped[day][category] += 1
+            else:
+                grouped[day]["other"] += 1
 
-    for day, events in sorted(events_by_day.items()):
-        counts = {
-            "date": day,
-            "event_count": len(events),
-            "air_strike": 0,
-            "frontline": 0,
-            "civilian_impact": 0,
-            "infrastructure": 0,
-            "political_security": 0,
-            "other": 0,
-        }
-
-        for event in events:
-            for category in event.get("categories", []):
-                if category in counts:
-                    counts[category] += 1
-                else:
-                    counts["other"] += 1
-
-        stats.append(counts)
-
-    return stats
+    return [grouped[d] for d in sorted(grouped.keys())]
 
 
 def main():
+    api_key = os.getenv("LIVEUAMAP_API_KEY")
+    if not api_key:
+        raise RuntimeError("Missing LIVEUAMAP_API_KEY environment variable")
+
     base_dir = Path(__file__).resolve().parent.parent
-    raw_dir = base_dir / "data" / "events"
-    raw_dir.mkdir(parents=True, exist_ok=True)
+    out_dir = base_dir / "data" / "events"
+    out_dir.mkdir(parents=True, exist_ok=True)
 
-    latest_file = raw_dir / "latest_events.json"
-    daily_stats_file = raw_dir / "daily_event_stats.json"
+    latest_file = out_dir / "latest_events.json"
+    daily_stats_file = out_dir / "daily_event_stats.json"
+    raw_api_file = out_dir / "latest_liveuamap_api_raw.json"
 
-    events_by_day = {}
-    sources = []
+    now = datetime.now(timezone.utc)
+    oldest_day = (now.date() - timedelta(days=DAYS_BACK - 1)).isoformat()
 
-    day_urls = build_day_urls(DAYS_BACK)
+    payload = request_liveuamap(api_key=api_key, ts=unix_ts(now), count=COUNT_PER_REQUEST)
 
-    for day_iso, url in day_urls:
-        try:
-            html = fetch_html(url)
-            events = parse_day_page(html, url)
-            events_by_day[day_iso] = events
-            sources.append({"date": day_iso, "url": url, "event_count": len(events)})
-            print(f"{day_iso}: collected {len(events)} events")
-        except Exception as exc:
-            events_by_day[day_iso] = []
-            sources.append({"date": day_iso, "url": url, "event_count": 0, "error": str(exc)})
-            print(f"{day_iso}: failed -> {exc}")
+    with open(raw_api_file, "w", encoding="utf-8") as f:
+        json.dump(payload, f, indent=2, ensure_ascii=False)
 
-    all_events = []
-    for day, events in sorted(events_by_day.items()):
-        for event in events:
-            all_events.append(
-                {
-                    "date": day,
-                    **event,
-                }
-            )
+    raw_items = pick_items(payload)
+    events = normalize_items(raw_items, fallback_date=now.date().isoformat())
+
+    # csak az utolsó N nap maradjon
+    filtered_events = [e for e in events if e.get("date", "") >= oldest_day]
+    daily_stats = aggregate_daily_stats(filtered_events)
 
     latest_payload = {
         "created_at": datetime.utcnow().isoformat(),
-        "source": "LiveUAmap public day pages",
+        "source": "LiveUAmap API",
         "days_back": DAYS_BACK,
-        "total_events": len(all_events),
-        "sources": sources,
-        "events": all_events,
+        "total_events": len(filtered_events),
+        "raw_item_count": len(raw_items),
+        "events": filtered_events,
     }
 
     daily_stats_payload = {
         "created_at": datetime.utcnow().isoformat(),
         "days_back": DAYS_BACK,
-        "daily_stats": aggregate_daily_stats(events_by_day),
+        "daily_stats": daily_stats,
     }
 
     with open(latest_file, "w", encoding="utf-8") as f:
@@ -272,8 +286,11 @@ def main():
     with open(daily_stats_file, "w", encoding="utf-8") as f:
         json.dump(daily_stats_payload, f, indent=2, ensure_ascii=False)
 
+    print(f"Raw API items: {len(raw_items)}")
+    print(f"Filtered events: {len(filtered_events)}")
     print(f"Saved: {latest_file}")
     print(f"Saved: {daily_stats_file}")
+    print(f"Saved raw API payload: {raw_api_file}")
 
 
 if __name__ == "__main__":
