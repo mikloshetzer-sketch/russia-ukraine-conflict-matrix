@@ -5,7 +5,6 @@ from pathlib import Path
 
 def main():
     base_dir = Path(__file__).resolve().parent.parent
-
     scored_file = base_dir / "data" / "processed" / "latest_scored.json"
     history_file = base_dir / "data" / "conflict_history.csv"
 
@@ -16,12 +15,18 @@ def main():
     total_score = data.get("total_score", 0)
     assessment = data.get("assessment", "")
     article_count = data.get("article_count", 0)
+    escalation_articles = data.get("escalation_articles", 0)
+    deescalation_articles = data.get("deescalation_articles", 0)
+    neutral_articles = data.get("neutral_articles", 0)
 
     latest_row = {
         "date": date,
         "total_score": str(total_score),
         "assessment": assessment,
-        "article_count": str(article_count)
+        "article_count": str(article_count),
+        "escalation_articles": str(escalation_articles),
+        "deescalation_articles": str(deescalation_articles),
+        "neutral_articles": str(neutral_articles),
     }
 
     deduplicated = {}
@@ -36,15 +41,25 @@ def main():
                         "date": row_date,
                         "total_score": row.get("total_score", "").strip(),
                         "assessment": row.get("assessment", "").strip(),
-                        "article_count": row.get("article_count", "").strip()
+                        "article_count": row.get("article_count", "").strip(),
+                        "escalation_articles": row.get("escalation_articles", "").strip(),
+                        "deescalation_articles": row.get("deescalation_articles", "").strip(),
+                        "neutral_articles": row.get("neutral_articles", "").strip(),
                     }
 
     deduplicated[date] = latest_row
-
     rows = [deduplicated[d] for d in sorted(deduplicated.keys())]
 
     with open(history_file, "w", newline="", encoding="utf-8") as f:
-        fieldnames = ["date", "total_score", "assessment", "article_count"]
+        fieldnames = [
+            "date",
+            "total_score",
+            "assessment",
+            "article_count",
+            "escalation_articles",
+            "deescalation_articles",
+            "neutral_articles",
+        ]
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(rows)
