@@ -1,375 +1,330 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Conflict Monitoring Dashboard</title>
-  <style>
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-      margin: 40px;
-      background: #f5f5f5;
-      color: #222;
-      line-height: 1.6;
-    }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    .container {
-      max-width: 1080px;
-      margin: auto;
-      background: white;
-      padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-    }
+<title>Orosz–ukrán konfliktusfigyelő</title>
 
-    h1, h2, h3 {
-      margin-top: 0;
-    }
+<style>
 
-    .summary,
-    .methodology,
-    .forecast,
-    .table-block,
-    .chart,
-    .report-link,
-    .signals,
-    .headlines {
-      margin-top: 24px;
-      padding: 20px;
-      background: #fafafa;
-      border: 1px solid #e3e3e3;
-      border-radius: 8px;
-    }
+body{
+font-family: Arial, Helvetica, sans-serif;
+background:#0f172a;
+margin:0;
+padding:40px;
+color:#111827;
+}
 
-    .summary p,
-    .methodology p,
-    .forecast p,
-    .report-link p {
-      margin: 8px 0;
-    }
+.container{
+max-width:1000px;
+margin:auto;
+}
 
-    .highlight {
-      font-size: 1.05rem;
-      font-weight: bold;
-    }
+.header{
+color:white;
+margin-bottom:30px;
+}
 
-    img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 6px;
-      border: 1px solid #ddd;
-      background: white;
-    }
+.header h1{
+margin:0;
+font-size:32px;
+}
 
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 12px;
-    }
+.header p{
+opacity:0.8;
+}
 
-    th, td {
-      border: 1px solid #d9d9d9;
-      padding: 10px;
-      text-align: left;
-      font-size: 14px;
-    }
+.card{
+background:white;
+border-radius:10px;
+padding:22px;
+margin-bottom:22px;
+box-shadow:0 4px 18px rgba(0,0,0,0.15);
+}
 
-    th {
-      background: #efefef;
-    }
+h2{
+margin-top:0;
+}
 
-    .footer {
-      margin-top: 40px;
-      font-size: 12px;
-      color: #666;
-    }
+.grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:20px;
+}
 
-    .loading {
-      color: #777;
-      font-style: italic;
-    }
+.chart{
+background:white;
+border-radius:10px;
+padding:20px;
+}
 
-    .error {
-      color: #b00020;
-      font-weight: bold;
-    }
+.chart img{
+width:100%;
+border-radius:6px;
+}
 
-    .small-note {
-      font-size: 13px;
-      color: #555;
-    }
+.list{
+padding-left:18px;
+}
 
-    .signal-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 20px;
-    }
+.list li{
+margin-bottom:10px;
+}
 
-    ul.signal-list {
-      padding-left: 20px;
-      margin: 0;
-    }
+.badge{
+display:inline-block;
+background:#e5e7eb;
+padding:2px 8px;
+border-radius:12px;
+font-size:12px;
+margin-left:6px;
+}
 
-    ul.signal-list li {
-      margin-bottom: 10px;
-    }
+a{
+color:#2563eb;
+text-decoration:none;
+}
 
-    .score-badge {
-      display: inline-block;
-      margin-left: 8px;
-      padding: 2px 8px;
-      border-radius: 999px;
-      background: #ececec;
-      font-size: 12px;
-    }
+a:hover{
+text-decoration:underline;
+}
 
-    @media (max-width: 800px) {
-      .signal-grid {
-        grid-template-columns: 1fr;
-      }
-    }
-  </style>
+.loading{
+opacity:0.6;
+font-style:italic;
+}
+
+@media(max-width:800px){
+.grid{
+grid-template-columns:1fr;
+}
+}
+
+</style>
 </head>
+
+
 <body>
-  <div class="container">
-    <h1>Conflict Escalation Monitor</h1>
 
-    <p>
-      Automated monitoring of conflict escalation and de-escalation signals based on daily international news analysis.
-    </p>
+<div class="container">
 
-    <div class="summary">
-      <h2>Latest Summary</h2>
-      <p><strong>Report date:</strong> <span id="report_date" class="loading">Loading...</span></p>
-      <p><strong>Assessment:</strong> <span id="assessment" class="loading">Loading...</span></p>
-      <p><strong>Total score:</strong> <span id="total_score" class="loading">Loading...</span></p>
-      <p><strong>Conflict index:</strong> <span id="conflict_index" class="loading">Loading...</span></p>
-      <p><strong>Articles analyzed:</strong> <span id="article_count" class="loading">Loading...</span></p>
-      <p><strong>Trajectory:</strong> <span id="trajectory" class="loading">Loading...</span></p>
-      <p><strong>Short-term outlook:</strong> <span id="outlook" class="loading">Loading...</span></p>
+<div class="header">
 
-      <h3>Automated analysis</h3>
-      <p id="commentary" class="loading">Loading commentary...</p>
-    </div>
+<h1>Orosz–ukrán háború – napi konfliktusfigyelő</h1>
 
-    <div class="forecast">
-      <h2>What this means</h2>
-      <p class="highlight" id="forecast_text">Loading forecast...</p>
-      <p class="small-note">
-        The forecast is an automated estimate based on headline intensity, normalized conflict index and short-term trend direction. It is not a prediction of a precise end date, but a directional signal about escalation pressure.
-      </p>
-    </div>
+<p>
+Automatikus OSINT alapú médiatrend-elemző, amely a nemzetközi hírek alapján
+követi az eszkalációs és diplomáciai jelzéseket.
+</p>
 
-    <div class="signals">
-      <h2>Top Signals Today</h2>
-      <div class="signal-grid">
-        <div>
-          <h3>Top escalation signals</h3>
-          <ul id="top_escalation_signals" class="signal-list">
-            <li class="loading">Loading...</li>
-          </ul>
-        </div>
-        <div>
-          <h3>Top diplomatic signals</h3>
-          <ul id="top_diplomatic_signals" class="signal-list">
-            <li class="loading">Loading...</li>
-          </ul>
-        </div>
-      </div>
-    </div>
+</div>
 
-    <div class="headlines">
-      <h2>Key Headlines Today</h2>
-      <ul id="key_headlines" class="signal-list">
-        <li class="loading">Loading...</li>
-      </ul>
-    </div>
 
-    <div class="methodology">
-      <h2>Methodology</h2>
-      <p>
-        This dashboard analyses daily news headlines related to the conflict and assigns escalation or de-escalation scores based on predefined keywords.
-      </p>
-      <p>
-        Negative values indicate escalation signals such as strikes, missile activity, retaliation or casualties. Positive values indicate de-escalation signals such as ceasefires, diplomacy, negotiations or mediation.
-      </p>
-      <p>
-        The <strong>total score</strong> reflects the cumulative daily signal, while the <strong>conflict index</strong> normalizes that score by the number of analysed articles, making day-to-day comparisons more reliable.
-      </p>
-      <p>
-        The <strong>trajectory</strong> is derived from the last three daily conflict index values and indicates whether the information environment is becoming more escalatory, more stable, or remains uncertain.
-      </p>
-    </div>
+<div class="card">
 
-    <div class="table-block">
-      <h2>Interpretation Table</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Conflict Index</th>
-            <th>Interpretation</th>
-            <th>Meaning</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>&lt;= -2.00</td>
-            <td>Strong escalation</td>
-            <td>Heavy concentration of military and retaliatory signals in the news flow.</td>
-          </tr>
-          <tr>
-            <td>&gt; -2.00 and &lt;= -1.00</td>
-            <td>Moderate escalation</td>
-            <td>Conflict activity is dominant, but not at the highest observed intensity.</td>
-          </tr>
-          <tr>
-            <td>&gt; -1.00 and &lt; 0.00</td>
-            <td>Mild escalation</td>
-            <td>Tensions are present, though not overwhelming in media reporting.</td>
-          </tr>
-          <tr>
-            <td>&gt;= 0.00 and &lt; 1.00</td>
-            <td>Neutral / mixed</td>
-            <td>Escalatory and de-escalatory signals appear relatively balanced.</td>
-          </tr>
-          <tr>
-            <td>&gt;= 1.00</td>
-            <td>De-escalation</td>
-            <td>Diplomacy, ceasefire or negotiation-related signals are becoming more visible.</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+<h2>Aktuális helyzetkép</h2>
 
-    <div class="report-link">
-      <h2>Latest Report</h2>
-      <p>
-        <a href="./latest_report_proxy.html">Open latest conflict report</a>
-      </p>
-    </div>
+<p><strong>Jelentés dátuma:</strong> <span id="report_date" class="loading">betöltés...</span></p>
 
-    <div class="chart">
-      <h2>Conflict Trend</h2>
-      <p class="small-note">
-        The chart shows the daily conflict index, the 3-day moving average and the broader trend line.
-      </p>
-      <img src="./conflict_trend.png" alt="Conflict trend chart">
-    </div>
+<p><strong>Értékelés:</strong> <span id="assessment" class="loading">betöltés...</span></p>
 
-    <div class="footer">
-      <p>
-        Data source: automated news monitoring pipeline.<br>
-        Repository updated daily via GitHub Actions.
-      </p>
-    </div>
-  </div>
+<p><strong>Összpontszám:</strong> <span id="total_score" class="loading">betöltés...</span></p>
 
-  <script>
-    function buildForecastText(conflictIndex, trajectory) {
-      if (trajectory === "escalating") {
-        if (conflictIndex <= -1) {
-          return "The short-term signal points toward intensifying escalation pressure. The recent trend and current index both suggest a worsening conflict information environment.";
-        }
-        return "The short-term signal points toward rising tension, although the current level is not yet extreme.";
-      }
+<p><strong>Konfliktusindex:</strong> <span id="conflict_index" class="loading">betöltés...</span></p>
 
-      if (trajectory === "stabilizing") {
-        if (conflictIndex < 0) {
-          return "The conflict environment is still tense, but the short-term trend suggests that escalation pressure may be easing.";
-        }
-        return "The short-term trend suggests gradual stabilization in the information environment.";
-      }
+<p><strong>Rövid távú pálya:</strong> <span id="trajectory" class="loading">betöltés...</span></p>
 
-      if (trajectory === "uncertain") {
-        return "The short-term pattern is mixed. The current information environment does not yet support a strong directional conclusion.";
-      }
+<p><strong>Rövid távú kilátás:</strong> <span id="outlook" class="loading">betöltés...</span></p>
 
-      return "There is not enough trend data yet to estimate short-term trajectory reliably.";
-    }
+<p><strong>Elemzett hírek száma:</strong> <span id="article_count" class="loading">betöltés...</span></p>
 
-    function renderArticleList(elementId, items, emptyText) {
-      const container = document.getElementById(elementId);
-      container.innerHTML = "";
+<p><strong>Automatikus értelmezés:</strong></p>
 
-      if (!items || items.length === 0) {
-        const li = document.createElement("li");
-        li.textContent = emptyText;
-        container.appendChild(li);
-        return;
-      }
+<p id="commentary" class="loading">betöltés...</p>
 
-      items.forEach(item => {
-        const li = document.createElement("li");
+</div>
 
-        const link = document.createElement("a");
-        link.href = item.link || "#";
-        link.textContent = item.title || "Untitled";
-        link.target = "_blank";
-        link.rel = "noopener noreferrer";
 
-        const badge = document.createElement("span");
-        badge.className = "score-badge";
-        badge.textContent = "score: " + (item.score ?? "n/a");
+<div class="card chart">
 
-        li.appendChild(link);
-        li.appendChild(badge);
-        container.appendChild(li);
-      });
-    }
+<h2>Konfliktusindex trend</h2>
 
-    fetch('./latest_summary.json?ts=' + Date.now())
-      .then(response => {
-        if (!response.ok) {
-          throw new Error('HTTP error: ' + response.status);
-        }
-        return response.json();
-      })
-      .then(data => {
-        document.getElementById('report_date').textContent = data.report_date ?? 'n/a';
-        document.getElementById('assessment').textContent = data.assessment ?? 'n/a';
-        document.getElementById('total_score').textContent = data.total_score ?? 'n/a';
-        document.getElementById('conflict_index').textContent = data.conflict_index ?? 'n/a';
-        document.getElementById('article_count').textContent = data.article_count ?? 'n/a';
-        document.getElementById('trajectory').textContent = data.trajectory ?? 'n/a';
-        document.getElementById('outlook').textContent = data.outlook ?? 'n/a';
-        document.getElementById('commentary').textContent = data.commentary ?? 'No commentary available.';
+<img id="chart" src="" alt="Konfliktus trend diagram">
 
-        const idx = Number(data.conflict_index ?? 0);
-        const trajectory = data.trajectory ?? '';
-        document.getElementById('forecast_text').textContent = buildForecastText(idx, trajectory);
+</div>
 
-        renderArticleList(
-          "top_escalation_signals",
-          data.top_escalation_signals,
-          "No clear escalation signals detected today."
-        );
 
-        renderArticleList(
-          "top_diplomatic_signals",
-          data.top_diplomatic_signals,
-          "No clear diplomatic signals detected today."
-        );
+<div class="card">
 
-        renderArticleList(
-          "key_headlines",
-          data.key_headlines,
-          "No key headlines available."
-        );
-      })
-      .catch(error => {
-        document.getElementById('report_date').textContent = 'error';
-        document.getElementById('assessment').textContent = 'error';
-        document.getElementById('total_score').textContent = 'error';
-        document.getElementById('conflict_index').textContent = 'error';
-        document.getElementById('article_count').textContent = 'error';
-        document.getElementById('trajectory').textContent = 'error';
-        document.getElementById('outlook').textContent = 'error';
-        document.getElementById('commentary').textContent = 'Failed to load automated commentary.';
-        document.getElementById('forecast_text').textContent = 'Failed to load forecast.';
-        document.getElementById('commentary').className = 'error';
-        document.getElementById('forecast_text').className = 'error';
-        console.error(error);
-      });
-  </script>
+<h2>Mai legfontosabb jelzések</h2>
+
+<div class="grid">
+
+<div>
+
+<h3>Eszkalációs jelek</h3>
+
+<ul id="escalation_list" class="list">
+<li class="loading">betöltés...</li>
+</ul>
+
+</div>
+
+
+<div>
+
+<h3>Diplomáciai / deeszkalációs jelek</h3>
+
+<ul id="diplomatic_list" class="list">
+<li class="loading">betöltés...</li>
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+
+<div class="card">
+
+<h2>Mai kulcscímek</h2>
+
+<ul id="headline_list" class="list">
+<li class="loading">betöltés...</li>
+</ul>
+
+</div>
+
+
+<div class="card">
+
+<h2>Napi jelentés</h2>
+
+<p>
+<a id="report_link" href="#" target="_blank">
+A teljes napi konfliktusjelentés megnyitása
+</a>
+</p>
+
+</div>
+
+</div>
+
+
+<script>
+
+const summaryUrl =
+"https://raw.githubusercontent.com/mikloshetzer-sketch/russia-ukraine-conflict-matrix/main/docs/latest_summary.json?ts=" + Date.now();
+
+const chartUrl =
+"https://raw.githubusercontent.com/mikloshetzer-sketch/russia-ukraine-conflict-matrix/main/docs/conflict_trend.png?ts=" + Date.now();
+
+document.getElementById("chart").src = chartUrl;
+
+
+
+function setText(id,value){
+document.getElementById(id).innerText=value
+}
+
+
+
+function renderList(id,data,empty){
+
+const container=document.getElementById(id)
+
+container.innerHTML=""
+
+if(!data||data.length===0){
+
+const li=document.createElement("li")
+li.innerText=empty
+container.appendChild(li)
+
+return
+}
+
+data.forEach(item=>{
+
+const li=document.createElement("li")
+
+const a=document.createElement("a")
+
+a.href=item.link||"#"
+a.target="_blank"
+a.innerText=item.title||"cím nélkül"
+
+const badge=document.createElement("span")
+
+badge.className="badge"
+badge.innerText="score "+(item.score??"")
+
+li.appendChild(a)
+li.appendChild(badge)
+
+container.appendChild(li)
+
+})
+
+}
+
+
+
+fetch(summaryUrl)
+
+.then(r=>r.json())
+
+.then(data=>{
+
+setText("report_date",data.report_date)
+
+setText("assessment",data.assessment)
+
+setText("total_score",data.total_score)
+
+setText("conflict_index",data.conflict_index)
+
+setText("trajectory",data.trajectory)
+
+setText("outlook",data.outlook)
+
+setText("article_count",data.article_count)
+
+setText("commentary",data.commentary)
+
+
+
+renderList(
+"escalation_list",
+data.top_escalation_signals,
+"Ma nincs jelentős eszkalációs jel."
+)
+
+renderList(
+"diplomatic_list",
+data.top_diplomatic_signals,
+"Ma nincs jelentős diplomáciai jel."
+)
+
+renderList(
+"headline_list",
+data.key_headlines,
+"Nincs kiemelt hír."
+)
+
+
+
+const reportLink =
+"https://github.com/mikloshetzer-sketch/russia-ukraine-conflict-matrix/tree/main/reports"
+
+document.getElementById("report_link").href=reportLink
+
+})
+
+</script>
+
+
 </body>
 </html>
