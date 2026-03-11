@@ -1,0 +1,51 @@
+name: Daily Conflict Update
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 6 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch news
+        run: python src/fetch_news.py
+
+      - name: Score news
+        run: python src/score_news.py
+
+      - name: Update history
+        run: python src/update_history.py
+
+      - name: Generate markdown report
+        run: python src/generate_markdown_report.py
+
+      - name: Generate chart
+        run: python src/generate_chart.py
+
+      - name: Generate dashboard data
+        run: python src/generate_dashboard_data.py
+
+      - name: Commit generated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ reports/ docs/
+          git diff --cached --quiet || git commit -m "Update daily conflict monitoring data"
+          git push
