@@ -4,10 +4,12 @@ from pathlib import Path
 from datetime import datetime
 
 RSS_SOURCES = [
-    "https://news.google.com/rss/search?q=russia+ukraine+war+when:7d&hl=en-US&gl=US&ceid=US:en",
-    "https://news.google.com/rss/search?q=ukraine+frontline+when:7d&hl=en-US&gl=US&ceid=US:en",
-    "https://news.google.com/rss/search?q=russia+missile+attack+ukraine+when:7d&hl=en-US&gl=US&ceid=US:en",
-    "https://news.google.com/rss/search?q=ceasefire+talks+ukraine+russia+when:7d&hl=en-US&gl=US&ceid=US:en"
+    "https://news.google.com/rss/search?q=russia+ukraine+war+-iran+-israel+-gaza+-hamas+-hezbollah+-tehran+-middle+east+when:7d&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=ukraine+frontline+-iran+-israel+-gaza+-hamas+-hezbollah+-tehran+-middle+east+when:7d&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=russia+missile+attack+ukraine+-iran+-israel+-gaza+-hamas+-hezbollah+-tehran+-middle+east+when:7d&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=ceasefire+talks+ukraine+russia+-iran+-israel+-gaza+-hamas+-hezbollah+-tehran+-middle+east+when:7d&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=donbas+ukraine+russia+-iran+-israel+-gaza+-hamas+-hezbollah+-tehran+-middle+east+when:7d&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=kyiv+moscow+war+-iran+-israel+-gaza+-hamas+-hezbollah+-tehran+-middle+east+when:7d&hl=en-US&gl=US&ceid=US:en"
 ]
 
 
