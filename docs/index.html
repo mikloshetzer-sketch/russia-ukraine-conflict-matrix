@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="hu">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -10,41 +11,58 @@
 
 body{
 font-family: Arial, Helvetica, sans-serif;
-background:#0f172a;
+background:#f3f4f6;
 margin:0;
-padding:40px;
+padding:24px;
 color:#111827;
 }
 
 .container{
-max-width:1000px;
+max-width:950px;
 margin:auto;
 }
 
 .header{
-color:white;
-margin-bottom:30px;
+margin-bottom:24px;
 }
 
 .header h1{
-margin:0;
-font-size:32px;
+font-size:30px;
+margin:0 0 8px 0;
 }
 
 .header p{
-opacity:0.8;
+margin:0;
+color:#4b5563;
+font-size:16px;
+line-height:1.6;
 }
 
 .card{
-background:white;
+background:#ffffff;
+border:1px solid #d7dee7;
+border-left:6px solid #2c5aa0;
 border-radius:10px;
-padding:22px;
+padding:20px;
 margin-bottom:22px;
-box-shadow:0 4px 18px rgba(0,0,0,0.15);
 }
 
-h2{
+.card h2{
 margin-top:0;
+margin-bottom:14px;
+font-size:22px;
+}
+
+.card h3{
+margin-top:0;
+margin-bottom:10px;
+font-size:18px;
+}
+
+p{
+margin-top:0;
+margin-bottom:12px;
+line-height:1.7;
 }
 
 .grid{
@@ -54,9 +72,10 @@ gap:20px;
 }
 
 .chart{
-background:white;
-border-radius:10px;
-padding:20px;
+background:#ffffff;
+border:1px solid #d7dee7;
+border-radius:8px;
+padding:14px;
 }
 
 .chart img{
@@ -65,7 +84,8 @@ border-radius:6px;
 }
 
 .list{
-padding-left:18px;
+margin:0;
+padding-left:20px;
 }
 
 .list li{
@@ -74,15 +94,15 @@ margin-bottom:10px;
 
 .badge{
 display:inline-block;
+margin-left:8px;
 background:#e5e7eb;
 padding:2px 8px;
-border-radius:12px;
+border-radius:999px;
 font-size:12px;
-margin-left:6px;
 }
 
 a{
-color:#2563eb;
+color:#2c5aa0;
 text-decoration:none;
 }
 
@@ -96,26 +116,38 @@ font-style:italic;
 }
 
 @media(max-width:800px){
+
+body{
+padding:16px;
+}
+
 .grid{
 grid-template-columns:1fr;
 }
+
+.header h1{
+font-size:24px;
+}
+
 }
 
 </style>
-</head>
 
+</head>
 
 <body>
 
 <div class="container">
+
 
 <div class="header">
 
 <h1>Orosz–ukrán háború – napi konfliktusfigyelő</h1>
 
 <p>
-Automatikus OSINT alapú médiatrend-elemző, amely a nemzetközi hírek alapján
-követi az eszkalációs és diplomáciai jelzéseket.
+Automatikus OSINT alapú médiatrend-elemző rendszer,
+amely a nemzetközi hírek alapján követi a konfliktus
+eszkalációs és diplomáciai jelzéseit.
 </p>
 
 </div>
@@ -146,11 +178,15 @@ követi az eszkalációs és diplomáciai jelzéseket.
 </div>
 
 
-<div class="card chart">
+<div class="card">
 
-<h2>Konfliktusindex trend</h2>
+<h2>Diagram – napi konfliktusindex és trend</h2>
+
+<div class="chart">
 
 <img id="chart" src="" alt="Konfliktus trend diagram">
+
+</div>
 
 </div>
 
@@ -163,10 +199,12 @@ követi az eszkalációs és diplomáciai jelzéseket.
 
 <div>
 
-<h3>Eszkalációs jelek</h3>
+<h3>Erősebb eszkalációs jelek</h3>
 
 <ul id="escalation_list" class="list">
+
 <li class="loading">betöltés...</li>
+
 </ul>
 
 </div>
@@ -177,7 +215,9 @@ követi az eszkalációs és diplomáciai jelzéseket.
 <h3>Diplomáciai / deeszkalációs jelek</h3>
 
 <ul id="diplomatic_list" class="list">
+
 <li class="loading">betöltés...</li>
+
 </ul>
 
 </div>
@@ -192,7 +232,9 @@ követi az eszkalációs és diplomáciai jelzéseket.
 <h2>Mai kulcscímek</h2>
 
 <ul id="headline_list" class="list">
+
 <li class="loading">betöltés...</li>
+
 </ul>
 
 </div>
@@ -200,15 +242,18 @@ követi az eszkalációs és diplomáciai jelzéseket.
 
 <div class="card">
 
-<h2>Napi jelentés</h2>
+<h2>Részletes napi jelentés</h2>
 
 <p>
+
 <a id="report_link" href="#" target="_blank">
 A teljes napi konfliktusjelentés megnyitása
 </a>
+
 </p>
 
 </div>
+
 
 </div>
 
@@ -216,19 +261,19 @@ A teljes napi konfliktusjelentés megnyitása
 <script>
 
 const summaryUrl =
-"https://raw.githubusercontent.com/mikloshetzer-sketch/russia-ukraine-conflict-matrix/main/docs/latest_summary.json?ts=" + Date.now();
+"https://raw.githubusercontent.com/mikloshetzer-sketch/russia-ukraine-conflict-matrix/main/docs/latest_summary.json?ts="+Date.now()
 
 const chartUrl =
-"https://raw.githubusercontent.com/mikloshetzer-sketch/russia-ukraine-conflict-matrix/main/docs/conflict_trend.png?ts=" + Date.now();
+"https://raw.githubusercontent.com/mikloshetzer-sketch/russia-ukraine-conflict-matrix/main/docs/conflict_trend.png?ts="+Date.now()
 
-document.getElementById("chart").src = chartUrl;
-
+document.getElementById("chart").src=chartUrl
 
 
 function setText(id,value){
-document.getElementById(id).innerText=value
-}
 
+document.getElementById(id).innerText=value
+
+}
 
 
 function renderList(id,data,empty){
@@ -237,13 +282,16 @@ const container=document.getElementById(id)
 
 container.innerHTML=""
 
-if(!data||data.length===0){
+if(!data || data.length===0){
 
 const li=document.createElement("li")
+
 li.innerText=empty
+
 container.appendChild(li)
 
 return
+
 }
 
 data.forEach(item=>{
@@ -252,16 +300,20 @@ const li=document.createElement("li")
 
 const a=document.createElement("a")
 
-a.href=item.link||"#"
+a.href=item.link || "#"
+
 a.target="_blank"
-a.innerText=item.title||"cím nélkül"
+
+a.innerText=item.title || "cím nélkül"
 
 const badge=document.createElement("span")
 
 badge.className="badge"
-badge.innerText="score "+(item.score??"")
+
+badge.innerText="score "+(item.score ?? "")
 
 li.appendChild(a)
+
 li.appendChild(badge)
 
 container.appendChild(li)
@@ -269,7 +321,6 @@ container.appendChild(li)
 })
 
 }
-
 
 
 fetch(summaryUrl)
