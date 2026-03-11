@@ -1,13 +1,13 @@
 {
   "report_date": "2026-03-11",
-  "created_at": "2026-03-11T10:21:13.512245",
+  "created_at": "2026-03-11T10:30:06.316848",
   "article_count": 75,
-  "total_score": -394,
-  "conflict_index": -5.25,
+  "total_score": -381,
+  "conflict_index": -5.08,
   "assessment": "strong escalation",
   "trajectory": "uncertain",
   "outlook": "Short-term direction remains uncertain.",
-  "commentary": "This automated assessment analyses international news headlines related to the monitored conflict environment. The current information environment indicates strong escalation dynamics. A high concentration of headlines refers to military activity such as strikes, missile launches, retaliatory actions or combat developments. The system analysed 75 headlines with a cumulative score of -394. To make day-to-day comparison more reliable, a normalized conflict index is calculated by dividing the total score by the number of analysed articles. The short-term trajectory is currently assessed as uncertain. Current outlook: Short-term direction remains uncertain. This index reflects the tone of the information environment rather than the exact number of real-world incidents. Large moves may partly reflect repeated reporting on the same event.",
+  "commentary": "This automated assessment analyses international news headlines related to the monitored conflict environment. The current information environment indicates strong escalation dynamics. A high concentration of headlines refers to military activity such as strikes, missile launches, retaliatory actions or combat developments. The system analysed 75 headlines with a cumulative score of -381. To make day-to-day comparison more reliable, a normalized conflict index is calculated by dividing the total score by the number of analysed articles. The short-term trajectory is currently assessed as uncertain. Current outlook: Short-term direction remains uncertain. This index reflects the tone of the information environment rather than the exact number of real-world incidents. Large moves may partly reflect repeated reporting on the same event.",
   "top_escalation_signals": [
     {
       "title": "Russia attacked Ukraine with two missiles and 197 drones. How many targets did the air defense shoot down - Бабель",
@@ -52,6 +52,13 @@
       "source": "\"ceasefire talks ukraine russia -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
       "published": "Tue, 10 Mar 2026 22:51:16 GMT",
       "score": 5
+    },
+    {
+      "title": "Russia Stuck to Its Demands on Ukraine. Many Are Now in Trump’s Peace Plan. - MSN",
+      "link": "https://news.google.com/rss/articles/CBMilgNBVV95cUxQMUdWaktFMWZpZHhSMXBwVjRVR2pNWVRiUEdWNjZCRmZ0LXU3SS1NMWVtclZaa1Z6QTdtZ2pUbU1BZExFRlh0bkx1Sk1fUWU3TlQ0NEtOOUozVWlxNFJQdXNHQmFtd2d3eC1xdzNWdUVNRTJjZFFVbmduajdkajlDcVIxX01Qb2xyVVdWRnR0QlJ6Z245Y3gwdEJacEhxVUJJWFQ3N1E1UGlTelV5N1dibTVRR1ExbHN3NkZULVJBWnJybkFja3JGUGdaeUdhM2JoeThhMVFOVDJzZVAtelJvWDFVakJtaVpFd2lCVXpmZXZTYlcyLUExVDJUUU1jcmZ0YmZIQTlOSkRlRzM3dVdzSXNCRmtGaFhDaE1vM3lrZV9qeE1rZzFadm9VUTBSR2xqU2QwVWc4RmlnY1pUZU56WmxvNkoxQXZHUkE1akxjQzVFdnVtTnpmZ3d1akpCOTUyWkpJb2d1cm90MFlweURKMjEwZnpVRGdhZDkwUXRaZjVDV0FPUndkdlRHdDhFb0ZVc0g3QmtR?oc=5",
+      "source": "\"russia ukraine war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
+      "published": "Sat, 07 Mar 2026 06:23:47 GMT",
+      "score": 3
     },
     {
       "title": "Russia Stuck to Its Demands on Ukraine. Many Are Now in Trump’s Peace Plan. - MSN",
