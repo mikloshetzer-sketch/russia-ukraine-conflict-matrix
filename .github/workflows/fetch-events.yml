@@ -13,10 +13,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Python
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
@@ -25,7 +25,12 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run LiveUAmap event fetch
+        env:
+          LIVEUAMAP_API_KEY: ${{ secrets.LIVEUAMAP_API_KEY }}
         run: python src/fetch_liveuamap_events.py
+
+      - name: Score events
+        run: python src/score_events.py
 
       - name: Commit event data
         run: |
