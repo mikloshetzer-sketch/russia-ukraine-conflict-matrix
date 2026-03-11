@@ -4,8 +4,10 @@ from pathlib import Path
 from datetime import datetime
 
 RSS_SOURCES = [
-    "https://news.google.com/rss/search?q=iran+israel+usa+war+when:7d&hl=en-US&gl=US&ceid=US:en",
-    "https://news.google.com/rss/search?q=middle+east+conflict+when:7d&hl=en-US&gl=US&ceid=US:en"
+    "https://news.google.com/rss/search?q=russia+ukraine+war+when:7d&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=ukraine+frontline+when:7d&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=russia+missile+attack+ukraine+when:7d&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=ceasefire+talks+ukraine+russia+when:7d&hl=en-US&gl=US&ceid=US:en"
 ]
 
 
