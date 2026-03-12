@@ -1,21 +1,21 @@
 # Napi konfliktusjelentés – Oroszország–Ukrajna
 
 **Dátum:** 2026-03-12
-**Feldolgozott cikkek száma:** 73
-**Összesített konfliktusindex:** -334
+**Feldolgozott cikkek száma:** 72
+**Összesített konfliktusindex:** -336
 **Minősítés:** erős eszkaláció
 
 ## 1. Helyzetkép
 
-A napi médiakép összességében erősen eszkalációs képet mutatott. A feldolgozott 73 cikk közül 65 hordozott kifejezetten konfliktuserősítő mintázatot, miközben a deeszkalációra utaló hírek száma mindössze 3 volt. Ez arra utal, hogy a napirendet elsősorban a katonai aktivitás, a csapásmérések és a harctéri nyomás fennmaradása alakította.
+A napi médiakép összességében erősen eszkalációs képet mutatott. A feldolgozott 72 cikk közül 63 hordozott kifejezetten konfliktuserősítő mintázatot, miközben a deeszkalációra utaló hírek száma mindössze 3 volt. Ez arra utal, hogy a napirendet elsősorban a katonai aktivitás, a csapásmérések és a harctéri nyomás fennmaradása alakította.
 
 ## 2. Fő trendek
 
-A napi cikkmegoszlás alapján **65** eszkalációs, **3** deeszkalációs és **5** semleges hír került a mintába. Ez a megoszlás rövid távú képet ad az információs környezet irányáról: minél nagyobb az eszkalációs arány, annál inkább katonai és biztonsági fejlemények uralják a napirendet, míg a pozitívabb elmozdulás inkább a diplomáciai nyitás jele.
+A napi cikkmegoszlás alapján **63** eszkalációs, **3** deeszkalációs és **6** semleges hír került a mintába. Ez a megoszlás rövid távú képet ad az információs környezet irányáról: minél nagyobb az eszkalációs arány, annál inkább katonai és biztonsági fejlemények uralják a napirendet, míg a pozitívabb elmozdulás inkább a diplomáciai nyitás jele.
 
 ## 3. Operatív helyzetkép
 
-A fronthelyzethez és a légi csapásokhoz kötődő hírek közel azonos súllyal jelentek meg (15 illetve 15 releváns cím). Ez kiegyensúlyozott, de továbbra is feszült hadműveleti képet jelez.
+A napi médiaképben a fronthelyzethez, szárazföldi műveletekhez és előretörésekhez kapcsolódó hírek voltak hangsúlyosabbak (16 releváns cím), miközben a légi csapásokról szóló tudósítások is jelentős számban jelen maradtak (15 cím). Ez a harctéri dinamika folyamatos napirenden maradására utal.
 
 ## 4. Külső fronthelyzeti napi brief
 
@@ -27,11 +27,11 @@ A változásjelző adatforrás a 2026-03-12 és 2026-03-11 közötti állapotkü
 
 ## 6. Katonai dimenzió
 
-A fronthelyzettel és a légi csapásokkal összefüggő hírek közel azonos súllyal jelentek meg (15 illetve 15 releváns cím). Ez kiegyensúlyozott, de továbbra is feszült katonai képet mutat.
+A katonai dimenzióban a fronthelyzettel és szárazföldi műveletekkel összefüggő hírek jelentek meg hangsúlyosabban (16 releváns cím), miközben a légi csapásokkal összefüggő tudósítások is számottevőek maradtak (15 cím). Ez arra utal, hogy a napi híráramlásban a harctéri dinamika továbbra is meghatározó maradt.
 
 ## 7. Diplomáciai és politikai dimenzió
 
-A diplomáciai-politikai dimenzió korlátozott, de érzékelhető súllyal maradt jelen: 3 cím utalt tárgyalásokra, egyeztetésekre vagy rendezési törekvésekre, miközben 15 cím vezetői szintű politikai kommunikációt vagy döntéshozói kontextust emelt be. Ez azt mutatja, hogy a napi napirend nem kizárólag a harctéri események köré szerveződött.
+A diplomáciai-politikai dimenzió korlátozott, de érzékelhető súllyal maradt jelen: 3 cím utalt tárgyalásokra, egyeztetésekre vagy rendezési törekvésekre, miközben 17 cím vezetői szintű politikai kommunikációt vagy döntéshozói kontextust emelt be. Ez azt mutatja, hogy a napi napirend nem kizárólag a harctéri események köré szerveződött.
 
 ## 8. Nemzetközi támogatás és külső környezet
 
@@ -47,18 +47,18 @@ A médiás index egyértelműen feszült, eszkalációs képet jelez. A külső 
 
 ## 11. Domináns kulcsszavak
 
-- `russia` (russia_context) – 45 előfordulás
+- `russia` (russia_context) – 43 előfordulás
 - `ukraine` (ukraine_context) – 42 előfordulás
 - `russia+ukraine` (joint_conflict_context) – 29 előfordulás
 - `russian` (russia_context) – 16 előfordulás
-- `offensive` (escalation) – 10 előfordulás
+- `offensive` (escalation) – 12 előfordulás
 - `drone` (escalation) – 10 előfordulás
 - `drones` (escalation) – 9 előfordulás
 - `attack` (escalation) – 9 előfordulás
 - `missile` (escalation) – 9 előfordulás
-- `kyiv` (ukraine_context) – 6 előfordulás
+- `kyiv` (ukraine_context) – 7 előfordulás
+- `zelensky` (ukraine_context) – 6 előfordulás
 - `missiles` (escalation) – 6 előfordulás
-- `ukrainian` (ukraine_context) – 5 előfordulás
 
 ## 12. Kiemelt eszkalációs jellegű hírek
 
