@@ -68,7 +68,8 @@ def theme_counts(articles):
     themes = {
         "frontline": [
             "frontline", "battle", "offensive", "advance", "assault",
-            "donetsk", "luhansk", "kherson", "zaporizhzhia", "kursk", "crimea"
+            "donetsk", "luhansk", "kherson", "zaporizhzhia", "kursk", "crimea",
+            "kupiansk", "pokrovsk", "bakhmut", "avdiivka"
         ],
         "air_strikes": [
             "missile", "missiles", "drone", "drones", "air raid",
@@ -189,25 +190,34 @@ def build_external_brief_text(brief_data):
     if not brief_data or not isinstance(brief_data, dict):
         return None
 
-    occupied_km2 = brief_data.get("occupied_km2")
-    daily_delta_km2 = brief_data.get("daily_delta_km2")
-    daily_interpretation = safe_text(brief_data.get("daily_interpretation"))
-    weekly_delta_km2 = brief_data.get("weekly_delta_km2")
-    weekly_interpretation = safe_text(brief_data.get("weekly_interpretation"))
-    ground_raw_total = brief_data.get("ground_raw_total")
-    ground_kept_points = brief_data.get("ground_kept_points")
-    ground_kept_lines = brief_data.get("ground_kept_lines")
-    uav_events_total = brief_data.get("uav_events_total")
-    uav_events_7d = brief_data.get("uav_events_7d")
-    gained_sector = safe_text(brief_data.get("gained_sector"))
-    lost_sector = safe_text(brief_data.get("lost_sector"))
+    summary = brief_data.get("summary", {})
+    title = safe_text(brief_data.get("title"))
+    text = safe_text(brief_data.get("text"))
+
+    if not isinstance(summary, dict):
+        summary = {}
+
+    occupied_km2 = summary.get("occupied_km2")
+    daily_delta_km2 = summary.get("daily_delta_km2")
+    daily_interpretation = safe_text(summary.get("daily_interpretation"))
+    weekly_delta_km2 = summary.get("weekly_delta_km2")
+    weekly_interpretation = safe_text(summary.get("weekly_interpretation"))
+    ground_raw_total = summary.get("ground_raw_total")
+    ground_kept_points = summary.get("ground_kept_points")
+    ground_kept_lines = summary.get("ground_kept_lines")
+    uav_events_total = summary.get("uav_events_total")
+    uav_events_7d = summary.get("uav_events_7d")
+    gained_sector = safe_text(summary.get("gained_sector"))
+    lost_sector = safe_text(summary.get("lost_sector"))
 
     parts = []
 
+    if title:
+        parts.append(f"A külső operatív adatforrás napi összegzése szerint **{title}**.")
+
     if occupied_km2 is not None:
         parts.append(
-            f"A külső fronthelyzeti adatok alapján az orosz erők által ellenőrzött terület nagysága "
-            f"megközelítőleg {format_number(occupied_km2)} km²."
+            f"A becsült orosz ellenőrzés alatt álló terület nagysága megközelítőleg {format_number(occupied_km2)} km²."
         )
 
     if daily_delta_km2 is not None and daily_interpretation:
@@ -220,13 +230,13 @@ def build_external_brief_text(brief_data):
                 )
             else:
                 parts.append(
-                    f"Napi összevetésben a területi változás {format_number(daily_delta_km2)} km² volt, "
-                    f"ami {daily_interpretation} irányába mutat."
+                    f"Napi szinten a területi változás {format_number(daily_delta_km2)} km² volt, "
+                    f"ami {daily_interpretation} képet jelez."
                 )
         except Exception:
             parts.append(
-                f"Napi összevetésben a területi változás {format_number(daily_delta_km2)} km² volt, "
-                f"ami {daily_interpretation} irányába mutat."
+                f"Napi szinten a területi változás {format_number(daily_delta_km2)} km² volt, "
+                f"ami {daily_interpretation} képet jelez."
             )
 
     if weekly_delta_km2 is not None and weekly_interpretation:
@@ -234,8 +244,8 @@ def build_external_brief_text(brief_data):
             delta = float(weekly_delta_km2)
             if abs(delta) < 5:
                 parts.append(
-                    f"Heti távlatban a mozgás visszafogott maradt ({format_number(weekly_delta_km2)} km²), "
-                    f"de az összkép továbbra is {weekly_interpretation} felé mutat."
+                    f"Heti távlatban a mozgás mérsékelt maradt ({format_number(weekly_delta_km2)} km²), "
+                    f"de az összkép továbbra is {weekly_interpretation} irányába mutat."
                 )
             else:
                 parts.append(
@@ -248,14 +258,19 @@ def build_external_brief_text(brief_data):
                 f"ami {weekly_interpretation} képet rajzol ki."
             )
 
-    sector_parts = []
-    if gained_sector:
-        sector_parts.append(f"a legfontosabb előretörési irány {gained_sector} térségében jelent meg")
-    if lost_sector:
-        sector_parts.append(f"a legkedvezőtlenebb elmozdulás {lost_sector} környezetében volt megfigyelhető")
-
-    if sector_parts:
-        parts.append("Területi értelemben " + ", miközben ".join(sector_parts) + ".")
+    if gained_sector and lost_sector:
+        parts.append(
+            f"A napi térképi dinamika alapján a legfontosabb előretörési irány {gained_sector} térségében jelent meg, "
+            f"miközben a legkedvezőtlenebb elmozdulás {lost_sector} környezetében volt megfigyelhető."
+        )
+    elif gained_sector:
+        parts.append(
+            f"A napi térképi dinamika alapján a legfontosabb előretörési irány {gained_sector} térségében jelent meg."
+        )
+    elif lost_sector:
+        parts.append(
+            f"A napi térképi dinamika alapján a legkedvezőtlenebb elmozdulás {lost_sector} környezetében volt megfigyelhető."
+        )
 
     activity_fragments = []
     if ground_raw_total is not None:
@@ -277,66 +292,52 @@ def build_external_brief_text(brief_data):
         if details:
             parts.append("A dróntevékenység továbbra is jelentős: " + ", ".join(details) + ".")
 
+    if text:
+        parts.append(
+            "A külső napi brief összképe szerint a hadműveleti környezet továbbra is fokozatos, felőrlő jellegű nyomást mutat, "
+            "nem pedig gyors áttörésszerű változást."
+        )
+
     if not parts:
         return None
 
     return " ".join(parts)
 
 
-def normalize_external_text(value):
-    if value is None:
-        return ""
-    if isinstance(value, str):
-        return value.strip()
-    if isinstance(value, list):
-        parts = []
-        for item in value:
-            if isinstance(item, str):
-                t = item.strip()
-                if t:
-                    parts.append(t)
-            elif isinstance(item, dict):
-                text = item.get("text") or item.get("title") or item.get("summary") or ""
-                text = safe_text(text)
-                if text:
-                    parts.append(text)
-        return "\n".join(parts).strip()
-    if isinstance(value, dict):
-        for key in ["text", "summary", "brief", "content", "description"]:
-            if key in value and safe_text(value[key]):
-                return safe_text(value[key])
-        return json.dumps(value, ensure_ascii=False, indent=2)
-    return str(value).strip()
-
-
-def extract_change_summary(change_data):
-    if not change_data:
+def build_change_summary(change_data):
+    if not change_data or not isinstance(change_data, dict):
         return None
 
-    candidates = [
-        change_data.get("summary"),
-        change_data.get("changes"),
-        change_data.get("latest_change"),
-        change_data.get("text"),
-        change_data.get("description"),
-        change_data.get("content"),
-    ]
+    date = safe_text(change_data.get("date"))
+    vs_date = safe_text(change_data.get("vs_date"))
+    gained_centroid = change_data.get("gained_centroid")
+    lost_centroid = change_data.get("lost_centroid")
 
-    for candidate in candidates:
-        text = normalize_external_text(candidate)
-        if text:
-            return text
+    parts = []
 
-    collected = []
-    for key, value in change_data.items():
-        text = normalize_external_text(value)
-        if text and len(text) > 10:
-            collected.append(f"**{key}**: {text}")
+    if date and vs_date:
+        parts.append(
+            f"A változásjelző adatforrás a {date} és {vs_date} közötti állapotkülönbséget rögzíti."
+        )
 
-    if collected:
-        return "\n\n".join(collected[:5])
+    if gained_centroid and isinstance(gained_centroid, list) and len(gained_centroid) == 2:
+        parts.append(
+            f"Az előretöréshez köthető fő súlypont koordinátája megközelítőleg {gained_centroid[0]}, {gained_centroid[1]}."
+        )
 
-    return None
+    if lost_centroid and isinstance(lost_centroid, list) and len(lost_centroid) == 2:
+        parts.append(
+            f"A veszteséghez vagy visszaszoruláshoz köthető fő súlypont koordinátája megközelítőleg {lost_centroid[0]}, {lost_centroid[1]}."
+        )
+    else:
+        parts.append(
+            "A napi összevetés alapján külön veszteségi súlypont nem került azonosításra."
+        )
+
+    if not parts:
+        return None
+
+    return " ".join(parts)
 
 
 def build_military_section(counts):
@@ -519,7 +520,7 @@ def main():
     risk_text = risk_indicator(total_score)
 
     external_brief_text = build_external_brief_text(brief_data)
-    external_change_text = extract_change_summary(change_data)
+    external_change_text = build_change_summary(change_data)
     consistency_text = build_consistency_assessment(total_score, external_brief_text, external_change_text)
 
     report_path = reports_dir / f"{date_str}_report.md"
