@@ -1,381 +1,424 @@
 <!DOCTYPE html>
 <html lang="hu">
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Orosz–ukrán konfliktusfigyelő</title>
+<title>Orosz–ukrán háború – napi konfliktusfigyelő</title>
 
 <style>
-
 body{
-font-family: Arial, Helvetica, sans-serif;
-background:#f3f4f6;
-margin:0;
-padding:24px;
-color:#111827;
+  font-family: Arial, Helvetica, sans-serif;
+  background:#f3f4f6;
+  margin:0;
+  padding:24px;
+  color:#111827;
 }
 
 .container{
-max-width:950px;
-margin:auto;
+  max-width:1000px;
+  margin:auto;
 }
 
 .header{
-margin-bottom:24px;
+  margin-bottom:24px;
 }
 
 .header h1{
-font-size:30px;
-margin:0 0 8px 0;
+  font-size:30px;
+  margin:0 0 8px 0;
+  line-height:1.2;
 }
 
 .header p{
-margin:0;
-color:#4b5563;
-font-size:16px;
-line-height:1.6;
+  margin:0;
+  color:#4b5563;
+  font-size:16px;
+  line-height:1.6;
 }
 
 .card{
-background:#ffffff;
-border:1px solid #d7dee7;
-border-left:6px solid #2c5aa0;
-border-radius:10px;
-padding:20px;
-margin-bottom:22px;
+  background:#ffffff;
+  border:1px solid #d7dee7;
+  border-left:6px solid #2c5aa0;
+  border-radius:10px;
+  padding:20px;
+  margin-bottom:22px;
 }
 
 .card h2{
-margin-top:0;
-margin-bottom:14px;
-font-size:22px;
+  margin-top:0;
+  margin-bottom:14px;
+  font-size:22px;
+  color:#111827;
 }
 
 .card h3{
-margin-top:0;
-margin-bottom:10px;
-font-size:18px;
+  margin-top:0;
+  margin-bottom:10px;
+  font-size:18px;
+  color:#111827;
 }
 
-p{
-margin-top:0;
-margin-bottom:12px;
-line-height:1.7;
+.card p{
+  margin-top:0;
+  margin-bottom:12px;
+  line-height:1.75;
+  color:#111827;
 }
 
 .grid{
-display:grid;
-grid-template-columns:1fr 1fr;
-gap:20px;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:20px;
 }
 
 .chart{
-background:#ffffff;
-border:1px solid #d7dee7;
-border-radius:8px;
-padding:14px;
+  background:#ffffff;
+  border:1px solid #d7dee7;
+  border-radius:8px;
+  padding:14px;
 }
 
 .chart img{
-width:100%;
-border-radius:6px;
+  width:100%;
+  border-radius:6px;
+  display:block;
 }
 
 .list{
-margin:0;
-padding-left:20px;
+  margin:0;
+  padding-left:20px;
 }
 
 .list li{
-margin-bottom:10px;
+  margin-bottom:10px;
+  line-height:1.6;
 }
 
 .badge{
-display:inline-block;
-margin-left:8px;
-background:#e5e7eb;
-padding:2px 8px;
-border-radius:999px;
-font-size:12px;
+  display:inline-block;
+  margin-left:8px;
+  background:#e5e7eb;
+  padding:2px 8px;
+  border-radius:999px;
+  font-size:12px;
+  color:#111827;
 }
 
-a{
-color:#2c5aa0;
-text-decoration:none;
+.kpi{
+  display:grid;
+  grid-template-columns:repeat(2, 1fr);
+  gap:14px;
 }
 
-a:hover{
-text-decoration:underline;
+.kpi-box{
+  background:#f8fafc;
+  border:1px solid #dde6ef;
+  border-radius:8px;
+  padding:14px;
+}
+
+.kpi-label{
+  font-size:13px;
+  color:#4b5563;
+  margin-bottom:6px;
+}
+
+.kpi-value{
+  font-size:20px;
+  font-weight:700;
+  color:#111827;
+}
+
+.note{
+  color:#374151;
+}
+
+.small{
+  color:#6b7280;
+  font-size:13px;
 }
 
 .loading{
-opacity:0.6;
-font-style:italic;
+  opacity:0.6;
+  font-style:italic;
+}
+
+a{
+  color:#2c5aa0;
+  text-decoration:none;
+}
+
+a:hover{
+  text-decoration:underline;
 }
 
 @media(max-width:800px){
+  body{
+    padding:16px;
+  }
 
-body{
-padding:16px;
+  .grid{
+    grid-template-columns:1fr;
+  }
+
+  .kpi{
+    grid-template-columns:1fr;
+  }
+
+  .header h1{
+    font-size:24px;
+  }
 }
-
-.grid{
-grid-template-columns:1fr;
-}
-
-.header h1{
-font-size:24px;
-}
-
-}
-
 </style>
-
 </head>
 
 <body>
 
 <div class="container">
 
+  <div class="header">
+    <h1>Orosz–ukrán háború – napi konfliktusfigyelő</h1>
+    <p>
+      Automatikus médiás és operatív összefoglaló, amely a konfliktus napi információs környezetét,
+      a fő eszkalációs jelzéseket, valamint a külső fronthelyzeti és ukrán operatív forrásokból származó
+      legfontosabb indikátorokat egyesíti.
+    </p>
+  </div>
 
-<div class="header">
+  <div class="card">
+    <h2>Aktuális helyzetkép</h2>
 
-<h1>Orosz–ukrán háború – napi konfliktusfigyelő</h1>
+    <div class="kpi">
+      <div class="kpi-box">
+        <div class="kpi-label">Jelentés dátuma</div>
+        <div class="kpi-value" id="report_date">betöltés...</div>
+      </div>
+      <div class="kpi-box">
+        <div class="kpi-label">Értékelés</div>
+        <div class="kpi-value" id="assessment">betöltés...</div>
+      </div>
+      <div class="kpi-box">
+        <div class="kpi-label">Összpontszám</div>
+        <div class="kpi-value" id="total_score">betöltés...</div>
+      </div>
+      <div class="kpi-box">
+        <div class="kpi-label">Konfliktusindex</div>
+        <div class="kpi-value" id="conflict_index">betöltés...</div>
+      </div>
+      <div class="kpi-box">
+        <div class="kpi-label">Rövid távú pálya</div>
+        <div class="kpi-value" id="trajectory">betöltés...</div>
+      </div>
+      <div class="kpi-box">
+        <div class="kpi-label">Kilátás</div>
+        <div class="kpi-value" id="outlook">betöltés...</div>
+      </div>
+    </div>
 
-<p>
-Automatikus OSINT alapú médiatrend-elemző rendszer,
-amely a nemzetközi hírek alapján követi a konfliktus
-eszkalációs és diplomáciai jelzéseit.
-</p>
+    <p><strong>Elemzett hírek száma:</strong> <span id="article_count" class="loading">betöltés...</span></p>
+    <p><strong>Összefoglaló értelmezés:</strong></p>
+    <p id="commentary" class="note loading">betöltés...</p>
+  </div>
 
-</div>
+  <div class="card">
+    <h2>Diagram – napi konfliktusindex és trend</h2>
+    <div class="chart">
+      <img id="chart" src="" alt="Konfliktus trend diagram">
+    </div>
+    <p class="small" style="margin-top:12px;">
+      A grafikon a napi konfliktusindex, a rövid távú mozgóátlag és a trendvonal segítségével mutatja meg,
+      hogyan változik a médiás eszkalációs nyomás az időben.
+    </p>
+  </div>
 
+  <div class="card">
+    <h2>Külső operatív összefoglaló</h2>
+    <p id="external_operational_summary" class="loading">betöltés...</p>
+  </div>
 
-<div class="card">
+  <div class="card">
+    <h2>Változásjelző összefoglaló</h2>
+    <p id="external_change_summary" class="loading">betöltés...</p>
+  </div>
 
-<h2>Aktuális helyzetkép</h2>
+  <div class="card">
+    <h2>Ukrán operatív források fő jelzései</h2>
+    <p id="ua_operational_summary" class="loading">betöltés...</p>
+  </div>
 
-<p><strong>Jelentés dátuma:</strong> <span id="report_date" class="loading">betöltés...</span></p>
+  <div class="card">
+    <h2>Mai legfontosabb jelzések</h2>
+    <div class="grid">
+      <div>
+        <h3>Erősebb eszkalációs jelek</h3>
+        <ul id="escalation_list" class="list">
+          <li class="loading">betöltés...</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Diplomáciai / deeszkalációs jelek</h3>
+        <ul id="diplomatic_list" class="list">
+          <li class="loading">betöltés...</li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
-<p><strong>Értékelés:</strong> <span id="assessment" class="loading">betöltés...</span></p>
+  <div class="card">
+    <h2>Mai kulcscímek</h2>
+    <ul id="headline_list" class="list">
+      <li class="loading">betöltés...</li>
+    </ul>
+  </div>
 
-<p><strong>Összpontszám:</strong> <span id="total_score" class="loading">betöltés...</span></p>
+  <div class="card">
+    <h2>Operatív kulcscímek</h2>
+    <ul id="ua_operational_items" class="list">
+      <li class="loading">betöltés...</li>
+    </ul>
+  </div>
 
-<p><strong>Konfliktusindex:</strong> <span id="conflict_index" class="loading">betöltés...</span></p>
-
-<p><strong>Rövid távú pálya:</strong> <span id="trajectory" class="loading">betöltés...</span></p>
-
-<p><strong>Rövid távú kilátás:</strong> <span id="outlook" class="loading">betöltés...</span></p>
-
-<p><strong>Elemzett hírek száma:</strong> <span id="article_count" class="loading">betöltés...</span></p>
-
-<p><strong>Automatikus értelmezés:</strong></p>
-
-<p id="commentary" class="loading">betöltés...</p>
-
-</div>
-
-
-<div class="card">
-
-<h2>Diagram – napi konfliktusindex és trend</h2>
-
-<div class="chart">
-
-<img id="chart" src="" alt="Konfliktus trend diagram">
-
-</div>
-
-</div>
-
-
-<div class="card">
-
-<h2>Mai legfontosabb jelzések</h2>
-
-<div class="grid">
-
-<div>
-
-<h3>Erősebb eszkalációs jelek</h3>
-
-<ul id="escalation_list" class="list">
-
-<li class="loading">betöltés...</li>
-
-</ul>
-
-</div>
-
-
-<div>
-
-<h3>Diplomáciai / deeszkalációs jelek</h3>
-
-<ul id="diplomatic_list" class="list">
-
-<li class="loading">betöltés...</li>
-
-</ul>
-
-</div>
-
-</div>
-
-</div>
-
-
-<div class="card">
-
-<h2>Mai kulcscímek</h2>
-
-<ul id="headline_list" class="list">
-
-<li class="loading">betöltés...</li>
-
-</ul>
-
-</div>
-
-
-<div class="card">
-
-<h2>Részletes napi jelentés</h2>
-
-<p>
-
-<a id="report_link" href="#" target="_blank">
-A teljes napi konfliktusjelentés megnyitása
-</a>
-
-</p>
+  <div class="card">
+    <h2>Részletes napi jelentés</h2>
+    <p>
+      <a id="report_link" href="#" target="_blank" rel="noopener noreferrer">
+        A teljes napi konfliktusjelentés megnyitása
+      </a>
+    </p>
+  </div>
 
 </div>
-
-
-</div>
-
 
 <script>
-
 const summaryUrl =
-"https://raw.githubusercontent.com/mikloshetzer-sketch/russia-ukraine-conflict-matrix/main/docs/latest_summary.json?ts="+Date.now()
+  "https://raw.githubusercontent.com/mikloshetzer-sketch/russia-ukraine-conflict-matrix/main/docs/latest_summary.json?ts=" + Date.now();
 
 const chartUrl =
-"https://raw.githubusercontent.com/mikloshetzer-sketch/russia-ukraine-conflict-matrix/main/docs/conflict_trend.png?ts="+Date.now()
+  "https://raw.githubusercontent.com/mikloshetzer-sketch/russia-ukraine-conflict-matrix/main/docs/conflict_trend.png?raw=1&ts=" + Date.now();
 
-document.getElementById("chart").src=chartUrl
+const reportUrl =
+  "https://mikloshetzer-sketch.github.io/russia-ukraine-conflict-matrix/latest_report_proxy.html?ts=" + Date.now();
 
+document.getElementById("chart").src = chartUrl;
+document.getElementById("report_link").href = reportUrl;
 
-function setText(id,value){
-
-document.getElementById(id).innerText=value
-
+function setText(id, value, fallback="nincs adat"){
+  const el = document.getElementById(id);
+  if (!el) return;
+  el.innerText = (value !== undefined && value !== null && value !== "") ? value : fallback;
 }
 
+function renderList(id, items, emptyText){
+  const container = document.getElementById(id);
+  if (!container) return;
 
-function renderList(id,data,empty){
+  container.innerHTML = "";
 
-const container=document.getElementById(id)
+  if (!items || !Array.isArray(items) || items.length === 0){
+    const li = document.createElement("li");
+    li.innerText = emptyText;
+    container.appendChild(li);
+    return;
+  }
 
-container.innerHTML=""
+  items.forEach(item => {
+    const li = document.createElement("li");
 
-if(!data || data.length===0){
+    const title = item.title || "cím nélkül";
+    const link = item.link || "#";
+    const score = item.score;
+    const source = item.source || "";
 
-const li=document.createElement("li")
+    const a = document.createElement("a");
+    a.href = link;
+    a.target = "_blank";
+    a.rel = "noopener noreferrer";
+    a.innerText = title;
 
-li.innerText=empty
+    li.appendChild(a);
 
-container.appendChild(li)
+    if (score !== undefined && score !== null && score !== ""){
+      const badge = document.createElement("span");
+      badge.className = "badge";
+      badge.innerText = "score " + score;
+      li.appendChild(badge);
+    }
 
-return
+    if (source){
+      const sourceSpan = document.createElement("span");
+      sourceSpan.className = "small";
+      sourceSpan.style.marginLeft = "8px";
+      sourceSpan.innerText = "forrás: " + source;
+      li.appendChild(sourceSpan);
+    }
 
+    container.appendChild(li);
+  });
 }
-
-data.forEach(item=>{
-
-const li=document.createElement("li")
-
-const a=document.createElement("a")
-
-a.href=item.link || "#"
-
-a.target="_blank"
-
-a.innerText=item.title || "cím nélkül"
-
-const badge=document.createElement("span")
-
-badge.className="badge"
-
-badge.innerText="score "+(item.score ?? "")
-
-li.appendChild(a)
-
-li.appendChild(badge)
-
-container.appendChild(li)
-
-})
-
-}
-
 
 fetch(summaryUrl)
+  .then(response => {
+    if (!response.ok) throw new Error("Hálózati hiba");
+    return response.json();
+  })
+  .then(data => {
+    setText("report_date", data.report_date);
+    setText("assessment", data.assessment);
+    setText("total_score", data.total_score);
+    setText("conflict_index", data.conflict_index);
+    setText("trajectory", data.trajectory);
+    setText("outlook", data.outlook);
+    setText("article_count", data.article_count);
+    setText("commentary", data.commentary);
+    setText("external_operational_summary", data.external_operational_summary, "Nincs külső operatív összefoglaló.");
+    setText("external_change_summary", data.external_change_summary, "Nincs változásjelző összefoglaló.");
+    setText("ua_operational_summary", data.ua_operational_summary, "Nincs operatív forrásösszegzés.");
 
-.then(r=>r.json())
+    renderList(
+      "escalation_list",
+      data.top_escalation_signals,
+      "Ma nem látható markáns eszkalációs jel."
+    );
 
-.then(data=>{
+    renderList(
+      "diplomatic_list",
+      data.top_diplomatic_signals,
+      "Ma nem látható markáns diplomáciai jel."
+    );
 
-setText("report_date",data.report_date)
+    renderList(
+      "headline_list",
+      data.key_headlines,
+      "Nincs kiemelhető kulcscím."
+    );
 
-setText("assessment",data.assessment)
+    renderList(
+      "ua_operational_items",
+      data.ua_operational_items,
+      "Nem áll rendelkezésre külön operatív kulcscím."
+    );
+  })
+  .catch(() => {
+    setText("report_date", "adat nem elérhető");
+    setText("assessment", "adat nem elérhető");
+    setText("total_score", "adat nem elérhető");
+    setText("conflict_index", "adat nem elérhető");
+    setText("trajectory", "adat nem elérhető");
+    setText("outlook", "adat nem elérhető");
+    setText("article_count", "adat nem elérhető");
+    setText("commentary", "adat nem elérhető");
+    setText("external_operational_summary", "adat nem elérhető");
+    setText("external_change_summary", "adat nem elérhető");
+    setText("ua_operational_summary", "adat nem elérhető");
 
-setText("total_score",data.total_score)
-
-setText("conflict_index",data.conflict_index)
-
-setText("trajectory",data.trajectory)
-
-setText("outlook",data.outlook)
-
-setText("article_count",data.article_count)
-
-setText("commentary",data.commentary)
-
-
-
-renderList(
-"escalation_list",
-data.top_escalation_signals,
-"Ma nincs jelentős eszkalációs jel."
-)
-
-renderList(
-"diplomatic_list",
-data.top_diplomatic_signals,
-"Ma nincs jelentős diplomáciai jel."
-)
-
-renderList(
-"headline_list",
-data.key_headlines,
-"Nincs kiemelt hír."
-)
-
-
-
-const reportLink =
-"https://github.com/mikloshetzer-sketch/russia-ukraine-conflict-matrix/tree/main/reports"
-
-document.getElementById("report_link").href=reportLink
-
-})
-
+    renderList("escalation_list", [], "adat nem elérhető");
+    renderList("diplomatic_list", [], "adat nem elérhető");
+    renderList("headline_list", [], "adat nem elérhető");
+    renderList("ua_operational_items", [], "adat nem elérhető");
+  });
 </script>
-
 
 </body>
 </html>
