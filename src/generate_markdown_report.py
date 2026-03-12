@@ -1,6 +1,7 @@
 import json
 from pathlib import Path
 from datetime import datetime
+from collections import Counter
 
 
 def load_json(path: Path):
@@ -221,42 +222,16 @@ def build_external_brief_text(brief_data):
         )
 
     if daily_delta_km2 is not None and daily_interpretation:
-        try:
-            delta = float(daily_delta_km2)
-            if abs(delta) < 1:
-                parts.append(
-                    f"Napi összevetésben csak korlátozott területi elmozdulás látszott ({format_number(daily_delta_km2)} km²), "
-                    f"ami összességében {daily_interpretation} irányába mutat."
-                )
-            else:
-                parts.append(
-                    f"Napi szinten a területi változás {format_number(daily_delta_km2)} km² volt, "
-                    f"ami {daily_interpretation} képet jelez."
-                )
-        except Exception:
-            parts.append(
-                f"Napi szinten a területi változás {format_number(daily_delta_km2)} km² volt, "
-                f"ami {daily_interpretation} képet jelez."
-            )
+        parts.append(
+            f"Napi szinten a területi változás {format_number(daily_delta_km2)} km² volt, "
+            f"ami {daily_interpretation} képet jelez."
+        )
 
     if weekly_delta_km2 is not None and weekly_interpretation:
-        try:
-            delta = float(weekly_delta_km2)
-            if abs(delta) < 5:
-                parts.append(
-                    f"Heti távlatban a mozgás mérsékelt maradt ({format_number(weekly_delta_km2)} km²), "
-                    f"de az összkép továbbra is {weekly_interpretation} irányába mutat."
-                )
-            else:
-                parts.append(
-                    f"Heti összevetésben a változás {format_number(weekly_delta_km2)} km², "
-                    f"ami már jól érzékelhetően {weekly_interpretation} képet rajzol ki."
-                )
-        except Exception:
-            parts.append(
-                f"Heti összevetésben a változás {format_number(weekly_delta_km2)} km², "
-                f"ami {weekly_interpretation} képet rajzol ki."
-            )
+        parts.append(
+            f"Heti összevetésben a változás {format_number(weekly_delta_km2)} km², "
+            f"ami {weekly_interpretation} képet rajzol ki."
+        )
 
     if gained_sector and lost_sector:
         parts.append(
@@ -334,8 +309,101 @@ def build_change_summary(change_data):
             "A napi összevetés alapján külön veszteségi súlypont nem került azonosításra."
         )
 
-    if not parts:
+    return " ".join(parts) if parts else None
+
+
+def summarize_ua_sources(ua_sources_data, geo_candidates_data):
+    if not ua_sources_data:
         return None
+
+    items = []
+    if isinstance(ua_sources_data, dict):
+        for key in ["items", "entries", "posts", "sources", "data"]:
+            value = ua_sources_data.get(key)
+            if isinstance(value, list):
+                items = value
+                break
+    elif isinstance(ua_sources_data, list):
+        items = ua_sources_data
+
+    if not items:
+        return None
+
+    drone_count = 0
+    missile_count = 0
+    shelling_count = 0
+    place_counter = Counter()
+    source_counter = Counter()
+
+    def add_places_from_item(item):
+        candidates = item.get("place_candidates")
+        if isinstance(candidates, list):
+            for p in candidates:
+                p = safe_text(p)
+                if p:
+                    place_counter[p] += 1
+
+    for item in items:
+        if not isinstance(item, dict):
+            continue
+
+        title = safe_text(item.get("title")).lower()
+        text = safe_text(item.get("text") or item.get("summary") or item.get("content")).lower()
+        source = safe_text(item.get("source") or item.get("channel") or item.get("publisher"))
+        full = f"{title} {text}"
+
+        if source:
+            source_counter[source] += 1
+
+        if "drone" in full or "uav" in full or "shahed" in full:
+            drone_count += 1
+        if "missile" in full or "rocket" in full or "ballistic" in full:
+            missile_count += 1
+        if "shelling" in full or "artillery" in full or "bombardment" in full:
+            shelling_count += 1
+
+        add_places_from_item(item)
+
+    if geo_candidates_data:
+        geo_items = []
+        if isinstance(geo_candidates_data, dict):
+            for key in ["items", "entries", "posts", "data"]:
+                value = geo_candidates_data.get(key)
+                if isinstance(value, list):
+                    geo_items = value
+                    break
+        elif isinstance(geo_candidates_data, list):
+            geo_items = geo_candidates_data
+
+        for item in geo_items:
+            if not isinstance(item, dict):
+                continue
+            candidates = item.get("place_candidates")
+            if isinstance(candidates, list):
+                for p in candidates:
+                    p = safe_text(p)
+                    if p:
+                        place_counter[p] += 1
+
+    top_places = [name for name, _ in place_counter.most_common(5)]
+    top_sources = [name for name, _ in source_counter.most_common(4)]
+
+    parts = []
+    parts.append(
+        f"Az ukrán operatív források napi mintája alapján a dróntevékenységre utaló említések száma {drone_count}, "
+        f"a rakéta- vagy egyéb nagy hatótávolságú csapásokra utaló említéseké {missile_count}, "
+        f"míg a tüzérségi vagy egyéb csapásjellegű aktivitásra utaló jelzéseké {shelling_count} volt."
+    )
+
+    if top_places:
+        parts.append(
+            "A leggyakrabban előforduló helyszínjelöltek: " + ", ".join(top_places) + "."
+        )
+
+    if top_sources:
+        parts.append(
+            "A napi operatív kép főként ezekből a forrásokból rajzolódott ki: " + ", ".join(top_sources) + "."
+        )
 
     return " ".join(parts)
 
@@ -477,6 +545,8 @@ def main():
     scored_path = base_dir / "data" / "processed" / "latest_scored.json"
     brief_path = base_dir / "data" / "external" / "brief_daily.json"
     change_path = base_dir / "data" / "external" / "change_latest.json"
+    ua_sources_path = base_dir / "data" / "external" / "ua_war_sources_latest.json"
+    ua_geo_path = base_dir / "data" / "external" / "ua_war_sources_latest.geo_candidates.json"
     reports_dir = base_dir / "reports"
     reports_dir.mkdir(parents=True, exist_ok=True)
 
@@ -486,6 +556,8 @@ def main():
 
     brief_data = load_json(brief_path)
     change_data = load_json(change_path)
+    ua_sources_data = load_json(ua_sources_path)
+    ua_geo_data = load_json(ua_geo_path)
 
     created_at = safe_text(data.get("created_at"))
     date_str = created_at[:10] if created_at else datetime.utcnow().date().isoformat()
@@ -521,6 +593,7 @@ def main():
 
     external_brief_text = build_external_brief_text(brief_data)
     external_change_text = build_change_summary(change_data)
+    ua_sources_summary = summarize_ua_sources(ua_sources_data, ua_geo_data)
     consistency_text = build_consistency_assessment(total_score, external_brief_text, external_change_text)
 
     report_path = reports_dir / f"{date_str}_report.md"
@@ -565,32 +638,40 @@ def main():
         lines.append("A mai futás során nem érkezett külön változásjelző összefoglaló a külső adatforrásból.")
     lines.append("")
 
-    lines.append("## 6. Katonai dimenzió")
+    lines.append("## 6. Ukrán operatív források fő jelzései")
+    lines.append("")
+    if ua_sources_summary:
+        lines.append(ua_sources_summary)
+    else:
+        lines.append("A mai futás során az ukrán operatív forrásokból nem állt rendelkezésre érdemben feldolgozható napi összefoglaló.")
+    lines.append("")
+
+    lines.append("## 7. Katonai dimenzió")
     lines.append("")
     lines.append(military_section)
     lines.append("")
 
-    lines.append("## 7. Diplomáciai és politikai dimenzió")
+    lines.append("## 8. Diplomáciai és politikai dimenzió")
     lines.append("")
     lines.append(diplomatic_section)
     lines.append("")
 
-    lines.append("## 8. Nemzetközi támogatás és külső környezet")
+    lines.append("## 9. Nemzetközi támogatás és külső környezet")
     lines.append("")
     lines.append(support_section)
     lines.append("")
 
-    lines.append("## 9. Médiakeretezés")
+    lines.append("## 10. Médiakeretezés")
     lines.append("")
     lines.append(narrative)
     lines.append("")
 
-    lines.append("## 10. Média- és operatív kép összevetése")
+    lines.append("## 11. Média- és operatív kép összevetése")
     lines.append("")
     lines.append(consistency_text)
     lines.append("")
 
-    lines.append("## 11. Domináns kulcsszavak")
+    lines.append("## 12. Domináns kulcsszavak")
     lines.append("")
     if keywords:
         for (keyword, category), count in keywords:
@@ -599,7 +680,7 @@ def main():
         lines.append("- Nem rajzolódott ki erős kulcsszó-koncentráció.")
     lines.append("")
 
-    lines.append("## 12. Kiemelt eszkalációs jellegű hírek")
+    lines.append("## 13. Kiemelt eszkalációs jellegű hírek")
     lines.append("")
     if negative_articles:
         for article in negative_articles:
@@ -608,7 +689,7 @@ def main():
         lines.append("- Nem volt markánsan eszkalációs cikk a mintában.")
     lines.append("")
 
-    lines.append("## 13. Kiemelt deeszkalációs jellegű hírek")
+    lines.append("## 14. Kiemelt deeszkalációs jellegű hírek")
     lines.append("")
     if positive_articles:
         for article in positive_articles:
@@ -617,15 +698,15 @@ def main():
         lines.append("- Nem volt markánsan deeszkalációs cikk a mintában.")
     lines.append("")
 
-    lines.append("## 14. Rövid távú kockázati indikátor")
+    lines.append("## 15. Rövid távú kockázati indikátor")
     lines.append("")
     lines.append(risk_text)
     lines.append("")
 
-    lines.append("## 15. Elemzői megjegyzés")
+    lines.append("## 16. Elemzői megjegyzés")
     lines.append("")
     lines.append(
-        "A jelentés automatizált RSS-alapú hírgyűjtésre és kulcsszavas pontozásra épül, amelyet külső operatív és fronthelyzeti adatforrások egészíthetnek ki. "
+        "A jelentés automatizált RSS-alapú hírgyűjtésre és kulcsszavas pontozásra épül, amelyet külső operatív és fronthelyzeti adatforrások egészítenek ki. "
         "Erőssége a gyors trendkövetés és a napi narratív változások megragadása, korlátja ugyanakkor, hogy a médiás és térképi források eltérő logikával működnek, "
         "ezért a végső következtetések mindig óvatos, többforrású értelmezést igényelnek."
     )
