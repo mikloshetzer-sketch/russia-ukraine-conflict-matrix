@@ -1,26 +1,19 @@
 {
-  "report_date": "2026-03-11",
-  "created_at": "2026-03-11T11:28:21.966075",
+  "report_date": "2026-03-12",
+  "created_at": "2026-03-12T06:53:04.198539",
   "article_count": 75,
-  "total_score": -355,
-  "conflict_index": -4.73,
+  "total_score": -360,
+  "conflict_index": -4.8,
   "assessment": "strong escalation",
-  "trajectory": "uncertain",
-  "outlook": "Short-term direction remains uncertain.",
-  "commentary": "This automated assessment analyses international news headlines related to the monitored conflict environment. The current information environment indicates strong escalation dynamics. A high concentration of headlines refers to military activity such as strikes, missile launches, retaliatory actions or combat developments. The system analysed 75 headlines with a cumulative score of -355. To make day-to-day comparison more reliable, a normalized conflict index is calculated by dividing the total score by the number of analysed articles. The short-term trajectory is currently assessed as uncertain. Current outlook: Short-term direction remains uncertain. This index reflects the tone of the information environment rather than the exact number of real-world incidents. Large moves may partly reflect repeated reporting on the same event.",
+  "trajectory": "escalating",
+  "outlook": "High short-term escalation pressure.",
+  "commentary": "This automated assessment analyses international news headlines related to the monitored conflict environment. The current information environment indicates strong escalation dynamics. A high concentration of headlines refers to military activity such as strikes, missile launches, retaliatory actions or combat developments. The system analysed 75 headlines with a cumulative score of -360. To make day-to-day comparison more reliable, a normalized conflict index is calculated by dividing the total score by the number of analysed articles. The short-term trajectory is currently assessed as escalating. Current outlook: High short-term escalation pressure. This index reflects the tone of the information environment rather than the exact number of real-world incidents. Large moves may partly reflect repeated reporting on the same event.",
   "top_escalation_signals": [
     {
       "title": "Russia attacked Ukraine with two missiles and 197 drones. How many targets did the air defense shoot down - Бабель",
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPemU1TnNGOEd3M0tTLThBeDV1SnRORWdZZ0lhQUJOaU5hWTJtQ3RYajVkZXN6MG83UTVzdFlLal9hNnYza0h6alBDVDNiRGxmNWlVQXAyclFjRXYwMktnYVc0cDZyWHBhQW5jLXNBR1d5RU5STUFGQjdnSkVqWnpCVDVKaS1hQjA3VDZCOTVYVzFBdXJlR296MWh1VmNYT0lSSjM4WTFjenBXX1RtNmRtdzdXdktwU2dFWnhDNllMang5X0I4MmhyWTV0SXBlcjhqU1HSAdcBQVVfeXFMT3N5MnZfbHVqeUtEWE11YXJJVzRPSHpWTnJ0c0VKN1dTalNNMFdYZ2Y3MGg2cVk5cmsxd01nSmdTdkE2WVd0bVgxRjluYjVLS2FFZS1kc3p1dFJubUdSQTdUYUlGdG8wUXBtV2t1MUtFY2daaTJ6eVpvTWlGdmVJcDJPc1hPTnkzMmVvd1JCUUxKczdGQkZ5X091YnlfcHlaNU9oZzM3T045cUJzSk1OTlNmWUZ3TVRxWjY3eUdNUi1qdDFuVGdFN3BfSmJaUDNEWHZzdEtzbFk?oc=5",
       "source": "\"russia missile attack ukraine -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
       "published": "Mon, 09 Mar 2026 06:18:43 GMT",
-      "score": -17
-    },
-    {
-      "title": "Russia attacked Ukraine with two Iskander missiles and 117 drones: Air defense destroyed 98 UAVs. - Прямий",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTXJLd3U3REtqWGJZM0k5U2ZYOWhvUU1yZGxDY1FIci15SjB0a1JfZmJoZEVKMThvbXZWbnVuWUZmM2o3X1pXTXN6eGExb3RORDZSLWxMYkJNdmhWT1ZPT213TWZJTjhsNlVmd2dPRDBzMkFzallBajNyYTFYZ2xsREdfR0VqejBYTzQ0amdBNEZSZWN4Wi1TcE5lN1BZLVE4WjBlRlJDZk9LSGttSFJNdC1qR1A?oc=5",
-      "source": "\"russia missile attack ukraine -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
-      "published": "Sun, 08 Mar 2026 07:31:30 GMT",
       "score": -17
     },
     {
@@ -43,6 +36,13 @@
       "source": "\"russia missile attack ukraine -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
       "published": "Sat, 07 Mar 2026 06:42:00 GMT",
       "score": -13
+    },
+    {
+      "title": "Occupiers Attack Ukraine at Night with Two Ballistic Missiles and 197 Strike UAVs - АрміяInform | Інформаційне агентство АрміяInform",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNR1F1Vlh4RDlXbHBWRk1IT2ZQenl5X1E2LXlqRGRpcHlVZDBob0tXSkY0bXd3TmozNUhBandLLWp5QXVzSUNTUE02bXVEbDVRcUM3eFJKb1JZZHlHQmhsMXgtc0FfQ1Zfd1RhekVBQ2ZicEM3NGtSU1ozdy1yZ2R2Sk5qQm9Ka2p5bm02TXNlajZMYVJfTFMtNGlZb3kzemdVcnh5dDl2T055UldIREp4dmdiOGRpeUl6OWxEMWc1WQ?oc=5",
+      "source": "\"russia missile attack ukraine -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
+      "published": "Mon, 09 Mar 2026 08:29:00 GMT",
+      "score": -13
     }
   ],
   "top_diplomatic_signals": [
@@ -54,24 +54,10 @@
       "score": 5
     },
     {
-      "title": "Russia Stuck to Its Demands on Ukraine. Many Are Now in Trump’s Peace Plan. - MSN",
-      "link": "https://news.google.com/rss/articles/CBMilgNBVV95cUxQMUdWaktFMWZpZHhSMXBwVjRVR2pNWVRiUEdWNjZCRmZ0LXU3SS1NMWVtclZaa1Z6QTdtZ2pUbU1BZExFRlh0bkx1Sk1fUWU3TlQ0NEtOOUozVWlxNFJQdXNHQmFtd2d3eC1xdzNWdUVNRTJjZFFVbmduajdkajlDcVIxX01Qb2xyVVdWRnR0QlJ6Z245Y3gwdEJacEhxVUJJWFQ3N1E1UGlTelV5N1dibTVRR1ExbHN3NkZULVJBWnJybkFja3JGUGdaeUdhM2JoeThhMVFOVDJzZVAtelJvWDFVakJtaVpFd2lCVXpmZXZTYlcyLUExVDJUUU1jcmZ0YmZIQTlOSkRlRzM3dVdzSXNCRmtGaFhDaE1vM3lrZV9qeE1rZzFadm9VUTBSR2xqU2QwVWc4RmlnY1pUZU56WmxvNkoxQXZHUkE1akxjQzVFdnVtTnpmZ3d1akpCOTUyWkpJb2d1cm90MFlweURKMjEwZnpVRGdhZDkwUXRaZjVDV0FPUndkdlRHdDhFb0ZVc0g3QmtR?oc=5",
-      "source": "\"russia ukraine war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
-      "published": "Sat, 07 Mar 2026 06:23:47 GMT",
-      "score": 3
-    },
-    {
-      "title": "Russia Stuck to Its Demands on Ukraine. Many Are Now in Trump’s Peace Plan. - MSN",
-      "link": "https://news.google.com/rss/articles/CBMilgNBVV95cUxQMUdWaktFMWZpZHhSMXBwVjRVR2pNWVRiUEdWNjZCRmZ0LXU3SS1NMWVtclZaa1Z6QTdtZ2pUbU1BZExFRlh0bkx1Sk1fUWU3TlQ0NEtOOUozVWlxNFJQdXNHQmFtd2d3eC1xdzNWdUVNRTJjZFFVbmduajdkajlDcVIxX01Qb2xyVVdWRnR0QlJ6Z245Y3gwdEJacEhxVUJJWFQ3N1E1UGlTelV5N1dibTVRR1ExbHN3NkZULVJBWnJybkFja3JGUGdaeUdhM2JoeThhMVFOVDJzZVAtelJvWDFVakJtaVpFd2lCVXpmZXZTYlcyLUExVDJUUU1jcmZ0YmZIQTlOSkRlRzM3dVdzSXNCRmtGaFhDaE1vM3lrZV9qeE1rZzFadm9VUTBSR2xqU2QwVWc4RmlnY1pUZU56WmxvNkoxQXZHUkE1akxjQzVFdnVtTnpmZ3d1akpCOTUyWkpJb2d1cm90MFlweURKMjEwZnpVRGdhZDkwUXRaZjVDV0FPUndkdlRHdDhFb0ZVc0g3QmtR?oc=5",
-      "source": "\"kyiv moscow war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
-      "published": "Sat, 07 Mar 2026 06:23:47 GMT",
-      "score": 3
-    },
-    {
       "title": "SSU and police detain arms dealers who smuggled weapons from frontline - ukranews.com",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRmxBdExmOWJJUUFZRlk0c3QyQ2dsdVVPeE1jeEVsdmFoLXZuc0RCSkxuMm9pUnhfQnBRQ2NPQlhrSmFpbWhaZS1LMUVxTjZOcnVHUFZhQi02S0RDRnN6Y2Noam5KNVJId0g4MG82Ylk0ZjducjhyZl95SXE1V28yOHJ5dEIxUWZ2M3JrOUk1NG5NdjJEa0l4MFRxcFRVN1JVNkVTVmswd1pjZF80SzViaNIBtgFBVV95cUxPcGFvV2VRM1dCek5DR0lPWFNwakRESUtGUXJocHIzcFlzRzlFNWh5UzRXVjlRQ2l6U09BdXpfSEU4ZzV2UGVPbTRsV1FYTlVmWC1LdFhkSHB3NkNRaGtIbW5QRjZkRGlJWG94dDhEV1lYNWdqalBhcGlhQnE2M2FRY2d2MlhLWl90V2ZsdEN1R2NQU2pZMExjbFhCTGFESmtzdkgtMWNFNVFZM0R1eVlNcFlyeVMwQQ?oc=5",
       "source": "\"ukraine frontline -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
-      "published": "Mon, 09 Mar 2026 20:15:01 GMT",
+      "published": "Mon, 09 Mar 2026 16:14:58 GMT",
       "score": 1
     },
     {
@@ -88,13 +74,6 @@
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPemU1TnNGOEd3M0tTLThBeDV1SnRORWdZZ0lhQUJOaU5hWTJtQ3RYajVkZXN6MG83UTVzdFlLal9hNnYza0h6alBDVDNiRGxmNWlVQXAyclFjRXYwMktnYVc0cDZyWHBhQW5jLXNBR1d5RU5STUFGQjdnSkVqWnpCVDVKaS1hQjA3VDZCOTVYVzFBdXJlR296MWh1VmNYT0lSSjM4WTFjenBXX1RtNmRtdzdXdktwU2dFWnhDNllMang5X0I4MmhyWTV0SXBlcjhqU1HSAdcBQVVfeXFMT3N5MnZfbHVqeUtEWE11YXJJVzRPSHpWTnJ0c0VKN1dTalNNMFdYZ2Y3MGg2cVk5cmsxd01nSmdTdkE2WVd0bVgxRjluYjVLS2FFZS1kc3p1dFJubUdSQTdUYUlGdG8wUXBtV2t1MUtFY2daaTJ6eVpvTWlGdmVJcDJPc1hPTnkzMmVvd1JCUUxKczdGQkZ5X091YnlfcHlaNU9oZzM3T045cUJzSk1OTlNmWUZ3TVRxWjY3eUdNUi1qdDFuVGdFN3BfSmJaUDNEWHZzdEtzbFk?oc=5",
       "source": "\"russia missile attack ukraine -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
       "published": "Mon, 09 Mar 2026 06:18:43 GMT",
-      "score": -17
-    },
-    {
-      "title": "Russia attacked Ukraine with two Iskander missiles and 117 drones: Air defense destroyed 98 UAVs. - Прямий",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTXJLd3U3REtqWGJZM0k5U2ZYOWhvUU1yZGxDY1FIci15SjB0a1JfZmJoZEVKMThvbXZWbnVuWUZmM2o3X1pXTXN6eGExb3RORDZSLWxMYkJNdmhWT1ZPT213TWZJTjhsNlVmd2dPRDBzMkFzallBajNyYTFYZ2xsREdfR0VqejBYTzQ0amdBNEZSZWN4Wi1TcE5lN1BZLVE4WjBlRlJDZk9LSGttSFJNdC1qR1A?oc=5",
-      "source": "\"russia missile attack ukraine -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
-      "published": "Sun, 08 Mar 2026 07:31:30 GMT",
       "score": -17
     },
     {
@@ -116,6 +95,13 @@
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOY3hYSmVQWWdBODQwTm9vX0VBTlZ0dG9WRWlaUWRXWEc0QkJPaEZwOGQ1RjJIN0xySWJFRUVFVVI2RUFyYXhZS3d1Y1RjN2NOaVFRVmhpNXF0cFE2RlpLUDV0SURteG5NWUxxMm50bkJxRXVFS19lUVBHRk1ibHoydVlQbw?oc=5",
       "source": "\"russia missile attack ukraine -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
       "published": "Sat, 07 Mar 2026 06:42:00 GMT",
+      "score": -13
+    },
+    {
+      "title": "Occupiers Attack Ukraine at Night with Two Ballistic Missiles and 197 Strike UAVs - АрміяInform | Інформаційне агентство АрміяInform",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNR1F1Vlh4RDlXbHBWRk1IT2ZQenl5X1E2LXlqRGRpcHlVZDBob0tXSkY0bXd3TmozNUhBandLLWp5QXVzSUNTUE02bXVEbDVRcUM3eFJKb1JZZHlHQmhsMXgtc0FfQ1Zfd1RhekVBQ2ZicEM3NGtSU1ozdy1yZ2R2Sk5qQm9Ka2p5bm02TXNlajZMYVJfTFMtNGlZb3kzemdVcnh5dDl2T055UldIREp4dmdiOGRpeUl6OWxEMWc1WQ?oc=5",
+      "source": "\"russia missile attack ukraine -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
+      "published": "Mon, 09 Mar 2026 08:29:00 GMT",
       "score": -13
     }
   ]
