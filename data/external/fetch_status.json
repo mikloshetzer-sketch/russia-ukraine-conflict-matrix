@@ -1,5 +1,5 @@
 {
-  "created_at": "2026-04-05T06:50:38.100745",
+  "created_at": "2026-04-06T07:13:57.952438",
   "source_repo": "mikloshetzer-sketch/ukraine-war-map",
   "files": [
     {
@@ -7,35 +7,35 @@
       "url": "https://raw.githubusercontent.com/mikloshetzer-sketch/ukraine-war-map/main/data/brief_daily.json",
       "success": true,
       "saved_to": "data/external/brief_daily.json",
-      "size_bytes": 3958
+      "size_bytes": 4272
     },
     {
       "filename": "change_latest.json",
       "url": "https://raw.githubusercontent.com/mikloshetzer-sketch/ukraine-war-map/main/data/change_latest.json",
       "success": true,
       "saved_to": "data/external/change_latest.json",
-      "size_bytes": 133
+      "size_bytes": 161
     },
     {
       "filename": "deepstate_latest.geojson",
       "url": "https://raw.githubusercontent.com/mikloshetzer-sketch/ukraine-war-map/main/data/deepstate_latest.geojson",
       "success": true,
       "saved_to": "data/external/deepstate_latest.geojson",
-      "size_bytes": 77063
+      "size_bytes": 76973
     },
     {
       "filename": "ua_war_sources_latest.json",
       "url": "https://raw.githubusercontent.com/mikloshetzer-sketch/ukraine-war-map/main/data/ua_war_sources_latest.json",
       "success": true,
       "saved_to": "data/external/ua_war_sources_latest.json",
-      "size_bytes": 34826
+      "size_bytes": 32308
     },
     {
       "filename": "ua_war_sources_latest.geo_candidates.json",
       "url": "https://raw.githubusercontent.com/mikloshetzer-sketch/ukraine-war-map/main/data/ua_war_sources_latest.geo_candidates.json",
       "success": true,
       "saved_to": "data/external/ua_war_sources_latest.geo_candidates.json",
-      "size_bytes": 45592
+      "size_bytes": 42461
     }
   ],
   "success_count": 5,
