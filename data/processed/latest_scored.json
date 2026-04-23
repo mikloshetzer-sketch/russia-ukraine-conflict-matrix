@@ -1,16 +1,40 @@
 {
-  "created_at": "2026-04-22T07:16:19.003900",
-  "article_count": 63,
-  "total_score": -295,
+  "created_at": "2026-04-23T07:17:47.195690",
+  "article_count": 62,
+  "total_score": -320,
   "assessment": "strong escalation",
-  "escalation_articles": 55,
-  "deescalation_articles": 1,
-  "neutral_articles": 7,
+  "escalation_articles": 54,
+  "deescalation_articles": 0,
+  "neutral_articles": 8,
   "articles": [
     {
-      "title": "Russian Offensive Campaign Assessment, April 19, 2026 - Critical Threats",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNM2MzZUhvUlZPeEJ1c3R5VHNvRUNWRVVPU1YtUFVVUVZKa2RQM0YxQ3FIeVZnNnZhOFVsWVZoaVlpc042dEw3SjVhdWdPNDRXYmlBbnFVbDJGUzNQWkppM2wzSUFteXg1U2VEelZGUm4zeUhaUmNGUTNDbFRaOU1MdzJySTNTUTg4dlR5SmNrSDQ0VEdfdkdz?oc=5",
-      "published": "Sun, 19 Apr 2026 21:48:37 GMT",
+      "title": "The Russia-Ukraine War Report Card, April 22, 2026 - Russia Matters",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQS0lLUThHMDVsMTVtQXdnaV9xRGE5NmIwcDFBaXZpYkI3Y0VITEppTk15NExlbWoybnBOMzFWWU8zUzgxVzBLTzg5ZXA3MlkwMVBEOWM1cllvVXJxSGl0aC1zTXhMR0Z4eU1qalFFYnFfYTZuZVRlUjBKSDBGcEdLNDNnaHBVR2ducHIwN05SUGVRb1FQRFRUYTEwclZGb1dXYW5LOGxGeDlLM1k5V3Bz?oc=5",
+      "published": "Wed, 22 Apr 2026 20:36:32 GMT",
+      "source": "\"russia ukraine war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
+      "score": -3,
+      "matched_keywords": [
+        {
+          "keyword": "russia",
+          "value": -1,
+          "category": "russia_context"
+        },
+        {
+          "keyword": "ukraine",
+          "value": -1,
+          "category": "ukraine_context"
+        },
+        {
+          "keyword": "russia+ukraine",
+          "value": -1,
+          "category": "joint_conflict_context"
+        }
+      ]
+    },
+    {
+      "title": "Russian Offensive Campaign Assessment, April 22, 2026 - Critical Threats",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPaDFHelNvRWJ4U0p2WHF1OFdEUFlqQVZfR1Z5Wk5nemtTdGJaVHpYVDZQQVU1SHhybFdyei1fbFU0UVpJbVpkNWZ3enJVZDc0aGctamZQX290bG1RUE9Fbm5PM0xBWHFiMUxUQ3REcy00Z3EzRUI0QW5BTkJ5Q1lqaFZCYzJQekUzaEtLWk8yRDRfenRlSUVr?oc=5",
+      "published": "Thu, 23 Apr 2026 01:43:51 GMT",
       "source": "\"russia ukraine war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
       "score": -5,
       "matched_keywords": [
@@ -157,12 +181,65 @@
       ]
     },
     {
+      "title": "Ground robots push Ukraine toward a robotized infantry - EL PAÍS English",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWm5BS1AxaE9xSmZlNDVnVjRjbXBQX2hCNlZsQ3RnU0NsaWJJWVdsamloaVEzb1RPcHJWOWZvU3NPTDRpUE1CeHg4N3o3SGpieW9hSDVqWU16SUJEY2paZTVEUklmcDNucURoR3lqcGpJbnl2TFFNYkZETTNPbXZyUTRKSl8wbUg2bHdSQXpaajNOc3BxTnpwTkowa21iZjRtY1o4NVJ0OG9Dc3F3Um8wQtIBxAFBVV95cUxQemtQN2tHX3VqWkZCQlNDbjNYb0sxTkQ3Y3QxdW5LLWFibGNkWVplSzE3VXQ5X2QxSGNrQjFvUW0yRTdDR0VaSGNKa2ozMUoxbTVERTN0Z0xZb1pHNTdOWlNLTDBvS2hHNTBCbVM5T0R6SXJJMDJpSmpZTU1hNkNyUkhGR0FkU0kzaGt3SnNYUjFqRGJTRGFoQ2JOd1EzaXdJYlhvaWVUSm9oeXFqZG5KeFJObmE2YmR3RVNYVWlLbVBMbGpp?oc=5",
+      "published": "Fri, 17 Apr 2026 15:11:08 GMT",
+      "source": "\"russia ukraine war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
+      "score": -1,
+      "matched_keywords": [
+        {
+          "keyword": "ukraine",
+          "value": -1,
+          "category": "ukraine_context"
+        }
+      ]
+    },
+    {
       "title": "Observer-Dispatch Events - Hamilton College Hosts Retired Ambassador Discussing Russia-Ukraine War - Utica Observer Dispatch",
       "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOR3kzVUJWMDNBN0QzZ0F3bTZ3cVkyZGVqQUlqZzB3SXM2TVFYbTRQYUJOYzBlOS1uMjd0QlJGTjM0Sk5pbjlSWFlsWFhRNmdsNTk1UmFQbVo1aXdheGoyRVVKNkpvSUg2VjctZWRXcFo1ZXYzUUk0VFR5TnNUdmhseURzTy04Nl9kbk9rZk0wWXFrT2gyQVdYaVlXUXI1N05uWm55ZkxwNFFzeGhHZGtQWUJVT3dSUUZlRUpOTDlPSlVJYzhOMHdRWjNtUFRHZld1YzZvYWpNVjRMVXFsZ2lUbkMxd2Q?oc=5",
       "published": "Sat, 18 Apr 2026 07:47:58 GMT",
       "source": "\"russia ukraine war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
       "score": -3,
       "matched_keywords": [
+        {
+          "keyword": "russia",
+          "value": -1,
+          "category": "russia_context"
+        },
+        {
+          "keyword": "ukraine",
+          "value": -1,
+          "category": "ukraine_context"
+        },
+        {
+          "keyword": "russia+ukraine",
+          "value": -1,
+          "category": "joint_conflict_context"
+        }
+      ]
+    },
+    {
+      "title": "17 killed as Russia unleashes year's deadliest attack on Ukraine | Daily Sabah - Daily Sabah",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZFlsZEUydVJmVG1ZVlZINVpsZWhhZzBnWk92RWVJZm5fdTdwb3BCZnpyelBzbFBNNkFVdVNQNFRWZk9RUTA1cUpHY2dUckxHWm9kSENxSXpEaThmbDhCZE5COGgwSjhSbjRrSjlXamEyQ2Y1VGFPT1lPVmdvbU42ZWhZMHdieUdqT25mNE1lU1V2dmZEY2o4TEFMNjFDVGJLSE9VeE1KdDjSAa4BQVVfeXFMTVNCRENnV25TbmtfUmpIcEZHU2lzYWxPTnNIb0JVa2Q0eDJ1bnRJYko0RncyemJZTktnS3dGMF9ZbmFoZGVhckUwSzdtZ2sxMmgxYkVXRno0OU1fd2VGR29Xb0E1d2xlWWlaUFA5ZV9qYzF6UUluUnJYNnM5cEJkRy1aYzNROENuQmFLbjdSOWhra0pXMURMMWVfQ2NiYk1fdmRWcVFIcXRoeU5Makln?oc=5",
+      "published": "Thu, 16 Apr 2026 10:47:00 GMT",
+      "source": "\"russia ukraine war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
+      "score": -12,
+      "matched_keywords": [
+        {
+          "keyword": "attack",
+          "value": -3,
+          "category": "escalation"
+        },
+        {
+          "keyword": "killed",
+          "value": -3,
+          "category": "escalation"
+        },
+        {
+          "keyword": "dead",
+          "value": -3,
+          "category": "escalation"
+        },
         {
           "keyword": "russia",
           "value": -1,
@@ -195,12 +272,58 @@
       ]
     },
     {
-      "title": "North Atlantic Treaty Organization - Military Alliance, Post-Cold War, Global Security - Britannica",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOY25GTllSNjBjOTlEeWpaMTI1Wk9VZENGN21JWk5KdWV0bndkUjhWWjY3am45VWVENGNwb09oaXRlTnJRN1d0bno1QnlFOVVRTmdXZGxwZHdkeDFjaEJjQ29UN2djTU9fb21LTEU4UVNxcGoxQi1sRzNpRE5Sa2VkMncwUkNYMG5mclI2ckxoRHU2THRwaFJVSzdRVXhjUQ?oc=5",
-      "published": "Sat, 18 Apr 2026 05:00:00 GMT",
+      "title": "Pausing Slavic studies at Barnard is an act of cultural and intellectual erasure - Columbia Daily Spectator",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOMmt6dzgzczFpTTBqSjBfSlNnNFJSNWhCeVlsZGQ0WGhleDdmSi1BVjhVamNrOUxxZ0FyZGFsWHhVYXRyU3BZLVdRak11MkxwQnJoYUo5UDR4eWdIRWNWRzdwMDVwYjdVRE4yWHRINDdTNnptZHh5cHhhWmM4dEZiR1NNQ1JLa0NwS2MxTzJPWVVfZ2luWUNpdVNXd1ZVRWw0clhfUVdDTldkYWNSdU9QZmFqbVBTWTQ1blF6U0VDZENJbTU1X2hnVnBxYzZWY0E?oc=5",
+      "published": "Wed, 22 Apr 2026 02:19:47 GMT",
       "source": "\"russia ukraine war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
       "score": 0,
       "matched_keywords": []
+    },
+    {
+      "title": "The EU: A Bias Against Central and East Europe - Center for European Policy Analysis (CEPA)",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE14cVplOWFhU1pnTE1wVlVGdGlqQ0V6eUxQNVE3WFVuMGV3SXhHQnJWNEY2Y05MQjF0VHJMbG1TYjk3amM4cmhKM29ybnh6ZGhmeWNHbmM0X1lSd3JsSVk2TnRGUThwWVBYai1tY3pSZ0xla3VNYnVOQnZfQQ?oc=5",
+      "published": "Tue, 21 Apr 2026 01:32:11 GMT",
+      "source": "\"russia ukraine war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
+      "score": 0,
+      "matched_keywords": []
+    },
+    {
+      "title": "EU envoys meet in hopes of approving a long-delayed loan to Ukraine - Journal-News.com",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQcHQ0cl9aVjhBVEdvLVhZZjZyVy02b1NfZmxmVHlTODVMblczTTl3TjFHM2YyUkl4NEhFRTJZbEZCZFpHdDU2TjFzeHY0MExSc1lHTlpEUjl3T3dwR2REenc5XzNOYXdvcXhDWkRBQjU4cTFQbXlXU2tBbTltS3FPMXM2dnBnQk1nc3hVamdIWVBGdS1SZ0YxbGQ3TWdZaUhyRmlyRVFmVWtzVm9WSzUzQlhfRnh2aV9DdjRVMFE3djQ1Z3Y2WE9SQ0FlMG9oV0JhNWJUM1VEdGJLU0gxS3k1RHhVWFI0YWpKMTkydVJvLWw?oc=5",
+      "published": "Wed, 22 Apr 2026 09:51:45 GMT",
+      "source": "\"russia ukraine war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
+      "score": -1,
+      "matched_keywords": [
+        {
+          "keyword": "ukraine",
+          "value": -1,
+          "category": "ukraine_context"
+        }
+      ]
+    },
+    {
+      "title": "Russian Offensive Campaign Assessment, April 19, 2026 - Critical Threats",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNM2MzZUhvUlZPeEJ1c3R5VHNvRUNWRVVPU1YtUFVVUVZKa2RQM0YxQ3FIeVZnNnZhOFVsWVZoaVlpc042dEw3SjVhdWdPNDRXYmlBbnFVbDJGUzNQWkppM2wzSUFteXg1U2VEelZGUm4zeUhaUmNGUTNDbFRaOU1MdzJySTNTUTg4dlR5SmNrSDQ0VEdfdkdz?oc=5",
+      "published": "Sun, 19 Apr 2026 21:48:37 GMT",
+      "source": "\"russia ukraine war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
+      "score": -5,
+      "matched_keywords": [
+        {
+          "keyword": "offensive",
+          "value": -3,
+          "category": "escalation"
+        },
+        {
+          "keyword": "russia",
+          "value": -1,
+          "category": "russia_context"
+        },
+        {
+          "keyword": "russian",
+          "value": -1,
+          "category": "russia_context"
+        }
+      ]
     },
     {
       "title": "Ballots under fire. Elections during war? - New Eastern Europe",
@@ -219,16 +342,78 @@
       "matched_keywords": []
     },
     {
-      "title": "Ukrainian children’s future left to Italian courts - New Eastern Europe",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZXZiMVFuQkFZSm5CYUJteU11VVdpTExrd0lfTXBrQ0ZVUHNZUFktT3dfazRHMGpwZTFKSVcwdTNMOTV0SWxFYmxMc21vb3pBb25BdF94YnFsZ1RsZVdNcmlzY3JGNXVKUHB6WFNQa0xTU3d6ZGVmRHc2SVRodXduLXh1akREOTNFM0ExWVVLaERRVmc?oc=5",
-      "published": "Mon, 20 Apr 2026 12:28:54 GMT",
+      "title": "The return of the despot - New Eastern Europe",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1XX0JoR3dYMWFhMkJzaERfSFF4QnJpTjBTc1BxTmwzUElvR3BxN1hrTTZhZWRqdExnZjV5VnY0LTl5STFITE44QVZkT1NIaEdpRDNHMlN6U1dmRElKcXE2UW5XbTR1UUkwR3Uyb05QaFlkQQ?oc=5",
+      "published": "Mon, 20 Apr 2026 11:35:10 GMT",
       "source": "\"russia ukraine war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
-      "score": -1,
+      "score": 0,
+      "matched_keywords": []
+    },
+    {
+      "title": "Russian oil to Slovakia resumes flowing through pipeline that crosses Ukraine - KTVN",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOdHQwODBXUmtiRTNvVVhGNGNkZ0dHcndiXzFJUDRQNjJfRnlUd2hJSkpvOUwxSmNERjJ1RGFkbXE5M09fMDdoTjA3a1l1elJuVHE1bl9kUUVwR1BMMzIycFprNGdncWZjV211SUxTMFdwTDgxMjhTTGNOd25UQWNJSEpyREFRMGx5RFd3ZVY0VkNMVzBVV2Jwam1pM2VWNXFzSUxYU001dkZFdlkxY0ZVYy1rc3o4b1ZDU3JhOW1VMERwY3NsbnFHUUZXczk1RGhsbk9nUnFNNmM2aXdUT1FVRHNuSXBDTldWUGdzc09vbVNJdw?oc=5",
+      "published": "Thu, 23 Apr 2026 06:39:40 GMT",
+      "source": "\"russia ukraine war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
+      "score": -4,
       "matched_keywords": [
+        {
+          "keyword": "russia",
+          "value": -1,
+          "category": "russia_context"
+        },
+        {
+          "keyword": "russian",
+          "value": -1,
+          "category": "russia_context"
+        },
+        {
+          "keyword": "ukraine",
+          "value": -1,
+          "category": "ukraine_context"
+        },
+        {
+          "keyword": "russia+ukraine",
+          "value": -1,
+          "category": "joint_conflict_context"
+        }
+      ]
+    },
+    {
+      "title": "72 Hours of Fire—Ukrainian Drones Smash Russian Air Defense Systems, Iskander Bases, and Fuel Hubs, Video - UNITED24 Media",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPX0tsT1hrYVRSMGJ1YVhNYkNCaFhWcEJYZU1GTWQzUkFXV2hFdW1JUTZtZXU0ck1yQjA0Q2l1ZGY4ZVhSZnNHdjFzS0swWC05aTFPZkZnWVR4ZXk4TDd6OUx2dUJVQldoUENmRDdTZEdmdjBHSTVxbHFwRGpkMVlrRWJMcVVvenVaRy1VVlJLSGVNM0ZHZXlXT3hTUVNUTnZ0QlB2Nm9aUUdpOXBnLVRSVm03RHczdjlkT1lrSlZaY3duRzFlanZDZDNiLU1ldzBlV0cyTE05bU5HQXpvRC00?oc=5",
+      "published": "Thu, 16 Apr 2026 12:51:43 GMT",
+      "source": "\"russia ukraine war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
+      "score": -8,
+      "matched_keywords": [
+        {
+          "keyword": "drone",
+          "value": -2,
+          "category": "escalation"
+        },
+        {
+          "keyword": "drones",
+          "value": -2,
+          "category": "escalation"
+        },
+        {
+          "keyword": "russia",
+          "value": -1,
+          "category": "russia_context"
+        },
+        {
+          "keyword": "russian",
+          "value": -1,
+          "category": "russia_context"
+        },
         {
           "keyword": "ukrainian",
           "value": -1,
           "category": "ukraine_context"
+        },
+        {
+          "keyword": "air defense",
+          "value": -1,
+          "category": "support_pressure"
         }
       ]
     },
@@ -287,38 +472,48 @@
       ]
     },
     {
-      "title": "Hero of 2022 battles will now command defense of five oblasts on Ukraine’s Eastern Front - Euromaidan Press",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUVhxSUdTMGFLVlJfSEhvQlBMM2ZhRnZ3ZmJkd0RUeUg2SlhIS0NvSXVEbWo5LWJxeWtiOGJLNHB1M3o4ckhVekVXLXRQdVkzNlBkbXMwcHJnM0Z6UnVvNlpGQWNVanRnUm9EZDdkVVJLWXFGQ0ZNU0FFcGFuY3VSSnZyelFjNjBRN2JoUVpoSTBxdGNvbWFSSUZVUEdCTFhmM0NaWEFiSlZrdVF5UXVNYWczMWZkNXQ4bHVVX2p3S3JoT3hWa0E?oc=5",
-      "published": "Thu, 16 Apr 2026 15:15:50 GMT",
+      "title": "Russian oil to Slovakia resumes flowing through pipeline that crosses Ukraine - Times Argus",
+      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNZmJLV01VX3hlZjRzQ2kyU2tDYUhVazV4Z0M4c2JQMDQ3aFVFbThId3luR1FBcms4ZTZVVTAyRFhWeldtam1helN2SjJzc19pZ1B1SGtNMWNnMTc2ODFUOEpreE1lcS1CYzNxTENRaU5RVE54aWx2cXNvTC16M2pUOS1lTWtLcmpQcnRocHpKWVZuYUV1dzZIazg3QnljNl96TlRiTWFDQ2tPcTJ2aDh0b3U5ZEVNdkkxb1FrVWJzVzRHTk1oejNrMmQ4dC1zbklnUlRDWm10OUZnV1pLSXp4QjVvRnE0RnZ5bERITnlrcHRpV0VMN1FGS0J2djU?oc=5",
+      "published": "Thu, 23 Apr 2026 07:01:35 GMT",
       "source": "\"russia ukraine war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
-      "score": -3,
+      "score": -4,
       "matched_keywords": [
         {
-          "keyword": "battle",
-          "value": -2,
-          "category": "escalation"
+          "keyword": "russia",
+          "value": -1,
+          "category": "russia_context"
+        },
+        {
+          "keyword": "russian",
+          "value": -1,
+          "category": "russia_context"
         },
         {
           "keyword": "ukraine",
           "value": -1,
           "category": "ukraine_context"
+        },
+        {
+          "keyword": "russia+ukraine",
+          "value": -1,
+          "category": "joint_conflict_context"
         }
       ]
     },
     {
-      "title": "'You have our support' — Windsor signs friendship deal with war-torn Kupiansk, Ukraine - Windsor Star",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUG5VU3RndGh2QnpaZ3oweE5CTDR0dGhsZVdhcWdjZDRSbWt0bGFzRW5jVHRqVjJ2b3NEWlBNZ3RicE94UGFTaEZ0WVRkYjBzYmx4bERJQmZnb3JXZGxtcjhzb05CRmFUeG8xbjBMek8tbTFkbjd2b0NaTm1TLUNxZHNOOTVObWZJTnBGTVRBc0p2cUgxbExLcUZVSWp4bk15U0RENk16Y1NZNjJmMjFxTzBCVGVTUVM3a1duRXBR?oc=5",
-      "published": "Wed, 15 Apr 2026 11:08:07 GMT",
+      "title": "EU, Ukraine and Canada to co-host high-level meeting on returning Ukrainian children - EU NEIGHBOURS east",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPQzdwRHNRVFVmSm81ZWQ2X2NEeFRkRUlQUHZwM0p0anlJc09SZkFlYmVSWXoyN0VicnlLTWN1c0tKMUVTR01IQUNyU2YwZmo4UVJCWnB1QkNqR1V5MzBZQjZRQ0ZlbEZtRUUySFU1RFJYLXJiaUdEMkYyY1VOWXlsR2R3ajd3Nmd3NWRqdTF5V2FDTUVqNUJ6X3djOFVVQ2ZBdDZBYzdEQVJJYXRFN1hxbWVyNjJDVFV0V0Z2TjNuSm4wNTVDMTVlbg?oc=5",
+      "published": "Wed, 22 Apr 2026 16:10:13 GMT",
       "source": "\"russia ukraine war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
-      "score": 1,
+      "score": -2,
       "matched_keywords": [
         {
-          "keyword": "deal",
-          "value": 2,
-          "category": "deescalation"
+          "keyword": "ukraine",
+          "value": -1,
+          "category": "ukraine_context"
         },
         {
-          "keyword": "ukraine",
+          "keyword": "ukrainian",
           "value": -1,
           "category": "ukraine_context"
         }
@@ -393,206 +588,6 @@
       ]
     },
     {
-      "title": "Russia has taken 1,700 sq km of Ukraine in 2026, top general says - The Straits Times",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNc1p4ZDhDMXlNVUhTX3IxTEUyV05vc1NrR2JKY0dWTHNsNVkzRWYyNGFpLW1WeHFTRDRZOVZYSkxkWDBlekIxN3RyeF9vUm9Ld1NGOWpJdzJkQUZDdUZYRm1KMU9acnlvRVhBWURpNmp4MkxHZWVKc01GcnB2d3hDZ2VaTzRnSk9WemYtVFdTM0w2b0tNZ3pDbU9ObHdvNGFLemg4WDZjU1dTTmpJaS1XQw?oc=5",
-      "published": "Tue, 21 Apr 2026 08:05:20 GMT",
-      "source": "\"russia ukraine war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
-      "score": -3,
-      "matched_keywords": [
-        {
-          "keyword": "russia",
-          "value": -1,
-          "category": "russia_context"
-        },
-        {
-          "keyword": "ukraine",
-          "value": -1,
-          "category": "ukraine_context"
-        },
-        {
-          "keyword": "russia+ukraine",
-          "value": -1,
-          "category": "joint_conflict_context"
-        }
-      ]
-    },
-    {
-      "title": "Ukraine Invasion Day 1459*: Territorial changes since June 2022 - Daily Kos",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOaXYtak12SFBvbWZCbmlCLWJqSGlhYXUybTNmQUY2Sjg0Y1M2MEtXcEYxZ1lFX0tpMWpYbVZOOXdsX2RrdFNOZUFpVGxEMjBaSVVDZHg4X3FPVm1xUS1NREl2RW1ld2lxbzc4NXJvTVZwR2dXaTlfbjAyWkZOTWltMjFuRnRsY0xIcW10S2V4cUdQTjV6R25tcW5lMzdNbXotT3NqdTVtalgzWWU0QV8wbmswWmhDS0dKU2I2b3ZRRHM?oc=5",
-      "published": "Tue, 21 Apr 2026 02:53:58 GMT",
-      "source": "\"russia ukraine war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
-      "score": -1,
-      "matched_keywords": [
-        {
-          "keyword": "ukraine",
-          "value": -1,
-          "category": "ukraine_context"
-        }
-      ]
-    },
-    {
-      "title": "Kremlin told Belarus to keep Ukrainian forces on alert - The New Voice of Ukraine",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRTQwUHFfbDdMQXNPVmJ4emdJR0dIak5IUy13bjhqNGNrUkY4UEJNNmZZaGVldjBORzFNV0ZFNE52WFJfM3l1RXJQT01LOTVZNXJ4bzdGWVpfdnY0US0wTkVvOTl6U3Q1RGpwZFVKcG8xM1NsNVJJQllHVGRmTVVPVUZVQmg1MjZ5NVQwX0pyckY5VDRGOElXUjZlTHZwNV9VUnM1UdIBmgFBVV95cUxONTh4TXMwbDdrNFhGSXBTZVlndnkxS2FBeUdwZzdhQ19jNElzcHhjckdCaFpnOC1uNVl0REpxSWVONEFDZWFhSmppNGlXVHBvRE13ZHZvZ2FTZFRtSFhVeEx3alU2dlZxLUtmQW9ZczdmYlJtSGVOWFVHZ3RoWjlvNVI0U1dVUlFIQ2tMRUU5LXFDdUN1Y25RejhB?oc=5",
-      "published": "Fri, 17 Apr 2026 20:08:00 GMT",
-      "source": "\"russia ukraine war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
-      "score": -3,
-      "matched_keywords": [
-        {
-          "keyword": "kremlin",
-          "value": -1,
-          "category": "russia_context"
-        },
-        {
-          "keyword": "ukraine",
-          "value": -1,
-          "category": "ukraine_context"
-        },
-        {
-          "keyword": "ukrainian",
-          "value": -1,
-          "category": "ukraine_context"
-        }
-      ]
-    },
-    {
-      "title": "Russia increases mechanized assaults on frontline but achieves no major gains - The New Voice of Ukraine",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNM19GQTRDODhQeXFtNDNfR2Jzank0TG5uMy0tb2xsTkh5dHUtWVhscDV0bGZaVFB2bGhxMDdQVW9tNVFwUUw4SFI0am1lR1FsLVl6YVdQSEZsNl9yOEV1OU5qc3czdHZsUUlzbnV0M25FLXIyMTdNZ21sb1BQUm1SZm9NT0tSYmdBU0tOTnE3T0x6LVNVMVhJc2NNa0F2RmxhWVVlUVpUSTFvcGFzWV9DUnFVSEJuV3FQVlpucDN6eVlLbEJmcmdmZmh2QW1MVFHSAcsBQVVfeXFMT2dTUm9WYlZXdDljanowVldLYU1ZbTQ3aUd2c2dNRHM4MllyUWNNYU5zdktfUXJVaWx2WDItRnN2clFNdXgyazlqcmFXZ3NHbVRmU0lnWVFvTjJSYXZvS01HRWZuNVlybklrLU9hTV9idjZoX0RkRUxwT21UdjhyZG1ZQS1lc0lwX3RCaFIzdGRaQ09UcDRPenhZQkdpQWpZbERNT0VfcmJJVGJvY0szY3NVWU9NUS1sTW5ma3c0UnZxTnNBcVVfRG9yMW8?oc=5",
-      "published": "Mon, 20 Apr 2026 09:00:00 GMT",
-      "source": "\"russia ukraine war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
-      "score": -7,
-      "matched_keywords": [
-        {
-          "keyword": "assault",
-          "value": -3,
-          "category": "escalation"
-        },
-        {
-          "keyword": "frontline",
-          "value": -1,
-          "category": "escalation"
-        },
-        {
-          "keyword": "russia",
-          "value": -1,
-          "category": "russia_context"
-        },
-        {
-          "keyword": "ukraine",
-          "value": -1,
-          "category": "ukraine_context"
-        },
-        {
-          "keyword": "russia+ukraine",
-          "value": -1,
-          "category": "joint_conflict_context"
-        }
-      ]
-    },
-    {
-      "title": "Russian Attacks Across Ukraine Kill Civilians, Damage Infrastructure - Odessa Journal",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeUMzS25McWx1UU4yYnhvVjVhdWZJeFl5Rk53aTBqQm43M1VidjBPcXlBQVQzSGJsYTVYVm5QcUVJbmVUYTJjWHdxSjk5QVUxSnhQZjRvWXViZjJQc2diY0lOUmVkeDk3RU5ZSHI2djVVbVA5dWhRSlptRWFJRkFqLVZXbXhhaldBenZiN2kzVzM0MTVsSUVBMW1SVFA4Zl9D?oc=5",
-      "published": "Mon, 20 Apr 2026 07:13:34 GMT",
-      "source": "\"russia ukraine war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
-      "score": -10,
-      "matched_keywords": [
-        {
-          "keyword": "attack",
-          "value": -3,
-          "category": "escalation"
-        },
-        {
-          "keyword": "attacks",
-          "value": -3,
-          "category": "escalation"
-        },
-        {
-          "keyword": "russia",
-          "value": -1,
-          "category": "russia_context"
-        },
-        {
-          "keyword": "russian",
-          "value": -1,
-          "category": "russia_context"
-        },
-        {
-          "keyword": "ukraine",
-          "value": -1,
-          "category": "ukraine_context"
-        },
-        {
-          "keyword": "russia+ukraine",
-          "value": -1,
-          "category": "joint_conflict_context"
-        }
-      ]
-    },
-    {
-      "title": "Saskatoon volunteer honours 2 dead Sask. men at memorial in war-torn Ukraine - MSN",
-      "link": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxQY2x1TFpnTFBBcGo3RGdsSEhDSjl2ZTlTcm5MMFd0TGFDRjRkNllRQ2FYdTh2TjA5S0pZZGhPSmhXNXdoUjhVRmR3cWRBLS12bnU4aVRwU29RTjhWdzdFYkM5THlObndmZWZsRHFCZWR0RHhUeWQ1cHJ5dnFWY0o2SEN4YXhEbmY3YnNtNXVMU0VaS21aMVBDUFFNV1V4RjVpa2ppbnZPTVAxX0ZicnNxOGd3UUxiMVRMcFFTRXFFZjBvR01rZ3pjblV1ZWRRSWgzTHVHZ3B0MXR2MnMxTndNQzdLcVZWanNadkZwQi1yckc1RlBPTlRMbExJYXdVMWhXWlQzaHhsQ3FCWTBCMkVZUmZTX1JkRXJZWTJ3dHAwMTlTVnIxMnJ2MUpuVkdOa2tySGdCWVFwNkpGeXl2VmJ4cXEySlJZMThER0xubC0wRzE3MWQyekpWaXdoZ2tsMGZGbTRrelVmVmNHMk1r?oc=5",
-      "published": "Fri, 17 Apr 2026 19:15:36 GMT",
-      "source": "\"russia ukraine war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
-      "score": -4,
-      "matched_keywords": [
-        {
-          "keyword": "dead",
-          "value": -3,
-          "category": "escalation"
-        },
-        {
-          "keyword": "ukraine",
-          "value": -1,
-          "category": "ukraine_context"
-        }
-      ]
-    },
-    {
-      "title": "Kupiansk, city east of Kharkiv oblast, signed partnership memorandum with Windsor, Canada - Ґвара Медіа",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNXk4cTNIMkVULWV6eUNzenI4TDBqQS1ZX3pkd0VTa2x2VVFFTUM5bndSRkRLeXdGS25kcXJWY2VLSENmMG1LU3FhNmMwYTlXTGd1Qm1sSXpBNHlELS1nckQtbU9Ec042QUhJSDg3cEV2dFcyNnNrMGdKS25UZ2h0WHpKQ3doeG5EOHNXVWVTcDVPajB0bG95LTltR09ScDJ6cE1zeE5GempaeWJYbEliN1RvQQ?oc=5",
-      "published": "Wed, 15 Apr 2026 14:29:35 GMT",
-      "source": "\"russia ukraine war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
-      "score": -1,
-      "matched_keywords": [
-        {
-          "keyword": "kharkiv",
-          "value": -1,
-          "category": "ukraine_context"
-        }
-      ]
-    },
-    {
-      "title": "Moldova - Eastern Europe, Republic, Prut River - Britannica",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9jeXVQT2s5UkhxZXZJMkhZbm5GbEs0eGttY3IzU05FQ0Q4VkhHN3dCczlvdDVVYlBBRGlTeGpfV3RQTTRqY1NGQzRzVV9CaS1QaDdEYXVKYjM1TWsyM05wc2VRQ19PS19yRExxWA?oc=5",
-      "published": "Sun, 19 Apr 2026 05:00:00 GMT",
-      "source": "\"russia ukraine war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
-      "score": 0,
-      "matched_keywords": []
-    },
-    {
-      "title": "Russian Offensive Campaign Assessment, April 15, 2026 - Critical Threats",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPYk12czNHTVVWQUtKRDlaQXJNdFVoYXB2ODBOdzJ0aWM4YUZJcGhXbTdybGZ5WDVOQ0lmS2lWZnlSSXpEOEc4T1VobzRHWENyeE5uSV9UQThsSVlfRmRoR3pyWW5EWXRTbnk2MXdLYkpVYWtvTU5pQnBNdHpGTjl4VTBiYWJ5LW5NRUlTcnB6a29EV3JmNzBv?oc=5",
-      "published": "Wed, 15 Apr 2026 15:16:46 GMT",
-      "source": "\"ukraine frontline -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
-      "score": -5,
-      "matched_keywords": [
-        {
-          "keyword": "offensive",
-          "value": -3,
-          "category": "escalation"
-        },
-        {
-          "keyword": "russia",
-          "value": -1,
-          "category": "russia_context"
-        },
-        {
-          "keyword": "russian",
-          "value": -1,
-          "category": "russia_context"
-        }
-      ]
-    },
-    {
       "title": "EU ambassador to Ukraine meets Ukrainian women leaders from various sectors - EU NEIGHBOURS east",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQX1NrQUtobWxQSXpkbVJqU3VXbzByZ0Z4Q0pQV1NBMTQ1RDQ1czFJZWdaSkI5OGtSUHNjVm1NN3FlNHIzSXo4cXBPM1ZNX042V2dqUl9iODBFcG5NbnhtTjBFSmh2NHUzUjVwMUdONGthazBJbUJTWC1wREVXSG9hanJYTUFKTmIzWmY2QndPS0lRNFY5dDBGQUZRVDR4bXZZbHc0QWUtWnRFU2swODE4TkR1S0g2STAydnBOUElR?oc=5",
       "published": "Tue, 21 Apr 2026 14:59:58 GMT",
@@ -628,20 +623,6 @@
           "value": -2,
           "category": "escalation"
         },
-        {
-          "keyword": "ukraine",
-          "value": -1,
-          "category": "ukraine_context"
-        }
-      ]
-    },
-    {
-      "title": "Ukraine Invasion Day 1459*: Territorial changes since June 2022 - Daily Kos",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOaXYtak12SFBvbWZCbmlCLWJqSGlhYXUybTNmQUY2Sjg0Y1M2MEtXcEYxZ1lFX0tpMWpYbVZOOXdsX2RrdFNOZUFpVGxEMjBaSVVDZHg4X3FPVm1xUS1NREl2RW1ld2lxbzc4NXJvTVZwR2dXaTlfbjAyWkZOTWltMjFuRnRsY0xIcW10S2V4cUdQTjV6R25tcW5lMzdNbXotT3NqdTVtalgzWWU0QV8wbmswWmhDS0dKU2I2b3ZRRHM?oc=5",
-      "published": "Tue, 21 Apr 2026 02:53:58 GMT",
-      "source": "\"ukraine frontline -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
-      "score": -1,
-      "matched_keywords": [
         {
           "keyword": "ukraine",
           "value": -1,
@@ -794,6 +775,30 @@
       ]
     },
     {
+      "title": "Russian Forces Advance on Druzhkovka from Two Sides - Военное дело",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZ2EzRzlUemI1SDY1aTI5V3RlQ3ZoNEZyQUlYNFFRN1M4aE5WOWdLNTQ0T1lXRW92cVhtVWJ1VTZIYmM0S2tuWUV0NUdWeVpWZWd1R1c5R09zWFdLa2xDUHJBamY4OF93LUh2bjJPeDk3dFEyX015SmRKdmhuZnc4cVBDQXN4QXowWWE3Zk1HX0NEMU5hR0530gGbAUFVX3lxTE5kR1ZpLW0wQmpQZlRzcDhOXzJQeUxfekY1RzhfWGVFd01GTkRObWhGZkpiWHdtX3RSSWZPZDUwY19LaEsyTGhieFFoQlI3Z0JGdWlLSDJ0ZzZKc2U4ZFZvMGRqNUM2TE1ZQ1N0NkFQeER1VjRMU2pSOWc3bTZoOEdKLXU1YnJpUUlUb2pwOUxjUS13dlJHV19sMkg0?oc=5",
+      "published": "Wed, 22 Apr 2026 07:23:03 GMT",
+      "source": "\"ukraine frontline -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
+      "score": -4,
+      "matched_keywords": [
+        {
+          "keyword": "advance",
+          "value": -2,
+          "category": "escalation"
+        },
+        {
+          "keyword": "russia",
+          "value": -1,
+          "category": "russia_context"
+        },
+        {
+          "keyword": "russian",
+          "value": -1,
+          "category": "russia_context"
+        }
+      ]
+    },
+    {
       "title": "Since start of day, enemy has attacked Defense Forces positions 41 times, – General Staff - Цензор.НЕТ",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQandWOGpid2Q4U3Z2RmdpWkZkRHNscV84UDczSklNSEg2UTNYcUpUTkNyTk5qZ0s0TkJpMUxDWFh3RVg4WHM0X29hY2lNV05QR2sxMHhVRURadjM2S3dON2hwaDdSQTUtcnpDSU5UR2t0R0pBNTAwcFQybkROMExhVVJjUThNX1hReTJFdVZhSWtPVFlqbEZfSjRVTmdGTGNJMk40X09R?oc=5",
       "published": "Thu, 16 Apr 2026 15:13:00 GMT",
@@ -837,21 +842,40 @@
       ]
     },
     {
-      "title": "Ex-Nottinghamshire Cops Deliver Crucial Aid to Ukraine Frontline, Win Soldier’s Thanks - uknip.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPWmhMRjltS0pPQUZmWVBNdFZ3eEs0b29hRHdRUmVMamt2WXRURGUydlE2aDFQMG50TXpaZGU3b193SkQzbjdIaUFuc0pXLUFiOWs3cFBnSzMzWmdEeE8wcjhGTExWc2RWVnRxRTRaSTNYUEQtM0NhakNvbU5YVzVBQm4zVzh2Wnh5WlFLSnZRMGFSd2lkLXlqbGd3SW9LNnlzTDRiVUhKU0U5MHpxb2hFRTEtU0ZOVU4ycXlTQkExVzhULTUtLXFNc3VPNktsa0tXZnNCenNKZ1BuTGs5S2QxQ1ZUVW9RT2gxUXFuaDVrZFc1SjB6ZmpnYTQyUFVNWjM5ZGRnOXE5Q3dnaGZ6QlduaDZlQXlRUEYzaGc1eklsQ2Q?oc=5",
-      "published": "Thu, 16 Apr 2026 00:45:00 GMT",
+      "title": "Ukrainian Soldier Warns of Critical Infantry Shortage Threatening Sloviansk - inkorr.com",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRl92Rml5M01QSkUwWXJ3TXVra1FBUUREeGJ6a1JnNnJ0dVFCZWpyOGwyX2tXTEUxZkQtY1VwV1NOdGJnT1BBckNfaVFfbmhiNWNLYk1Jcmxjc0FfdlR6MEQ5ZkJBSmJ2bWM1WnhFam5KVi1sSlhBN25HcVBQYk42SUh1R3ltU3BZWnlvOXJzVkJzMXgwYTY1SzlnOTk3OXFhWWZ4VG12UdIBrAFBVV95cUxNV1pPSHpyT1JXVUMyREpMTVJwRWNRQi0ycm11bDBYYkx2OXRidjctcnpqMTBuUDVKY0dPeDU4eFpJcWpOTlB0M2RqV2RJV3FTY0NUcU1TYzZhMTFNZGVRWVJQZV9xRVRBODBDQWRHbkdqckZTQVoyNGloaDNRaUEtcVRzdERIcHcyRHRrXzVQQmRfeWNyYVdUYVM2VDJoSFJ0bEhpV3VHTVVKT3dB?oc=5",
+      "published": "Wed, 22 Apr 2026 03:41:17 GMT",
       "source": "\"ukraine frontline -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
-      "score": -2,
+      "score": -1,
       "matched_keywords": [
         {
-          "keyword": "frontline",
+          "keyword": "ukrainian",
           "value": -1,
-          "category": "escalation"
+          "category": "ukraine_context"
+        }
+      ]
+    },
+    {
+      "title": "The Russia-Ukraine War Report Card, April 22, 2026 - Russia Matters",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQS0lLUThHMDVsMTVtQXdnaV9xRGE5NmIwcDFBaXZpYkI3Y0VITEppTk15NExlbWoybnBOMzFWWU8zUzgxVzBLTzg5ZXA3MlkwMVBEOWM1cllvVXJxSGl0aC1zTXhMR0Z4eU1qalFFYnFfYTZuZVRlUjBKSDBGcEdLNDNnaHBVR2ducHIwN05SUGVRb1FQRFRUYTEwclZGb1dXYW5LOGxGeDlLM1k5V3Bz?oc=5",
+      "published": "Wed, 22 Apr 2026 20:36:32 GMT",
+      "source": "\"russia missile attack ukraine -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
+      "score": -3,
+      "matched_keywords": [
+        {
+          "keyword": "russia",
+          "value": -1,
+          "category": "russia_context"
         },
         {
           "keyword": "ukraine",
           "value": -1,
           "category": "ukraine_context"
+        },
+        {
+          "keyword": "russia+ukraine",
+          "value": -1,
+          "category": "joint_conflict_context"
         }
       ]
     },
@@ -910,14 +934,34 @@
       ]
     },
     {
-      "title": "Russian Offensive Campaign Assessment, April 15, 2026 - Critical Threats",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPYk12czNHTVVWQUtKRDlaQXJNdFVoYXB2ODBOdzJ0aWM4YUZJcGhXbTdybGZ5WDVOQ0lmS2lWZnlSSXpEOEc4T1VobzRHWENyeE5uSV9UQThsSVlfRmRoR3pyWW5EWXRTbnk2MXdLYkpVYWtvTU5pQnBNdHpGTjl4VTBiYWJ5LW5NRUlTcnB6a29EV3JmNzBv?oc=5",
-      "published": "Wed, 15 Apr 2026 15:16:46 GMT",
+      "title": "Russian attacks kill at least 2 as Ukraine strikes a Russian drone factory - KSBY News",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTE4wMlJSVGlORUg0TnNtZC1lT3ZRYlN1Znh4MkIwaFdYb09kSjhhVVFCVk1ZTzhKcE96WHdjNllSSTY5eEhzenN1MDA5S3cycmVBcXNxR09zek1ZQ1BFdzlieElOMlZlRHRZc1Q3SDJOWXgtNlVoYUQyWUlMdVQwOEV4QmxlTzFUWURxLWdaNnAxUENibWFYbHpLUkpzVjdCV2pucHZYS2hJLWx0?oc=5",
+      "published": "Sun, 19 Apr 2026 14:13:58 GMT",
       "source": "\"russia missile attack ukraine -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
-      "score": -5,
+      "score": -18,
       "matched_keywords": [
         {
-          "keyword": "offensive",
+          "keyword": "drone",
+          "value": -2,
+          "category": "escalation"
+        },
+        {
+          "keyword": "strike",
+          "value": -3,
+          "category": "escalation"
+        },
+        {
+          "keyword": "strikes",
+          "value": -3,
+          "category": "escalation"
+        },
+        {
+          "keyword": "attack",
+          "value": -3,
+          "category": "escalation"
+        },
+        {
+          "keyword": "attacks",
           "value": -3,
           "category": "escalation"
         },
@@ -930,6 +974,16 @@
           "keyword": "russian",
           "value": -1,
           "category": "russia_context"
+        },
+        {
+          "keyword": "ukraine",
+          "value": -1,
+          "category": "ukraine_context"
+        },
+        {
+          "keyword": "russia+ukraine",
+          "value": -1,
+          "category": "joint_conflict_context"
         }
       ]
     },
@@ -1058,7 +1112,7 @@
     {
       "title": "Ukraine downs most drones in record Russian attack, hits oil hubs - MSN",
       "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPYjhlQUFiZUtUOFBjX1dTaEpXbUpmc3JhOF9HXzByR0lLbmd4UFRyM3Zqb2lsSFRuLURJSG9PbVp3Tzg3WUNuUnJOM3E4c2hnUnJTY0tHRXptdVR1X29Xc0FlZHpUSWhSXzZSUVhnX1l1WEgyMGlSNkkxRFQ4ZFJlRVU2eWtVU1BfYWJUbUhYb0ljcmFoek9IWXNSN2dVMnZwd3BrdllFWUJlSnAxYzVWRC1nbWtUVjhnRGFrUXJIYnhBRkVLQkN6SVYzWnlqVDY4WWFCQzhtdEFGSS1Yd21nWmRlMFowYUtzWGNxLUREYkdZQkRLbTlDTXNmdw?oc=5",
-      "published": "Sun, 19 Apr 2026 05:05:56 GMT",
+      "published": "Sat, 18 Apr 2026 09:16:42 GMT",
       "source": "\"russia missile attack ukraine -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
       "score": -11,
       "matched_keywords": [
@@ -1149,26 +1203,27 @@
       ]
     },
     {
-      "title": "Ukraine Invasion Day 1459*: Territorial changes since June 2022 - Daily Kos",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOaXYtak12SFBvbWZCbmlCLWJqSGlhYXUybTNmQUY2Sjg0Y1M2MEtXcEYxZ1lFX0tpMWpYbVZOOXdsX2RrdFNOZUFpVGxEMjBaSVVDZHg4X3FPVm1xUS1NREl2RW1ld2lxbzc4NXJvTVZwR2dXaTlfbjAyWkZOTWltMjFuRnRsY0xIcW10S2V4cUdQTjV6R25tcW5lMzdNbXotT3NqdTVtalgzWWU0QV8wbmswWmhDS0dKU2I2b3ZRRHM?oc=5",
-      "published": "Tue, 21 Apr 2026 02:53:58 GMT",
+      "title": "Air defense neutralized Iskander-M and 116 drones during new Russian attack - Online.UA",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQd1ozVjRQNUZfcmwwU2RqX3U4UDZZNDlGM1V2YUo5OWQyZ1hMVlBNbzFHNUROcTl4UkZNWUFJdkF6WUpvaGZ3WjFWcXFfYmQwMDZCUEN0NkFRdEx4OFU3dThFRlBPNy1aUk5XZHRxaVBJTXFsRV93bTNUUEZ5TEEzS2ZEX05PTldmUTVnOU40THNySW9FYWZIT0RfRTFDd1ZIbTNoUzNrOFItbnpWLXc?oc=5",
+      "published": "Tue, 21 Apr 2026 07:01:15 GMT",
       "source": "\"russia missile attack ukraine -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
-      "score": -1,
+      "score": -10,
       "matched_keywords": [
         {
-          "keyword": "ukraine",
-          "value": -1,
-          "category": "ukraine_context"
-        }
-      ]
-    },
-    {
-      "title": "Russian air defenses are collapsing. Now Ukrainian warplanes can hit harder. - Euromaidan Press",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9LMF8xVjd1M2pvUlMxWExQczUwYTJIcWJJQU96R3QtS2twRlJLU3VEZkNPNWI3QjdxV1VRX3lxV1JSQmZOZDJweDQwRER1THBSekJ1bzVFZjN5REJOQWt0MDBGVkdINW83SnV6ZQ?oc=5",
-      "published": "Wed, 15 Apr 2026 20:12:35 GMT",
-      "source": "\"russia missile attack ukraine -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
-      "score": -4,
-      "matched_keywords": [
+          "keyword": "drone",
+          "value": -2,
+          "category": "escalation"
+        },
+        {
+          "keyword": "drones",
+          "value": -2,
+          "category": "escalation"
+        },
+        {
+          "keyword": "attack",
+          "value": -3,
+          "category": "escalation"
+        },
         {
           "keyword": "russia",
           "value": -1,
@@ -1178,11 +1233,6 @@
           "keyword": "russian",
           "value": -1,
           "category": "russia_context"
-        },
-        {
-          "keyword": "ukrainian",
-          "value": -1,
-          "category": "ukraine_context"
         },
         {
           "keyword": "air defense",
@@ -1207,6 +1257,93 @@
           "keyword": "ukraine",
           "value": -1,
           "category": "ukraine_context"
+        }
+      ]
+    },
+    {
+      "title": "Russia attacked Ukraine with a ballistic Iskander, 147 out of 172 drones neutralized - Українські Національні Новини (УНН)",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdE9qcW51eUZpcEg5bEs1NGRtRnFuUmFOcVp0cmYyU21nUmRBdThBa3ZFZ2NVZGRkWEVHdkNSeV9RWEdfa0RrSmNNc2FpS0tWNXpqa0VuZXd2cXR3clZjTmJlWWVKZG04ay1Ua0JXdDdibUxjRVNCRjJTeHYtaDI4bFB6Z2dSQXVJQmUwd0gwbEdDZTRadTJmbmNnYVVpZzA4MEpNSWZJNmxGSVpmbjBPbNIBrwFBVV95cUxNc1AwZnRvRkxEeXZrSFlVblBtR2U5Yml2RXVHYUxaSlctZmItRE9hczRqd0U4UGxwT0Zocm1YSk15clBWQVRfcUtxU1YzTy1hNGFXbENsdDRJandOSGdiU3ZHai00LVVSTGNXNElHLU9sby1XN2FuNWNnUFpYTUFqbGY2eHRMM3FUX3lBNHZLTWFTbXc5RjB3WmFmSjhkWC1fYi03bG1lS0hfNGR3anFv?oc=5",
+      "published": "Fri, 17 Apr 2026 05:23:30 GMT",
+      "source": "\"russia missile attack ukraine -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
+      "score": -10,
+      "matched_keywords": [
+        {
+          "keyword": "drone",
+          "value": -2,
+          "category": "escalation"
+        },
+        {
+          "keyword": "drones",
+          "value": -2,
+          "category": "escalation"
+        },
+        {
+          "keyword": "attack",
+          "value": -3,
+          "category": "escalation"
+        },
+        {
+          "keyword": "russia",
+          "value": -1,
+          "category": "russia_context"
+        },
+        {
+          "keyword": "ukraine",
+          "value": -1,
+          "category": "ukraine_context"
+        },
+        {
+          "keyword": "russia+ukraine",
+          "value": -1,
+          "category": "joint_conflict_context"
+        }
+      ]
+    },
+    {
+      "title": "Russian overnight attack hits Dnipropetrovsk, Odesa and Chernihiv oblasts, damaging infrastructure and nature reserve - Hromadske",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQNHlxOHpSa18wLWhQZ1NFWlpmemI2WnA5WFR5bjdRbGlubjktam1VNGw4VS1NbXBfRkFNbUNiTFZDNm1FS3NxbjBrcWdWdnR0N2FxazhQVFc3NUdpay1OWmhlRWJlTU1xZnFZcTNmRzJ2Y2pLd2pwWUVPVG5PT2hROC1vdFFaU2xxZVBFUWFSVS0tdVlTODFXaExUZVJpamI1MzBKRW5taFNXN0VnMmVtWU16V1FvYVQ0cE85YUtKaVFSbHJ3THJ3RE5JR0pwTXpTUUhzcUJXVUZvdGtqLTItY1pYYlMzQ2pmQUQ0Z9IB8gFBVV95cUxOTl9VV0dVU21LZkZVSkw1a3RPSmRkOHV2cURtdU9BeWw3ME1YcGo2QXZrWC0zYlZ4NTh5dzdqS0ZLQVJOYkZ2THhnU0dFRkhpb0xVLXV2bnFlRFFES09UWEtKODB6QlpueXJfcEg3Y0wxSDNIUHBvWTdkalVmX04xSUZuM1A2bDdzTklnYkhweWtQa0dJdl95ckF6OUUxSEFTbjlZWGk2MUROY05YT1hUR1c3d3k0bEV3cjM2Zkp6SG1vbFlpZzZlNW5zZXBLQWhjUE45YTE1WDlOSmpZOWVVdXQyQVZfVTRGTkQtZU41TnY2UQ?oc=5",
+      "published": "Fri, 17 Apr 2026 07:42:00 GMT",
+      "source": "\"russia missile attack ukraine -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
+      "score": -7,
+      "matched_keywords": [
+        {
+          "keyword": "attack",
+          "value": -3,
+          "category": "escalation"
+        },
+        {
+          "keyword": "russia",
+          "value": -1,
+          "category": "russia_context"
+        },
+        {
+          "keyword": "russian",
+          "value": -1,
+          "category": "russia_context"
+        },
+        {
+          "keyword": "odesa",
+          "value": -1,
+          "category": "ukraine_context"
+        },
+        {
+          "keyword": "dnipro",
+          "value": -1,
+          "category": "ukraine_context"
+        }
+      ]
+    },
+    {
+      "title": "Russia to deploy 20,000 reserve troops for Donbas push - MSN",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPR0Q4Z2FBZ29EZVBhSXhxcXU1bDU4LWpZR3FhbUhxWm1SV1huM2NhTngxYlFaRjFXSmN0T2s4cjQyRWRUeFFqc2t5NS1SaVlFdU1DU0E2YjBJaTVpUW5pOE1XWVlYWHVwNEg0bmw0SVFJV2VJYldLRGpfN3FUd1hQQlFFWHM3YS02MzJnc0s2Q3lPSG9LbUx6dEVNb2pnXzctYXBLT1BvVUhTRWpDVE5UcnlnQTB2ZHNtQlZHV1FDUnpiMnNDWmhiWlg3ZWNhd2RRZWxNNkZUOE9uelAyT2V6MEt0NkpHUDBQdE9iSA?oc=5",
+      "published": "Thu, 16 Apr 2026 23:43:23 GMT",
+      "source": "\"russia missile attack ukraine -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
+      "score": -1,
+      "matched_keywords": [
+        {
+          "keyword": "russia",
+          "value": -1,
+          "category": "russia_context"
         }
       ]
     },
@@ -1245,9 +1382,9 @@
       ]
     },
     {
-      "title": "CNA938 Rewind - Russia-Ukraine peace talks restart in Turkiye amid latest strikes - CNA",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNUjZzelg3S25OUzF6TlUzMFdKVlROYXBuaVVmMW04dWJQdklvUnRMbm80X2lOVUVZblFBRHFBQmc4Mk82ZnpGU29ZNzF2Z3dyeHZDSUw5V2MwTWVYaUhHQ3ptd3NJTk8yZVpkTVRsZW5OeUZ6NlZqUFBFZ1habjcwa2xkeDE3cm9XbmJ0OTJ4UHZRc0czYXlBRzQ0Rjc5S0RyaVpGT1ZFYWNROFpXMWhhazVSNTlPWkxjbENTZDdNNHRSNnpkdEowZ3dhRTg4Zw?oc=5",
-      "published": "Thu, 16 Apr 2026 04:12:47 GMT",
+      "title": "Russia-Ukraine peace talks restart in Turkiye amid latest strikes - CNA",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPVUkybWs3NTFsNVNzcXFlbmhFYW1wYlpBR1d0Mncxc1pfdjVsQWI2eTFGcmxyU20yOVV0NUpid042SGx2WVBOaWpibm5kOXk5NGRCRksyXzZ3akdfbDJPc2hpSEpybnBOeFV1VEpkVlNhWldhbFlROElnT1hPTFdzbTJ4TTk3RHYyQ29oZ1l1SmljcmdnZ1NDNnJIOGZzNS1ubzd0TnMtSkZWaDhyREJkQWdUMjd4TVFwbFVUa2RsWTZmcFFYaktScENqeldVbEk?oc=5",
+      "published": "Thu, 16 Apr 2026 20:06:50 GMT",
       "source": "\"ceasefire talks ukraine russia -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
       "score": -4,
       "matched_keywords": [
@@ -1346,30 +1483,6 @@
       ]
     },
     {
-      "title": "Russia has taken 1,700 square kilometres of Ukraine this year, top general says - sightmagazine.com.au",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSGtWdkFfU09DNWk2QnFMNHMtNG9Ic3VXeUU1UG5PQWk2em03VlJTRGZTYmtjUWdVNHVpdVM5QVZabG83Y1BfV0NFSU1aYUdRV0hyaC1GRU5HMm1vMEJIem1TNlhBQVpuRVJWU2lOTkJMTVcyR2JuLVpITmdtTnlsOEJWNnEzNkdSNFFwaTRyd2Q5V0h5TGdMM2Zfa1cxOUZMRFFieHYtaklfck43clFpaFpB?oc=5",
-      "published": "Tue, 21 Apr 2026 23:21:42 GMT",
-      "source": "\"donbas ukraine russia -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
-      "score": -3,
-      "matched_keywords": [
-        {
-          "keyword": "russia",
-          "value": -1,
-          "category": "russia_context"
-        },
-        {
-          "keyword": "ukraine",
-          "value": -1,
-          "category": "ukraine_context"
-        },
-        {
-          "keyword": "russia+ukraine",
-          "value": -1,
-          "category": "joint_conflict_context"
-        }
-      ]
-    },
-    {
       "title": "Forty years after the Chernobyl disaster, its legacy still resonates - The Conversation",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSU5wWEZsNmhDaDA0Ym11SjJLcDM0RnpNQWFTWnJ4YWU5SzZDRUpVcWR3UnpwTDh5X2RMcHh5cVZuNTJzRTJzYmF1VHNVVlRZYjNiSkstbTZONEVMWjJhVThoTDBWQlkyeHJZVVRlZ0F0YXRzUkVXdDVyeFVqMFVDaTcwM0FiTFlERFRnNXFHUE9pNVFNcm52Mmd4R2dweFNvWnNCUQ?oc=5",
       "published": "Tue, 21 Apr 2026 15:58:20 GMT",
@@ -1384,30 +1497,6 @@
       "source": "\"donbas ukraine russia -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
       "score": 0,
       "matched_keywords": []
-    },
-    {
-      "title": "Russia has taken 1,700 sq km of Ukraine in 2026, top general says - The Straits Times",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNc1p4ZDhDMXlNVUhTX3IxTEUyV05vc1NrR2JKY0dWTHNsNVkzRWYyNGFpLW1WeHFTRDRZOVZYSkxkWDBlekIxN3RyeF9vUm9Ld1NGOWpJdzJkQUZDdUZYRm1KMU9acnlvRVhBWURpNmp4MkxHZWVKc01GcnB2d3hDZ2VaTzRnSk9WemYtVFdTM0w2b0tNZ3pDbU9ObHdvNGFLemg4WDZjU1dTTmpJaS1XQw?oc=5",
-      "published": "Tue, 21 Apr 2026 08:05:20 GMT",
-      "source": "\"donbas ukraine russia -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
-      "score": -3,
-      "matched_keywords": [
-        {
-          "keyword": "russia",
-          "value": -1,
-          "category": "russia_context"
-        },
-        {
-          "keyword": "ukraine",
-          "value": -1,
-          "category": "ukraine_context"
-        },
-        {
-          "keyword": "russia+ukraine",
-          "value": -1,
-          "category": "joint_conflict_context"
-        }
-      ]
     },
     {
       "title": "Putin has chosen a new deadline for the capture of Donbas - Online.UA",
@@ -1471,6 +1560,30 @@
       "matched_keywords": []
     },
     {
+      "title": "Russia intends to seize not only Donbas, but all of Ukraine, - Syrskyi - Цензор.НЕТ",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRjhTbEM1ckExZTJsSy1KbXVNZFJRTEN4RVZqY0ZIbFFTM3d0X1ZnZzVpRHM4QlB6NEU0Xy10cV80WFRUVm90S1Y2eVhiaDNCVE1zZTVMY1ZfOEhvRlRwNnpaVWRFS2cxemNrbVpJcmRZaHY1UWlmT3dRT09mRHFfVnY2M3BmN2l3dXdDclVYRHdTdlV0RTJzWDd6bkREeWI2OVFMWTFHZnFZV1U?oc=5",
+      "published": "Wed, 22 Apr 2026 05:37:00 GMT",
+      "source": "\"donbas ukraine russia -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
+      "score": -3,
+      "matched_keywords": [
+        {
+          "keyword": "russia",
+          "value": -1,
+          "category": "russia_context"
+        },
+        {
+          "keyword": "ukraine",
+          "value": -1,
+          "category": "ukraine_context"
+        },
+        {
+          "keyword": "russia+ukraine",
+          "value": -1,
+          "category": "joint_conflict_context"
+        }
+      ]
+    },
+    {
       "title": "Moscow, Kyiv exchange aerial strikes - Northwest Arkansas Democrat-Gazette",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNLXVvUzUzU0FWLUd0bFE5VHZfemtUVnRvcHNJVHk3OHRSTWx0VE9uRXZxVlVCQkhuZzFiSFBkM2xieFNMSlBwaTM2b25ZYjlaeGc3MmJjaG1yR0hWVWc4QW1FZkZPZ2FzMTVOWk9jWUY1QV9lSkh6QTlxMVo1dmNNc1NTQ2VSZw?oc=5",
       "published": "Mon, 20 Apr 2026 09:00:00 GMT",
@@ -1496,79 +1609,6 @@
           "keyword": "kyiv",
           "value": -1,
           "category": "ukraine_context"
-        }
-      ]
-    },
-    {
-      "title": "Ukraine strikes four Russian oil sites as Moscow launches drone wave - MSN",
-      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQdGgxdWJzeE9uZWpmVmxybVRLNjdZeHFiNXZ6Z2FqbmlYWmtFeGJkTW5PUWp5SDFWaU1STThSV2tRV0tucmt5ZTdUVmJ2MWRvbTNKY09scUJkYTRsMzBGVlZnRzhabTVWaEdReFViRERQTFNZNWtlUjJSR1VKbGFySFllZnFLRUpxamxTUHJlRUJ4RmRKT1pkbUkxZFVORUdvX2QxNzRlTHNmTGh5aWp1WFl4blBfOC1ua0p6QldMMjlaRi1QUmlmbW5lbmtoR3VtVllPVGphVVp6cVFlQVA4cGpXanE1T3F4RERaU0dNMlRGd21MS0wzTmprQ0xPY1Jr?oc=5",
-      "published": "Sat, 18 Apr 2026 18:06:33 GMT",
-      "source": "\"kyiv moscow war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
-      "score": -13,
-      "matched_keywords": [
-        {
-          "keyword": "drone",
-          "value": -2,
-          "category": "escalation"
-        },
-        {
-          "keyword": "strike",
-          "value": -3,
-          "category": "escalation"
-        },
-        {
-          "keyword": "strikes",
-          "value": -3,
-          "category": "escalation"
-        },
-        {
-          "keyword": "russia",
-          "value": -1,
-          "category": "russia_context"
-        },
-        {
-          "keyword": "russian",
-          "value": -1,
-          "category": "russia_context"
-        },
-        {
-          "keyword": "moscow",
-          "value": -1,
-          "category": "russia_context"
-        },
-        {
-          "keyword": "ukraine",
-          "value": -1,
-          "category": "ukraine_context"
-        },
-        {
-          "keyword": "russia+ukraine",
-          "value": -1,
-          "category": "joint_conflict_context"
-        }
-      ]
-    },
-    {
-      "title": "Russia has taken 1,700 sq km of Ukraine in 2026, top general says - The Straits Times",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNc1p4ZDhDMXlNVUhTX3IxTEUyV05vc1NrR2JKY0dWTHNsNVkzRWYyNGFpLW1WeHFTRDRZOVZYSkxkWDBlekIxN3RyeF9vUm9Ld1NGOWpJdzJkQUZDdUZYRm1KMU9acnlvRVhBWURpNmp4MkxHZWVKc01GcnB2d3hDZ2VaTzRnSk9WemYtVFdTM0w2b0tNZ3pDbU9ObHdvNGFLemg4WDZjU1dTTmpJaS1XQw?oc=5",
-      "published": "Tue, 21 Apr 2026 08:05:20 GMT",
-      "source": "\"kyiv moscow war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News",
-      "score": -3,
-      "matched_keywords": [
-        {
-          "keyword": "russia",
-          "value": -1,
-          "category": "russia_context"
-        },
-        {
-          "keyword": "ukraine",
-          "value": -1,
-          "category": "ukraine_context"
-        },
-        {
-          "keyword": "russia+ukraine",
-          "value": -1,
-          "category": "joint_conflict_context"
         }
       ]
     }
