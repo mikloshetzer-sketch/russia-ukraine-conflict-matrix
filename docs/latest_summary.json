@@ -1,76 +1,30 @@
 {
-  "report_date": "2026-07-09",
-  "created_at": "2026-07-09T08:57:36.942698",
-  "article_count": 113,
-  "total_score": -713,
-  "conflict_index": -6.31,
+  "report_date": "2026-07-10",
+  "created_at": "2026-07-10T08:53:47.555722",
+  "article_count": 103,
+  "total_score": -498,
+  "conflict_index": -4.83,
   "assessment": "erős eszkaláció",
   "assessment_raw": "strong escalation",
-  "trajectory": "romló",
+  "trajectory": "javuló",
   "outlook": "fokozott eszkalációs kockázat",
-  "commentary": "A mai összkép alapján a konfliktus médiás értékelése: erős eszkaláció. A hírek súlypontját továbbra is a katonai nyomás, a csapásmérések és a biztonsági kockázatok alakítják. A rövid távú pálya inkább romló irányba mutat. A külső fronthelyzeti adatok ezt részben operatív oldalról is alátámasztják. Az ukrán operatív források alapján a drón- és csapásjellegű aktivitás továbbra is meghatározó maradt.",
+  "commentary": "A mai összkép alapján a konfliktus médiás értékelése: erős eszkaláció. A hírek súlypontját továbbra is a katonai nyomás, a csapásmérések és a biztonsági kockázatok alakítják. A rövid távú pálya inkább enyhébb vagy javuló irányt jelez. A külső fronthelyzeti adatok ezt részben operatív oldalról is alátámasztják. Az ukrán operatív források alapján a drón- és csapásjellegű aktivitás továbbra is meghatározó maradt.",
   "top_escalation_signals": [
     {
-      "title": "Deadly, large-scale Russian attack shakes Kyiv as Ukrainian strikes batter Moscow's oil sector - CBC",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQUkpfek8zbExWZ2wzQW5wS3g5dmRJb1d2dW43cDZvdExlOFhIc0NLbk90bk1TMndSQ1NnT000SWh6TjZJRkNsMlNUc2N5R3lpaXpVUkF1NjdSbW12dVNScUxPOFhDX3BiUFNTTDFNOTlnTEZJaVFwc1BndW1ZdjdQWmhB?oc=5",
-      "score": -17,
+      "title": "Russia attacks Ukraine with five ballistic missiles and 169 drones, air defence downs 139 UAVs - Українська правда",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBoYzRIYVlJYk5QZDdnNU1mNDdpR0l5Xy1pbWVmYzl4cFJmVGp3OG5WWjVocExubl9kSzZUeFdUbEljTGNJY3FHeFBoTGlXTzFvb21hcVJhWWppWU9UbEczbEgtVHTSAXBBVV95cUxQWGhUY0VSMVBHNlNXY0M4NlNvRm5DN2ZpX2VsSHNrVHpLRjA4cnFMcnZaNndjMUU5TGVFR0tZZWZ1cDBHQmJyNVFGVjdDN1pQUUtEdUxvQjVfb2piZVNlc082RlFUdjhzZ01qemo1SFdN?oc=5",
+      "score": -19,
       "source": "\"russia missile attack ukraine -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
     },
     {
-      "title": "Deadly, large-scale Russian attack shakes Kyiv as Ukrainian strikes batter Moscow's oil sector - CBC",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQUkpfek8zbExWZ2wzQW5wS3g5dmRJb1d2dW43cDZvdExlOFhIc0NLbk90bk1TMndSQ1NnT000SWh6TjZJRkNsMlNUc2N5R3lpaXpVUkF1NjdSbW12dVNScUxPOFhDX3BiUFNTTDFNOTlnTEZJaVFwc1BndW1ZdjdQWmhB?oc=5",
-      "score": -17,
-      "source": "\"kyiv moscow war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
-    },
-    {
-      "title": "Russians kill at least 17 Ukrainian in large-scale missile and drone strikes on Kyiv (updating) - Новини про права людини",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQTk0YkFEb1RsNnB0dWZnXzJZd2IwTndiZjV2U1FTSEFGZFpJSTNUUDJSLWJuRGZmdkVBRWg5NkZrbFF2OF9tbEFFWTNHekM3aFRVb1AtUzNsRV9sVWQtYXJVZzBWTVFXZWJLcGZ4dldpbHhXaWROeEVUdFJDQWFGSGJOVndIZ1FuZ01OclFmNG5SSjhMVTVSRnF6d0tlRHN3ckFuOTZJLVRicDFlS1AyMTVoalRUa3hKb2RRQU5yU2M1QQ?oc=5",
-      "score": -15,
+      "title": "Russia attacks Ukraine with two missiles and nearly 100 drones: air defence downs 72 UAVs - Українська правда",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5fdTItRGNtay1PT1A5NHc0anNzeUJVYTl0UEJKZGtsM195SlY1QUl1WGhCMjAtTXl4M1NxbWxXUFhDc0EzZEk2YktGVnhwc05La2ZpLWVtcXllb0xiLXFKanJGQ2VPR2ZDVWx0aXRjVE3SAXBBVV95cUxOX3UyLURjbWstT09QOTR3NGpzc3lCVWE5dFBCSmRrbDNfeUpWNUFJdVhoQjIwLU15eDNTcW1sV1BYQ3NBM2RJNmJLRlZ4cHNOS2tmaS1lbXF5ZW9MYi1xSmpyRkNlT0dmQ1VsdGl0Y1RN?oc=5",
+      "score": -19,
       "source": "\"russia missile attack ukraine -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
     },
     {
-      "title": "Russians kill at least 17 Ukrainian in large-scale missile and drone strikes on Kyiv (updating) - Новини про права людини",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQTk0YkFEb1RsNnB0dWZnXzJZd2IwTndiZjV2U1FTSEFGZFpJSTNUUDJSLWJuRGZmdkVBRWg5NkZrbFF2OF9tbEFFWTNHekM3aFRVb1AtUzNsRV9sVWQtYXJVZzBWTVFXZWJLcGZ4dldpbHhXaWROeEVUdFJDQWFGSGJOVndIZ1FuZ01OclFmNG5SSjhMVTVSRnF6d0tlRHN3ckFuOTZJLVRicDFlS1AyMTVoalRUa3hKb2RRQU5yU2M1QQ?oc=5",
-      "score": -15,
-      "source": "\"kyiv moscow war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
-    }
-  ],
-  "top_diplomatic_signals": [
-    {
-      "title": "Ukraine rejects local ceasefire for handover of soldiers’ bodies - Free Malaysia Today",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcW03TmhxNi10VUQ4V3NSb2FsYUcyd3JULTVZMGdNYnNZYlNQQThfekE3b2NBOG1YdkdkaUZ6dXA3YnNnQ2tYME96ejJKT2lJUnBCcTczVzE5MmFENUlrb3hKamFjS3FZRFpjOGp3YkdkN1NEUW5TcTFNd2JNYnlnOGE3SEZRYi1DRFlFWW9zTWY2Nm43WmlaNGllV3NJTDg1bm1MNVJRRE5LTVpTTFRPMXdPemlMeFF6VHVqcUFFYzc?oc=5",
-      "score": 3,
-      "source": "\"ceasefire talks ukraine russia -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
-    },
-    {
-      "title": "Norway urges China to help bring Russia to Ukraine peace talks - The Straits Times",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSFpJZmRSNjRLcmdTWl9VTVptNk1QODNvOXhDN2owUWJJYkNGLWxEZ1NnS0VRcnVIclI2dnhrWDVJazhLN0JWSlB1dzFBRV9WejFjOFp6eWp6clVGRmpZeDlHYmM0dGlOT1g2R3NsOWZQczl3dTMzUTVqamhLdWtGaEIzeldFWFNmaEtSSmc0VWt4ZF9LU3h6V1F3dk1CcndGSXAyOU9MM1hnNHBm?oc=5",
-      "score": 2,
-      "source": "\"ceasefire talks ukraine russia -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
-    },
-    {
-      "title": "Russia Says Ukraine Rejects Six-Hour Kostiantynivka Ceasefire for Body Handover: 10 Sources (Western Alternative: 4) - NewsCord",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOSFN0WUMtQ0JfTFROT0N2RGlCWVZEdjJaeGxfMjRGb1NKekNMajhWaTFSa1dFbV9hbVNzNDd4LTRMRlNxdnVKU01JdXRwakZuYUlCU0ZzUWZaMWg5bks0anhnMG5GZTI5X2U2c0xFSlBQY1J5b0NsdDd6VENOaEJHSXN3VE5YY29zTVNPUTY3bVFzRUZlRVVRek0tTWE5TEM0Y1NXWjk1S2kzS1pRR3JYVTk3cUtlV1FITXQ3TW1ucW9vQkpPNms3bE41bS0wT2NqWjEzWmNPMzBockNnaVhEcXRpY3FwX1BR?oc=5",
-      "score": 1,
-      "source": "\"ceasefire talks ukraine russia -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
-    },
-    {
-      "title": "Russia says Ukraine rejects local ceasefire in dispute over Kostiantynivka - Dunya News",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWVdIYlN2Y0NpdlM4WWVqSVB4QmpWSkJvQklqU3lzRnpOX3VxTDlvaXNuRVZCY1dMQVVlVnpQeko4WWk1ck9SQzBoM0ZlVkFwamtaeE9hMndMYUVFalJ2RVFETkVZemtId044bVNITmtxOWI3RkZWLW4yckFOZjg3ZTR0MU9DOGUzUUZFQV9yTnBZU3k0QVBCcVlBMUdRMWtaUmJ0ZjdHbzVrZUnSAVZBVV95cUxOXy04SElOdTFfRzdQT1I2T2N1WHNMY3BvdXowZUtRbmVrRjlfZHkzTFFsYUYzZGlfRzRNR2VHQzRQdlBET29FRWRnMlVFazRQWnE5bGxHUQ?oc=5",
-      "score": 1,
-      "source": "\"ceasefire talks ukraine russia -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
-    }
-  ],
-  "key_headlines": [
-    {
-      "title": "Deadly, large-scale Russian attack shakes Kyiv as Ukrainian strikes batter Moscow's oil sector - CBC",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQUkpfek8zbExWZ2wzQW5wS3g5dmRJb1d2dW43cDZvdExlOFhIc0NLbk90bk1TMndSQ1NnT000SWh6TjZJRkNsMlNUc2N5R3lpaXpVUkF1NjdSbW12dVNScUxPOFhDX3BiUFNTTDFNOTlnTEZJaVFwc1BndW1ZdjdQWmhB?oc=5",
-      "score": -17,
-      "source": "\"russia missile attack ukraine -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
-    },
-    {
-      "title": "Russians kill at least 17 Ukrainian in large-scale missile and drone strikes on Kyiv (updating) - Новини про права людини",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQTk0YkFEb1RsNnB0dWZnXzJZd2IwTndiZjV2U1FTSEFGZFpJSTNUUDJSLWJuRGZmdkVBRWg5NkZrbFF2OF9tbEFFWTNHekM3aFRVb1AtUzNsRV9sVWQtYXJVZzBWTVFXZWJLcGZ4dldpbHhXaWROeEVUdFJDQWFGSGJOVndIZ1FuZ01OclFmNG5SSjhMVTVSRnF6d0tlRHN3ckFuOTZJLVRicDFlS1AyMTVoalRUa3hKb2RRQU5yU2M1QQ?oc=5",
+      "title": "Trump: ‘We will grant Kyiv a licence to produce Patriot missiles.’ Russian missiles strike the capital and other cities: 6 dead - Il Sole 24 ORE",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQlFOSU1XYjFfVmhIMFJPcWxfSUZ5b2N0Z01rUUdMdURNOFptdWJ1OWFXTXRrS0FGb3hTbmNHWjNuZF82aHNZd0tYanEtNEtpNGRFbTJWVlF0Z0pQaEg1Sk5lSHFoV01mdTNsLVVoVGJMaFRYTnFXTVlTV3lRRDl5OTc1WE11eTF2b0tvdFAtc0ltSnBZOGc0TXgydUVXamxsY1dGRTAxSlotNWVHRGhBNmFkVQ?oc=5",
       "score": -15,
       "source": "\"russia missile attack ukraine -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
     },
@@ -79,33 +33,79 @@
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQlFOSU1XYjFfVmhIMFJPcWxfSUZ5b2N0Z01rUUdMdURNOFptdWJ1OWFXTXRrS0FGb3hTbmNHWjNuZF82aHNZd0tYanEtNEtpNGRFbTJWVlF0Z0pQaEg1Sk5lSHFoV01mdTNsLVVoVGJMaFRYTnFXTVlTV3lRRDl5OTc1WE11eTF2b0tvdFAtc0ltSnBZOGc0TXgydUVXamxsY1dGRTAxSlotNWVHRGhBNmFkVQ?oc=5",
       "score": -15,
       "source": "\"kyiv moscow war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
-    },
+    }
+  ],
+  "top_diplomatic_signals": [
     {
-      "title": "A major Russian attack kills 20 in Kyiv as Ukrainian strikes batter Moscow's oil sector - Dayton Daily News",
-      "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQbzk0UTA1dWdueTZ5OHpsbjBCWmF0QzVOOGlUREZid2ZEeVlMRGRaNHpiSVd4a1MzeWo1Z0M2dU5RWnRlby1ZUHd5Z3FSc0ItNjk2d1JFSFlCWWdoN21UWXlCem4wdXVQT0JfendjQ3l3dFltX19fc1p1YVp1Z2h4UHNDVGxOVm9KZFFITURGd3ktNHFFNFRuZnA3TVo3Q0w4amRzNTJqU1R6MGpCXzBsVi15UGtPN2dGczVHLUZGU0VkNEZ2c2pMMW5NWXR5ZnlXR0VCQldzWUVkOXBTOTRxeGRUM0hGYkQ3b0NKazNOWGpZeWNud0xac1BBUXYybk8waGdUUk5RWW5MNTFHNUE?oc=5",
-      "score": -14,
+      "title": "Moving Past ‘Spirit of Anchorage’ Could Spur More Realistic Negotiations - The Jamestown Foundation",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQYWtCVl9tV05ETW5YYlpIRjB1U05OWU04dERQVmxMQ1pXb0tGbUhuVk5kZ1BJSnFvOHRHUnFJOGJtZlg5NDJUSnk2b3kzemh5OTJWMTROMW93ZHBXRTVvWVB6Sko2c1JGZUhDekhnWmhiQTNWcUhqbVhTY2QwNXIzLVJLMW5ldVBpMWhPZlpkcDFpY0tkclBabg?oc=5",
+      "score": 6,
       "source": "\"russia ukraine war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
     },
     {
-      "title": "Russian attack kills 21 in Kyiv as Ukrainian strikes disrupt Moscow’s oil sector - Telegraph and Argus",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUUVHWEw2ZkJLSXNSU21OSGp3S0tmTEhyVm9uWXp2eXh1UHlycDB5d2dqNzBCUEduRkJhMXdJSDNWa3dCMHVSWU1CVHZWdmpXUzRNV1lGMW44Q01Kd3FwNGVVM3Zqc2psS3AwT1p3aWZ1bDVxeWhIZW1BQ2M4REtHSmJfXzZxMVJoTDA4S0VlQkZObkVOWm5MSmpHbVlOY2xoQ3hpWGhRb3M1MlVYQVVWUUxodW5TWWFxRTVKUnFDMEc1WlJrajUwWlNhVmZhbkpyVXc?oc=5",
+      "title": "Moving Past ‘Spirit of Anchorage’ Could Spur More Realistic Negotiations - The Jamestown Foundation",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQYWtCVl9tV05ETW5YYlpIRjB1U05OWU04dERQVmxMQ1pXb0tGbUhuVk5kZ1BJSnFvOHRHUnFJOGJtZlg5NDJUSnk2b3kzemh5OTJWMTROMW93ZHBXRTVvWVB6Sko2c1JGZUhDekhnWmhiQTNWcUhqbVhTY2QwNXIzLVJLMW5ldVBpMWhPZlpkcDFpY0tkclBabg?oc=5",
+      "score": 6,
+      "source": "\"ceasefire talks ukraine russia -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
+    },
+    {
+      "title": "Moving Past ‘Spirit of Anchorage’ Could Spur More Realistic Negotiations - Substack",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB2VEtQOWwtVVdhRkVSRzBoSS1nZy0wSEItNHFUWWEwb1FqS0VaSUoyaFRvUmtSUGg5YmVqdlFsYmNPNUtwc2ZtSF9GWk1pelNhc0hKa1E3QWtMeVJncEZaZFBlWmp0MHpnZUY2eEtRM0t4XzREMkN0bzRR?oc=5",
+      "score": 6,
+      "source": "\"donbas ukraine russia -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
+    },
+    {
+      "title": "Is peace a pipe dream? Putin likely to escalate Ukraine war, despite Trump's truce push - Deccan Herald",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQZEptNkx1TDZ3R2RuUWJ2U3B1NEtSQ1VzdGxYT2tobEwyajhSTkszQVBLNEFTQWFTX3BsbXBwMjR5V3ZHQm9kdlE4OEJfLS1QMENJZ2Q1OXBJcGMxeDlHOUhLUEdHN21hcmtiOFVzdDVJdmtPQXV0NDFpNXVYeDlkU2Ywc21LbkY2eWJWem9mWDVMcVdhQTlnc1pYdUxkYjlWcXU1RzJLdmNSdlhmY3VUZk9kOFhncU9FNDZRaEZHV2FfeDllREl2SThsYW9jbnE5TnBMakZSa2RkVVFyQU4wR0VR?oc=5",
+      "score": 5,
+      "source": "\"russia ukraine war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
+    }
+  ],
+  "key_headlines": [
+    {
+      "title": "Russia attacks Ukraine with five ballistic missiles and 169 drones, air defence downs 139 UAVs - Українська правда",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBoYzRIYVlJYk5QZDdnNU1mNDdpR0l5Xy1pbWVmYzl4cFJmVGp3OG5WWjVocExubl9kSzZUeFdUbEljTGNJY3FHeFBoTGlXTzFvb21hcVJhWWppWU9UbEczbEgtVHTSAXBBVV95cUxQWGhUY0VSMVBHNlNXY0M4NlNvRm5DN2ZpX2VsSHNrVHpLRjA4cnFMcnZaNndjMUU5TGVFR0tZZWZ1cDBHQmJyNVFGVjdDN1pQUUtEdUxvQjVfb2piZVNlc082RlFUdjhzZ01qemo1SFdN?oc=5",
+      "score": -19,
+      "source": "\"russia missile attack ukraine -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
+    },
+    {
+      "title": "Russia attacks Ukraine with two missiles and nearly 100 drones: air defence downs 72 UAVs - Українська правда",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5fdTItRGNtay1PT1A5NHc0anNzeUJVYTl0UEJKZGtsM195SlY1QUl1WGhCMjAtTXl4M1NxbWxXUFhDc0EzZEk2YktGVnhwc05La2ZpLWVtcXllb0xiLXFKanJGQ2VPR2ZDVWx0aXRjVE3SAXBBVV95cUxOX3UyLURjbWstT09QOTR3NGpzc3lCVWE5dFBCSmRrbDNfeUpWNUFJdVhoQjIwLU15eDNTcW1sV1BYQ3NBM2RJNmJLRlZ4cHNOS2tmaS1lbXF5ZW9MYi1xSmpyRkNlT0dmQ1VsdGl0Y1RN?oc=5",
+      "score": -19,
+      "source": "\"russia missile attack ukraine -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
+    },
+    {
+      "title": "Trump: ‘We will grant Kyiv a licence to produce Patriot missiles.’ Russian missiles strike the capital and other cities: 6 dead - Il Sole 24 ORE",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQlFOSU1XYjFfVmhIMFJPcWxfSUZ5b2N0Z01rUUdMdURNOFptdWJ1OWFXTXRrS0FGb3hTbmNHWjNuZF82aHNZd0tYanEtNEtpNGRFbTJWVlF0Z0pQaEg1Sk5lSHFoV01mdTNsLVVoVGJMaFRYTnFXTVlTV3lRRDl5OTc1WE11eTF2b0tvdFAtc0ltSnBZOGc0TXgydUVXamxsY1dGRTAxSlotNWVHRGhBNmFkVQ?oc=5",
+      "score": -15,
+      "source": "\"russia missile attack ukraine -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
+    },
+    {
+      "title": "Russian attack kills 21 in Kyiv as Ukrainian strikes disrupt Moscow’s oil sector - MSN",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQ2lNWkY4QUJHTUpfUGc5cmw0THhmR2tLcDBnUGNxdmgtQWp3NlB2ZXNTWXpodlBkZVV3dzZRaEhWYkNpLTBGR1E3OTdaX1RtaUgyVkFwUWNCeFdieFU2RFBTNDJVX1M4cHoybXhYX2xrclVXdHhkTDRIbENBZThzQ1NQOXBrZnB6dHJ5YlhiYy1PZ2hqYURmbEY3bXZFLVlYTHowSmZxSXFoRkhOWXVVbTFmUllHUE90bTc5Qnk5TUdqVjdSaTNadg?oc=5",
       "score": -14,
       "source": "\"kyiv moscow war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
     },
     {
-      "title": "Russian strikes kill 21 in biggest ever attack on Ukraine capital - daily-sun.com",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNS2FFV3c4dTIwY1RvQW5fSlFGM2lyaFJCUzV2STlCOHFRb3FOVnJ0aHdzcjZieHhRcUhVb3c4SzBlVVlJTEU2OXVKOXRONFJTb21SVHBkRHluLUN1dE85MjBDR3BWSHJOOXNPU2xwZWVaS0JhU3BET3Z4dVhlajJKS0pQNDJZcnhVaHFuYVJONW1MbU82WmVxY0ozQmhaZkNXLVZNNFpB?oc=5",
-      "score": -13,
-      "source": "\"kyiv moscow war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
+      "title": "Ukraine targets Russian energy infrastructure in drone attacks - Crypto Briefing",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRFRHUEpEVnNJT0tlZDJjTU9rdGxwcTVrTTRYQktwXy1lcU9KLTJybFY4S2U4aFRTLVBPMGhVbTZZSXlZaHR6TEVocURXWnptS1FKZ2hlMy1KSzZVMXVGNmFFNXRWb1B0X19EOU82YzdxQXN5ZGFNLUlDNVZNRWk0SXUwbFVQUWoxdEItRVU5TFI0N1VC?oc=5",
+      "score": -12,
+      "source": "\"russia ukraine war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
+    },
+    {
+      "title": "Russian missile and drone attack on Ukraine's capital kills at least 10 - Idaho State Journal",
+      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPOFdzRURkbzN1MG13V1Z5R2ZxcEctSlM2XzZuZVZnRXYxbWtBVjdNekZGZmdhbmFIeUpXY1ZOTUljU2ptd2ZFZGs3OVhLeUxWR2d6UGRmSTFiYW1ya2JSeE1lRGJMXzA2UnQ3UXQ0a1NfR3k3WEk0dXZ6Mml0OGVFbG9xMHFKTUJvZS1FMUpKXzM5UzEyYWxBeEFma0w5NkhYSmktWjBVUEMzV2ZxRU85aVVqakFGd2Q0cURvMURVeWxSeVFYN2lrV2VlT2oxdklrYl9RbURHaE11aFBES0RFbE5Jb0dNWHZQSVUyZWJuRU9YbzNlQmpxdA?oc=5",
+      "score": -12,
+      "source": "\"russia missile attack ukraine -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
     }
   ],
-  "external_operational_summary": "A külső fronthelyzeti becslés szerint az orosz ellenőrzés alatt álló terület nagysága megközelítőleg 116 998,59 km². Napi összevetésben a változás 6,03 km² volt, ami orosz területszerzés irányába mutat. Heti távlatban a változás 20,78 km², ami orosz területszerzés képet jelez. A napi térképi dinamika alapján a legfontosabb előretörési irány Bakhmut térségében jelent meg. A dróntevékenység továbbra is jelentős, az elmúlt hét napban 768 UAV-eseményt rögzítettek.",
-  "external_change_summary": "A változásjelző réteg a 2026-07-07 és 2026-07-08 közötti elmozdulásokat mutatja. Az előretöréshez köthető fő súlypont koordinátája hozzávetőleg 37.9713, 48.78386. Külön veszteségi súlypont nem került azonosításra.",
-  "ua_operational_summary": "Az ukrán operatív források napi mintája alapján a dróntevékenységre utaló említések száma 2, a rakéta- vagy nagy hatótávolságú csapásokra utaló említéseké 0, míg a tüzérségi vagy egyéb csapásjellegű aktivitásra utaló jelzéseké 0 volt. A leggyakrabban előforduló helyszínjelöltek: Huliaipole, Velyka Novosilka, Orikhiv, Kherson, Покровськ. A napi operatív kép főként ezekből a forrásokból rajzolódott ki: ukrainenow, deepstateua, generalstaffzsu.",
+  "external_operational_summary": "A külső fronthelyzeti becslés szerint az orosz ellenőrzés alatt álló terület nagysága megközelítőleg 117 008,42 km². Napi összevetésben a változás 9,82 km² volt, ami orosz területszerzés irányába mutat. Heti távlatban a változás 16,91 km², ami orosz területszerzés képet jelez. A napi térképi dinamika alapján a legfontosabb előretörési irány Avdiivka térségében jelent meg. A dróntevékenység továbbra is jelentős, az elmúlt hét napban 768 UAV-eseményt rögzítettek.",
+  "external_change_summary": "A változásjelző réteg a 2026-07-08 és 2026-07-10 közötti elmozdulásokat mutatja. Az előretöréshez köthető fő súlypont koordinátája hozzávetőleg 37.64121, 48.48158. Külön veszteségi súlypont nem került azonosításra.",
+  "ua_operational_summary": "Az ukrán operatív források napi mintája alapján a dróntevékenységre utaló említések száma 2, a rakéta- vagy nagy hatótávolságú csapásokra utaló említéseké 0, míg a tüzérségi vagy egyéb csapásjellegű aktivitásra utaló jelzéseké 0 volt. A leggyakrabban előforduló helyszínjelöltek: Авдіївка, Роботине, Toretsk, Pokrovsk, Торецьк. A napi operatív kép főként ezekből a forrásokból rajzolódott ki: ukrainenow, deepstateua, generalstaffzsu.",
   "ua_operational_items": [
     {
-      "title": "⚡ ЗБИТО/ПОДАВЛЕНО 72 ЦІЛІ ПРОТИВНИКА ➖ ➖ ➖ ➖ ➖ ➖ ➖ ➖ ➖ ➖ У ніч на 09 липня (з 18:00 08 липня) противник атакував двома б",
-      "link": "https://t.me/GeneralStaffZSU/40937",
+      "title": "⚡️ ЗБИТО/ПОДАВЛЕНО 114 ВОРОЖИХ БПЛА ➖ ➖ ➖ ➖ ➖ ➖ ➖ ➖ ➖ ➖ У ніч на 10 липня (з 18:00 09 липня) противник атакував 137 удар",
+      "link": "https://t.me/GeneralStaffZSU/40972",
       "source": "generalstaffzsu",
       "score": 2
     },
@@ -116,21 +116,21 @@
       "score": 2
     },
     {
-      "title": "Україна заявила Греції, що й надалі завдаватиме ударів по російських кораблях у відкритому морі в рамках свого права на",
-      "link": "https://t.me/UkraineNow/82526",
+      "title": "Ільський НПЗ у Краснодарському краї та два об'єкти зберігання нафтопродуктів в Азові Ростовської області горять після ні",
+      "link": "https://t.me/UkraineNow/82542",
       "source": "ukrainenow",
       "score": 0
     },
     {
-      "title": "СБУ викрили посадовицю Торгово-промислової палати України на вимаганні 100 тисяч євро у виробника бойових дронів За мате",
-      "link": "https://t.me/UkraineNow/82524",
-      "source": "ukrainenow",
+      "title": "\"Підсумували перше півріччя 2026 року — ще один етап важкої боротьби Збройних Сил України за свободу й незалежність нашо",
+      "link": "https://t.me/GeneralStaffZSU/40961",
+      "source": "generalstaffzsu",
       "score": 0
     },
     {
-      "title": "Лідер польської проросійської партії Front Кшиштоф Толвінський закупив у Білорусі для армії рф 20 аптечок і похизувався",
-      "link": "https://t.me/UkraineNow/82523",
-      "source": "ukrainenow",
+      "title": "Оперативна інформація станом на 08:00 10.07.2026 щодо російського вторгнення Слава Україні!",
+      "link": "https://t.me/GeneralStaffZSU/40948",
+      "source": "generalstaffzsu",
       "score": 0
     }
   ]
