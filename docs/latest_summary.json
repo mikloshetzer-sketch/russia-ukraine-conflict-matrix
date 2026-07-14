@@ -1,14 +1,14 @@
 {
-  "report_date": "2026-07-13",
-  "created_at": "2026-07-13T08:38:19.398858",
-  "article_count": 83,
-  "total_score": -469,
-  "conflict_index": -5.65,
+  "report_date": "2026-07-14",
+  "created_at": "2026-07-14T07:30:35.070099",
+  "article_count": 74,
+  "total_score": -399,
+  "conflict_index": -5.39,
   "assessment": "erős eszkaláció",
   "assessment_raw": "strong escalation",
-  "trajectory": "romló",
+  "trajectory": "javuló",
   "outlook": "fokozott eszkalációs kockázat",
-  "commentary": "A mai összkép alapján a konfliktus médiás értékelése: erős eszkaláció. A hírek súlypontját továbbra is a katonai nyomás, a csapásmérések és a biztonsági kockázatok alakítják. A rövid távú pálya inkább romló irányba mutat. A külső fronthelyzeti adatok ezt részben operatív oldalról is alátámasztják. Az ukrán operatív források alapján a drón- és csapásjellegű aktivitás továbbra is meghatározó maradt.",
+  "commentary": "A mai összkép alapján a konfliktus médiás értékelése: erős eszkaláció. A hírek súlypontját továbbra is a katonai nyomás, a csapásmérések és a biztonsági kockázatok alakítják. A rövid távú pálya inkább enyhébb vagy javuló irányt jelez. A külső fronthelyzeti adatok ezt részben operatív oldalról is alátámasztják.",
   "top_escalation_signals": [
     {
       "title": "8 Dead, Dozens Wounded as Russia Strikes Ukraine With Missiles, Drones - The Moscow Times",
@@ -29,10 +29,10 @@
       "source": "\"kyiv moscow war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
     },
     {
-      "title": "Ukraine reportedly strikes Russian oil depot in Stavropol Krai, explosions reported in Moscow Oblast - The Kyiv Independent",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMXluUGJmaU5pR1NSWlpCdzhDSmd1d0FVWmFxWVBDdFVsOWRnbWNsMTdvRUxwNjVCWDI0SVlldldwNjUyR2ZESE5fM19JdFpHQjRxQVpFYWt6VWxZX0FmRTRzNC10RnZMQmVyeFR2WllGQ1Ztck9aWWIwNFd2NFpTd1BDZkFQU21adUVCemRReEhlQkFpMVptUmdLaw?oc=5",
-      "score": -16,
-      "source": "\"kyiv moscow war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
+      "title": "Trump: ‘We will grant Kiev a licence to produce Patriot missiles.’ Russian missiles strike the capital and other cities: 6 dead - Il Sole 24 ORE",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQlFOSU1XYjFfVmhIMFJPcWxfSUZ5b2N0Z01rUUdMdURNOFptdWJ1OWFXTXRrS0FGb3hTbmNHWjNuZF82aHNZd0tYanEtNEtpNGRFbTJWVlF0Z0pQaEg1Sk5lSHFoV01mdTNsLVVoVGJMaFRYTnFXTVlTV3lRRDl5OTc1WE11eTF2b0tvdFAtc0ltSnBZOGc0TXgydUVXamxsY1dGRTAxSlotNWVHRGhBNmFkVQ?oc=5",
+      "score": -14,
+      "source": "\"russia missile attack ukraine -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
     }
   ],
   "top_diplomatic_signals": [
@@ -69,15 +69,15 @@
       "source": "\"russia ukraine war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
     },
     {
-      "title": "Ukraine reportedly strikes Russian oil depot in Stavropol Krai, explosions reported in Moscow Oblast - The Kyiv Independent",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMXluUGJmaU5pR1NSWlpCdzhDSmd1d0FVWmFxWVBDdFVsOWRnbWNsMTdvRUxwNjVCWDI0SVlldldwNjUyR2ZESE5fM19JdFpHQjRxQVpFYWt6VWxZX0FmRTRzNC10RnZMQmVyeFR2WllGQ1Ztck9aWWIwNFd2NFpTd1BDZkFQU21adUVCemRReEhlQkFpMVptUmdLaw?oc=5",
-      "score": -16,
-      "source": "\"kyiv moscow war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
-    },
-    {
       "title": "Trump: ‘We will grant Kiev a licence to produce Patriot missiles.’ Russian missiles strike the capital and other cities: 6 dead - Il Sole 24 ORE",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQlFOSU1XYjFfVmhIMFJPcWxfSUZ5b2N0Z01rUUdMdURNOFptdWJ1OWFXTXRrS0FGb3hTbmNHWjNuZF82aHNZd0tYanEtNEtpNGRFbTJWVlF0Z0pQaEg1Sk5lSHFoV01mdTNsLVVoVGJMaFRYTnFXTVlTV3lRRDl5OTc1WE11eTF2b0tvdFAtc0ltSnBZOGc0TXgydUVXamxsY1dGRTAxSlotNWVHRGhBNmFkVQ?oc=5",
       "score": -14,
+      "source": "\"russia missile attack ukraine -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
+    },
+    {
+      "title": "Russian forces attack Ukrainian capital ⁠Kyiv with ‌missiles - Deccan Herald",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZVBNR2V6cGliSWY0eFoxLTV1Nm83X0xQVEltRGRZRElXUmczSUJSb1hDcFpxVlRsVm1OMlNCYlloNTFLQTBNeHZlSUJWd1dFZXUxRk0zd0xRTmRhYWVUa01zemkyVUhTSEphM3lxVzg3SW9zMHBoRmpfcnlkYUZJS2xKWndzOUZNX29CNE9WbUo1bXFZTEloVENTNi00b0JtRGk5cE5GWnJ1QkpLU200NVBPSkotMExwSFFzTlk3SmNOei12bWg1QQ?oc=5",
+      "score": -13,
       "source": "\"russia missile attack ukraine -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
     },
     {
@@ -93,45 +93,14 @@
       "source": "\"ukraine frontline -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
     },
     {
-      "title": "Russian attacks kill 4 across Ukraine, striking Kyiv for second straight day - The Daily Reflector",
-      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQRVk2QTlfZ2NGc1BMNUhxVEhmZzRqUzRGMlFZSFNhZHVKVGw2TFBZUERZczJwbkhzZENaTkJoWXVZdS1XdVFPN0gycmtTaDNhdzBCWVhkTjRQdkluOHBLLWdLMVlUOU9zbF9Fek1tNThqdDRheUtPbmhrb2lCQ1VrN3RaRzJrcDZqWjE2cXFUNHNteDQxVkxSS19qTWpIMmF4VUxBWmwzT0s2MGttVUdjengySG45amtHQUYtVk10NXFLZ3dHb0YxUVFLc2VvWVpCTk1zdmJMTXBVMHNGNWpHRzhoSWVqZVNicVEtZ1dqRU1DekR0WTdFWQ?oc=5",
+      "title": "Russian strikes kill eight, wound dozens as Ukraine’s Zelensky seeks faster weapons deliveries - The Straits Times",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQXpiZGNqWEVfVW9IYy1kZXNsZFR6NFF6VUZ0WVdMaVNRd2xNRmRaLVNnNjkxYU9VVUhBOFpQZ3FGeXpZc1VBWlQ1ODM2TlBpdW56SHhYT013LVc1cWhVRXRVVlFLOHNkeW1WVFZscDRYMmRYZDZ5ZDczaEpBUmtRTnZNZVF6S1dhSGdxRExRc24zYjVDeFBhZUFXWHBhbFEwUEVTTWdLcw?oc=5",
       "score": -11,
-      "source": "\"kyiv moscow war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
+      "source": "\"russia missile attack ukraine -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
     }
   ],
-  "external_operational_summary": "A külső fronthelyzeti becslés szerint az orosz ellenőrzés alatt álló terület nagysága megközelítőleg 117 020,79 km². Napi összevetésben a változás 4,51 km² volt, ami orosz területszerzés irányába mutat. Heti távlatban a változás 28,22 km², ami orosz területszerzés képet jelez. A napi térképi dinamika alapján a legfontosabb előretörési irány Robotyne térségében jelent meg. A dróntevékenység továbbra is jelentős, az elmúlt hét napban 750 UAV-eseményt rögzítettek.",
-  "external_change_summary": "A változásjelző réteg a 2026-07-12 és 2026-07-13 közötti elmozdulásokat mutatja. Az előretöréshez köthető fő súlypont koordinátája hozzávetőleg 36.19221, 47.66397. Külön veszteségi súlypont nem került azonosításra.",
-  "ua_operational_summary": "Az ukrán operatív források napi mintája alapján a dróntevékenységre utaló említések száma 2, a rakéta- vagy nagy hatótávolságú csapásokra utaló említéseké 0, míg a tüzérségi vagy egyéb csapásjellegű aktivitásra utaló jelzéseké 0 volt. A leggyakrabban előforduló helyszínjelöltek: Гуляйполе, Костянтинівка, Orikhiv, Bakhmut, Siversk. A napi operatív kép főként ezekből a forrásokból rajzolódott ki: ukrainenow, deepstateua, generalstaffzsu.",
-  "ua_operational_items": [
-    {
-      "title": "⚡️ ЗБИТО/ПОДАВЛЕНО 126 ЦІЛЕЙ ПРОТИВНИКА ➖ ➖ ➖ ➖ ➖ ➖ ➖ ➖ ➖ ➖ У ніч на 13 липня (з 18:00 12 липня) противник атакував 3 ке",
-      "link": "https://t.me/GeneralStaffZSU/41088",
-      "source": "generalstaffzsu",
-      "score": 2
-    },
-    {
-      "title": "🇺🇦 Україна вперше офіційно дозволила експорт бойових дронів для армії США 👥 Державна служба експортного контролю України",
-      "link": "https://t.me/DeepStateUA/23619",
-      "source": "deepstateua",
-      "score": 2
-    },
-    {
-      "title": "На росії дрони атакували Москву та нафтобазу у Ставропольському краї Губернатор Ставропольського краю заявив, що внаслід",
-      "link": "https://t.me/UkraineNow/82608",
-      "source": "ukrainenow",
-      "score": 0
-    },
-    {
-      "title": "Оперативна інформація станом на 08:00 13.07.2026 щодо російського вторгнення Слава Україні!",
-      "link": "https://t.me/GeneralStaffZSU/41074",
-      "source": "generalstaffzsu",
-      "score": 0
-    },
-    {
-      "title": "Оперативна інформація станом на 22:00 12.07.2026 щодо російського вторгнення.",
-      "link": "https://t.me/GeneralStaffZSU/41072",
-      "source": "generalstaffzsu",
-      "score": 0
-    }
-  ]
+  "external_operational_summary": "A külső fronthelyzeti becslés szerint az orosz ellenőrzés alatt álló terület nagysága megközelítőleg 117 025,86 km². Napi összevetésben a változás 5,07 km² volt, ami orosz területszerzés irányába mutat. Heti távlatban a változás 33,30 km², ami orosz területszerzés képet jelez. A napi térképi dinamika alapján a legfontosabb előretörési irány Bakhmut térségében jelent meg. A dróntevékenység továbbra is jelentős, az elmúlt hét napban 758 UAV-eseményt rögzítettek.",
+  "external_change_summary": "A változásjelző réteg a 2026-07-13 és 2026-07-14 közötti elmozdulásokat mutatja. Az előretöréshez köthető fő súlypont koordinátája hozzávetőleg 37.9157, 48.85853. Külön veszteségi súlypont nem került azonosításra.",
+  "ua_operational_summary": "",
+  "ua_operational_items": []
 }
