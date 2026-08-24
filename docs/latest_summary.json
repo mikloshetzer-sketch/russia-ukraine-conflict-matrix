@@ -1,12 +1,12 @@
 {
-  "report_date": "2026-08-23",
-  "created_at": "2026-08-23T06:17:40.284784",
-  "article_count": 97,
-  "total_score": -606,
-  "conflict_index": -6.25,
+  "report_date": "2026-08-24",
+  "created_at": "2026-08-24T06:29:09.782267",
+  "article_count": 99,
+  "total_score": -615,
+  "conflict_index": -6.21,
   "assessment": "erős eszkaláció",
   "assessment_raw": "strong escalation",
-  "trajectory": "romló",
+  "trajectory": "enyhén romló",
   "outlook": "fokozott eszkalációs kockázat",
   "commentary": "A mai összkép alapján a konfliktus médiás értékelése: erős eszkaláció. A hírek súlypontját továbbra is a katonai nyomás, a csapásmérések és a biztonsági kockázatok alakítják. A rövid távú pálya inkább romló irányba mutat. A külső fronthelyzeti adatok ezt részben operatív oldalról is alátámasztják. Az ukrán operatív források alapján a drón- és csapásjellegű aktivitás továbbra is meghatározó maradt.",
   "top_escalation_signals": [
@@ -50,9 +50,21 @@
       "source": "\"russia ukraine war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
     },
     {
-      "title": "Russian strikes on Ukraine kill two, officials say, a day after deadly attack on mall - the-star.co.ke",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSTY4QjNrV3ZwcjZMUFRXTFZOVmNtX3lPT0NrcVZKUHNnS2tURW1mbUVwMWpZVDFEdzRoT1JmbGZuVHU3VVd0dzRzTkExUDA2WFo2OF9NSVRtX0x0MkhpTUo3SWgxNkNiZVRpRGhzSTlOYjNmZU1XU1dELVZwdndyY29CZHFTUU5uSmhwMFVzbVVjWDZKTzJzQU1ncllTQ3M?oc=5",
+      "title": "Russian strikes on Ukraine kill two, officials say, a day after deadly attack on mall - KBC Digital",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNREVNQW5fMDZLRnFwV0xrdTBLUUY5TjFkb3ozV2w5Y2dORVN4dXBnd0FraHhXY0YxSUU0aXg4U1FaVUlkUldOU0F2NTNZYndMSVhMRWxGU05BYThzNEtJTzFOcnc4cE1jS1Vxaml1dWI2LXZmbVJKWlVfQ2dzSjBfenlHYUpJQ054ZUJWWTBGTmZmZFlxOUtUZXdPbW5BWjdpRVkwanI5cVF6Zw?oc=5",
       "score": -16,
+      "source": "\"russia missile attack ukraine -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
+    },
+    {
+      "title": "War in Ukraine: At least 10 killed in Kharkiv, several wounded in Moscow drone attack - AOL.co.uk",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxORnJ4VXhTRXZSOEprQm9Mdkp0R3NyLVNqOGg3bjdzRjgyNWlJdWJHa3g2czNNREZBTV8xTGNFdXRwWjhkc241cUdUU2dXUE1sVG03OE4tYWVqb2FGa2pkeWloWElRQmk0QnBXM0Y1eHZSWVA3eUlVT3VmVEZ1OUNlR2djdjJHQQ?oc=5",
+      "score": -13,
+      "source": "\"ukraine frontline -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
+    },
+    {
+      "title": "Ukraine aims drone blitz at Moscow while Russian missiles kill 10 in village - Yahoo News UK",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1MNlJYenB1c2hfenNPTzFsUkJDR3A0RlNnWUt5bm9CSkM1VkRybEJEZk1PSjU3R0dVdW94Vk1yZlpud0g2QXhRSUxIRmF4dUFGOGJQTk9DVEd5SWlPR0MyU096UUtCSGd3YlFBSjB2OW5CUGFzajlGQWRvVmM?oc=5",
+      "score": -13,
       "source": "\"russia missile attack ukraine -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
     },
     {
@@ -60,24 +72,24 @@
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5sVXZlblAtaWF0T1hwRVh6SW4xaU5ZVWZBZ2ZpREZ6a1NqY216QVE0MFdFMnF3dTZ4LXlyX3pNWlpsVGFVYnZVX2RLTXo1aG9oRWdUWjVySTZiQlkwY0lpT2NCdWFCVGc?oc=5",
       "score": -13,
       "source": "\"russia missile attack ukraine -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
-    },
-    {
-      "title": "Ukraine aims drone blitz at Moscow while Russian missiles kill 10 in village - Glasgow Times",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQY2pGNzdPRGF3TmJiTlBrbVhzeWl3ek04bDBXUnhic25MYlNua1BUWElhQ2t0Ti1qN095eW1uT0dfV3JxWEpGUTAwV09ZN0kyTFJIUml2SkhWUmUzc3lnWV9tU0RIQmJRR0ZnMXh2VjhiQlUwa3JlQklONElBLU9IZzFKcTdNTDFCOXR4MFJOb1YtWFcydUVqSWxmU1l2eVIzdVhOZ3MtOFdjb085YzZCOFprdW5vSXNncVhV?oc=5",
-      "score": -13,
-      "source": "\"russia missile attack ukraine -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
-    },
-    {
-      "title": "Ukrainian rapper mocked Russia’s claim he helped deliver drones for attacks near Moscow. A month later, Russia allegedly tried to kill him in Poland - Euromaidan Press",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdXZWSmVXbUxhUm5YWE5oaWZpSmdad0tGdUxobkZnSVVYV0kzVzFNblZOaEROVjA3aHE0c2lyb0dYVHU5NWNOV1doX291MThYY1ZmUXJ0Q3R2aTZJbVN6REF2MGczRUdxbTB5M1hzb1lUWm1zUW9fbUFOaWgwVVdiS0t3?oc=5",
-      "score": -13,
-      "source": "\"donbas ukraine russia -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
     }
   ],
-  "external_operational_summary": "A külső fronthelyzeti becslés szerint az orosz ellenőrzés alatt álló terület nagysága megközelítőleg 116 999,62 km². Napi összevetésben a változás 4,73 km² volt, ami orosz területszerzés irányába mutat. Heti távlatban a változás 38,07 km², ami orosz területszerzés képet jelez. A napi térképi dinamika alapján a legfontosabb előretörési irány Kupiansk térségében jelent meg. A dróntevékenység továbbra is jelentős, az elmúlt hét napban 613 UAV-eseményt rögzítettek.",
-  "external_change_summary": "A változásjelző réteg a 2026-08-22 és 2026-08-23 közötti elmozdulásokat mutatja. Az előretöréshez köthető fő súlypont koordinátája hozzávetőleg 37.51044, 49.79763. Külön veszteségi súlypont nem került azonosításra.",
-  "ua_operational_summary": "Az ukrán operatív források napi mintája alapján a dróntevékenységre utaló említések száma 2, a rakéta- vagy nagy hatótávolságú csapásokra utaló említéseké 0, míg a tüzérségi vagy egyéb csapásjellegű aktivitásra utaló jelzéseké 0 volt. A leggyakrabban előforduló helyszínjelöltek: Велика Новосілка, Avdiivka, Huliaipole, Торецьк, Куп'янськ. A napi operatív kép főként ezekből a forrásokból rajzolódott ki: generalstaffzsu, ukrainenow, deepstateua.",
+  "external_operational_summary": "A külső fronthelyzeti becslés szerint az orosz ellenőrzés alatt álló terület nagysága megközelítőleg 117 006,48 km². Napi összevetésben a változás 6,87 km² volt, ami orosz területszerzés irányába mutat. Heti távlatban a változás 44,94 km², ami orosz területszerzés képet jelez. A napi térképi dinamika alapján a legfontosabb előretörési irány Avdiivka térségében jelent meg. A dróntevékenység továbbra is jelentős, az elmúlt hét napban 613 UAV-eseményt rögzítettek.",
+  "external_change_summary": "A változásjelző réteg a 2026-08-23 és 2026-08-24 közötti elmozdulásokat mutatja. Az előretöréshez köthető fő súlypont koordinátája hozzávetőleg 37.63731, 48.48476. Külön veszteségi súlypont nem került azonosításra.",
+  "ua_operational_summary": "Az ukrán operatív források napi mintája alapján a dróntevékenységre utaló említések száma 3, a rakéta- vagy nagy hatótávolságú csapásokra utaló említéseké 0, míg a tüzérségi vagy egyéb csapásjellegű aktivitásra utaló jelzéseké 0 volt. A leggyakrabban előforduló helyszínjelöltek: Kurakhove, Курахове, Роботине, Orikhiv, Куп'янськ. A napi operatív kép főként ezekből a forrásokból rajzolódott ki: generalstaffzsu, ukrainenow, deepstateua.",
   "ua_operational_items": [
+    {
+      "title": "🇺🇦 🇳🇴 Україна та Норвегія уклали Drone deal, — Зеленський ✅ Ми у Telegram | Viber",
+      "link": "https://t.me/UkraineNow/83637",
+      "source": "ukrainenow",
+      "score": 2
+    },
+    {
+      "title": "🇺🇦 🇳🇴 Україна та Норвегія уклали Drone Deal 🖥 Про це повідомив Президент України Володимир Зеленський під час саміту NB8",
+      "link": "https://t.me/DeepStateUA/23773",
+      "source": "deepstateua",
+      "score": 2
+    },
     {
       "title": "⚡️ ЗБИТО/ПОДАВЛЕНО 191 ЦІЛЬ ПРОТИВНИКА У ніч на 22 серпня (з 18:00 21 серпня) противник атакував Україну ракетами, які з",
       "link": "https://t.me/GeneralStaffZSU/41980",
@@ -85,26 +97,14 @@
       "score": 2
     },
     {
-      "title": "⚡ ЗБИТО/ПОДАВЛЕНО 107 ЦІЛЕЙ ПРОТИВНИКА У ніч на 21 серпня (з 18:00 20 серпня) противник атакував 135 ударними БпЛА типу",
-      "link": "https://t.me/GeneralStaffZSU/41967",
-      "source": "generalstaffzsu",
-      "score": 2
-    },
-    {
-      "title": "Оперативна інформація станом на 08:00 23.08.2026 щодо російського вторгнення Слава Україні!",
-      "link": "https://t.me/GeneralStaffZSU/41987",
+      "title": "Оперативна інформація станом на 08:00 24.08.2026 щодо російського вторгнення Слава Україні!",
+      "link": "https://t.me/GeneralStaffZSU/41994",
       "source": "generalstaffzsu",
       "score": 0
     },
     {
-      "title": "Головні новини за 22 серпня ▪️ Сили оборони завдали ударів по складам російського маркетплейсу OZON ▪️ У Кривому Розі вж",
-      "link": "https://t.me/UkraineNow/83627",
-      "source": "ukrainenow",
-      "score": 0
-    },
-    {
-      "title": "Оперативна інформація станом на 22:00 22.08.2026 щодо російського вторгнення Загалом від початку цієї доби відбулося 197",
-      "link": "https://t.me/GeneralStaffZSU/41984",
+      "title": "\"Воїни Збройних Сил України, Дорогі українці!",
+      "link": "https://t.me/GeneralStaffZSU/41993",
       "source": "generalstaffzsu",
       "score": 0
     }
