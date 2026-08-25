@@ -1,14 +1,14 @@
 {
-  "report_date": "2026-08-24",
-  "created_at": "2026-08-24T06:29:09.782267",
-  "article_count": 99,
-  "total_score": -615,
-  "conflict_index": -6.21,
+  "report_date": "2026-08-25",
+  "created_at": "2026-08-25T06:20:55.134326",
+  "article_count": 113,
+  "total_score": -614,
+  "conflict_index": -5.43,
   "assessment": "erős eszkaláció",
   "assessment_raw": "strong escalation",
-  "trajectory": "enyhén romló",
+  "trajectory": "enyhén javuló",
   "outlook": "fokozott eszkalációs kockázat",
-  "commentary": "A mai összkép alapján a konfliktus médiás értékelése: erős eszkaláció. A hírek súlypontját továbbra is a katonai nyomás, a csapásmérések és a biztonsági kockázatok alakítják. A rövid távú pálya inkább romló irányba mutat. A külső fronthelyzeti adatok ezt részben operatív oldalról is alátámasztják. Az ukrán operatív források alapján a drón- és csapásjellegű aktivitás továbbra is meghatározó maradt.",
+  "commentary": "A mai összkép alapján a konfliktus médiás értékelése: erős eszkaláció. A hírek súlypontját továbbra is a katonai nyomás, a csapásmérések és a biztonsági kockázatok alakítják. A rövid távú pálya inkább enyhébb vagy javuló irányt jelez. A külső fronthelyzeti adatok ezt részben operatív oldalról is alátámasztják. Az ukrán operatív források alapján a drón- és csapásjellegű aktivitás továbbra is meghatározó maradt.",
   "top_escalation_signals": [
     {
       "title": "At least 14 people were killed and more than 100 others, including 22 children, were injured after a Russian drone strike hit a shopping center in Kryvyi Rih, Ukraine. According to Al Jazeera, on Friday, August 21, Ukrainian officials said the attack was carried o - facebook.com",
@@ -35,7 +35,20 @@
       "source": "\"russia missile attack ukraine -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
     }
   ],
-  "top_diplomatic_signals": [],
+  "top_diplomatic_signals": [
+    {
+      "title": "Ukraine wants peace but won't give in, Zelenskyy says on Independence Day - ARN News Centre",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYkdFbzNMNnVodkFGRmQ0X2JqZndhV3Vhc1k5ZzB2YlpERmEtRmJpR3NZYjZLWHBPRGU5cjJ0RnVhVm9uR0szM1hFbFdEOUJuWE8ycXY1YW5JY05XaUVCTlVqVDNvb1hMbkNRWTRKNkM3LTIxY1l0TjRNQjFaRFE2Y0JMcnBlUG5XWjE3SDRpZ3E4LXpyMmlhWlJCX1V0R1lqVE9CbW4yQ3JwYWxVRm4yRFhoMWJPd2ctVmJydA?oc=5",
+      "score": 1,
+      "source": "\"ukraine frontline -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
+    },
+    {
+      "title": "Ukraine wants peace but won't give in, Zelenskyy says on Independence Day - ARN News Centre",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYkdFbzNMNnVodkFGRmQ0X2JqZndhV3Vhc1k5ZzB2YlpERmEtRmJpR3NZYjZLWHBPRGU5cjJ0RnVhVm9uR0szM1hFbFdEOUJuWE8ycXY1YW5JY05XaUVCTlVqVDNvb1hMbkNRWTRKNkM3LTIxY1l0TjRNQjFaRFE2Y0JMcnBlUG5XWjE3SDRpZ3E4LXpyMmlhWlJCX1V0R1lqVE9CbW4yQ3JwYWxVRm4yRFhoMWJPd2ctVmJydA?oc=5",
+      "score": 1,
+      "source": "\"donbas ukraine russia -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
+    }
+  ],
   "key_headlines": [
     {
       "title": "At least 14 people were killed and more than 100 others, including 22 children, were injured after a Russian drone strike hit a shopping center in Kryvyi Rih, Ukraine. According to Al Jazeera, on Friday, August 21, Ukrainian officials said the attack was carried o - facebook.com",
@@ -56,6 +69,12 @@
       "source": "\"russia missile attack ukraine -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
     },
     {
+      "title": "Russia attacks Ukraine with strike and jet-powered UAVs: air-raid alerts issued in several regions - Цензор.НЕТ",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNSjktSG9pYWxkUkFPLU5SMC1aZVdJbTNELVZTaTdNcGN2OGJfU3BDY3AyUjNmVjZ1N3Zndm92dEhKN3N6T0lPNUJnX2d5Q09MWjdvWDM0aGRBWXNyZFZmQVl0OWhpdktWNFJWU3BxZjM5NFFZMEFVQmJRQVpTb2xqb0pINThaNmpGNzFybl9lY20?oc=5",
+      "score": -14,
+      "source": "\"ukraine frontline -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
+    },
+    {
       "title": "War in Ukraine: At least 10 killed in Kharkiv, several wounded in Moscow drone attack - AOL.co.uk",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxORnJ4VXhTRXZSOEprQm9Mdkp0R3NyLVNqOGg3bjdzRjgyNWlJdWJHa3g2czNNREZBTV8xTGNFdXRwWjhkc241cUdUU2dXUE1sVG03OE4tYWVqb2FGa2pkeWloWElRQmk0QnBXM0Y1eHZSWVA3eUlVT3VmVEZ1OUNlR2djdjJHQQ?oc=5",
       "score": -13,
@@ -66,24 +85,12 @@
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1MNlJYenB1c2hfenNPTzFsUkJDR3A0RlNnWUt5bm9CSkM1VkRybEJEZk1PSjU3R0dVdW94Vk1yZlpud0g2QXhRSUxIRmF4dUFGOGJQTk9DVEd5SWlPR0MyU096UUtCSGd3YlFBSjB2OW5CUGFzajlGQWRvVmM?oc=5",
       "score": -13,
       "source": "\"russia missile attack ukraine -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
-    },
-    {
-      "title": "Russian Jet Drones Reach Western Ukraine as Moscow Expands Long-Range Attack Capabilities - Межа. Новини України.",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5sVXZlblAtaWF0T1hwRVh6SW4xaU5ZVWZBZ2ZpREZ6a1NqY216QVE0MFdFMnF3dTZ4LXlyX3pNWlpsVGFVYnZVX2RLTXo1aG9oRWdUWjVySTZiQlkwY0lpT2NCdWFCVGc?oc=5",
-      "score": -13,
-      "source": "\"russia missile attack ukraine -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
     }
   ],
-  "external_operational_summary": "A külső fronthelyzeti becslés szerint az orosz ellenőrzés alatt álló terület nagysága megközelítőleg 117 006,48 km². Napi összevetésben a változás 6,87 km² volt, ami orosz területszerzés irányába mutat. Heti távlatban a változás 44,94 km², ami orosz területszerzés képet jelez. A napi térképi dinamika alapján a legfontosabb előretörési irány Avdiivka térségében jelent meg. A dróntevékenység továbbra is jelentős, az elmúlt hét napban 613 UAV-eseményt rögzítettek.",
-  "external_change_summary": "A változásjelző réteg a 2026-08-23 és 2026-08-24 közötti elmozdulásokat mutatja. Az előretöréshez köthető fő súlypont koordinátája hozzávetőleg 37.63731, 48.48476. Külön veszteségi súlypont nem került azonosításra.",
-  "ua_operational_summary": "Az ukrán operatív források napi mintája alapján a dróntevékenységre utaló említések száma 3, a rakéta- vagy nagy hatótávolságú csapásokra utaló említéseké 0, míg a tüzérségi vagy egyéb csapásjellegű aktivitásra utaló jelzéseké 0 volt. A leggyakrabban előforduló helyszínjelöltek: Kurakhove, Курахове, Роботине, Orikhiv, Куп'янськ. A napi operatív kép főként ezekből a forrásokból rajzolódott ki: generalstaffzsu, ukrainenow, deepstateua.",
+  "external_operational_summary": "A külső fronthelyzeti becslés szerint az orosz ellenőrzés alatt álló terület nagysága megközelítőleg 117 006,48 km². Napi összevetésben a változás 0,00 km² volt, ami nincs érdemi változás irányába mutat. Heti távlatban a változás 37,39 km², ami orosz területszerzés képet jelez. A dróntevékenység továbbra is jelentős, az elmúlt hét napban 613 UAV-eseményt rögzítettek.",
+  "external_change_summary": "A változásjelző réteg a 2026-08-24 és 2026-08-25 közötti elmozdulásokat mutatja. Külön veszteségi súlypont nem került azonosításra.",
+  "ua_operational_summary": "Az ukrán operatív források napi mintája alapján a dróntevékenységre utaló említések száma 1, a rakéta- vagy nagy hatótávolságú csapásokra utaló említéseké 0, míg a tüzérségi vagy egyéb csapásjellegű aktivitásra utaló jelzéseké 0 volt. A leggyakrabban előforduló helyszínjelöltek: Zaporizhzhia, Куп'янськ, Pokrovsk, Костянтинівка, Курахове. A napi operatív kép főként ezekből a forrásokból rajzolódott ki: generalstaffzsu, deepstateua, ukrainenow.",
   "ua_operational_items": [
-    {
-      "title": "🇺🇦 🇳🇴 Україна та Норвегія уклали Drone deal, — Зеленський ✅ Ми у Telegram | Viber",
-      "link": "https://t.me/UkraineNow/83637",
-      "source": "ukrainenow",
-      "score": 2
-    },
     {
       "title": "🇺🇦 🇳🇴 Україна та Норвегія уклали Drone Deal 🖥 Про це повідомив Президент України Володимир Зеленський під час саміту NB8",
       "link": "https://t.me/DeepStateUA/23773",
@@ -91,20 +98,26 @@
       "score": 2
     },
     {
-      "title": "⚡️ ЗБИТО/ПОДАВЛЕНО 191 ЦІЛЬ ПРОТИВНИКА У ніч на 22 серпня (з 18:00 21 серпня) противник атакував Україну ракетами, які з",
-      "link": "https://t.me/GeneralStaffZSU/41980",
-      "source": "generalstaffzsu",
-      "score": 2
+      "title": "Через атаку рф не працює пункт пропуску на кордоні з Молодовою «Виноградівка – Вулкенєшть» Наразі рух призупинено, митні",
+      "link": "https://t.me/UkraineNow/83672",
+      "source": "ukrainenow",
+      "score": 0
     },
     {
-      "title": "Оперативна інформація станом на 08:00 24.08.2026 щодо російського вторгнення Слава Україні!",
-      "link": "https://t.me/GeneralStaffZSU/41994",
+      "title": "Оперативна інформація станом на 08:00 25.08.2026 щодо російського вторгнення Слава Україні!",
+      "link": "https://t.me/GeneralStaffZSU/42007",
       "source": "generalstaffzsu",
       "score": 0
     },
     {
-      "title": "\"Воїни Збройних Сил України, Дорогі українці!",
-      "link": "https://t.me/GeneralStaffZSU/41993",
+      "title": "Оперативна інформація станом на 22:00 24.08.2026 щодо російського вторгнення Загалом від початку цієї доби відбулося 181",
+      "link": "https://t.me/GeneralStaffZSU/42005",
+      "source": "generalstaffzsu",
+      "score": 0
+    },
+    {
+      "title": "⚡️ ⚡️ Уражено підприємство ВПК «Комбінат «Каменський» В ніч на 24 серпня 2026 року підрозділи Сил оборони України у Каме",
+      "link": "https://t.me/GeneralStaffZSU/42002",
       "source": "generalstaffzsu",
       "score": 0
     }
