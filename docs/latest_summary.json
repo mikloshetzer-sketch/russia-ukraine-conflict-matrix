@@ -1,108 +1,33 @@
 {
-  "report_date": "2026-09-09",
-  "created_at": "2026-09-09T10:09:50.151615",
-  "article_count": 125,
-  "total_score": -457,
-  "conflict_index": -3.66,
-  "assessment": "erős eszkaláció",
-  "assessment_raw": "strong escalation",
+  "report_date": "2026-09-10",
+  "created_at": "2026-09-10T10:06:10.487347",
+  "article_count": 0,
+  "total_score": 0,
+  "conflict_index": 0.0,
+  "assessment": "vegyes / instabil",
+  "assessment_raw": "mixed / unstable",
   "trajectory": "javuló",
-  "outlook": "fokozott eszkalációs kockázat",
-  "commentary": "A mai összkép alapján a konfliktus médiás értékelése: erős eszkaláció. A hírek súlypontját továbbra is a katonai nyomás, a csapásmérések és a biztonsági kockázatok alakítják. A rövid távú pálya inkább enyhébb vagy javuló irányt jelez. A külső fronthelyzeti adatok ezt részben operatív oldalról is alátámasztják. Az ukrán operatív források alapján a drón- és csapásjellegű aktivitás továbbra is meghatározó maradt.",
-  "top_escalation_signals": [
-    {
-      "title": "Ukraine strikes Russian depots, confirms MiG-29, Ka-27 destroyed in earlier attacks - The Kyiv Independent",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQ0EyZ3dZR1JKbmlCajFZekJpYmM3U01OdTdNOVRZcnNnQUpoQ2dSZF9jdDI2ZmJGLWM3OGt4WktNSmlENWlLUFNhSGUtejB5MmxwMjhYUEVvaW1JWjlORG9FQjRObDNGSzRaVmIxWjlzNjdTM0JycjFQR3JubFk4Ukc3WVFURy1MT1lJYV8zcG42ZnAybVFpR1MyTG1uZVZOSDltVWFsYnRSaDZZ?oc=5",
-      "score": -17,
-      "source": "\"ukraine frontline -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
-    },
-    {
-      "title": "Russia attacks Ukraine with missile and 121 drones: 103 UAVs shot down or jammed - Українська правда",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1mNDNHVFc2TWpGSks2Mzh1MThLeWF5LXBfa2pvbnBGNkhWWkI2OEZjdElnMlYycmJHYWtremJOVHBNbGxyTG9sd3hhLUNrU0tfZlJ5YW9CckdINVBkbjBucjhFakjSAXBBVV95cUxOY2VNUnEtSnpXODR4T2NaaXdFNDBLb2JtQXVGRElUZTduRmxxeWtrMlZRc0FxeU1zNmhULU41Y2dORE14V2pMTG5GSHhGbjhzNGhBdWRWVFB4T3ZfT054U0NjUHlJbVhncER1US1WRVhD?oc=5",
-      "score": -16,
-      "source": "\"russia missile attack ukraine -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
-    },
-    {
-      "title": "Ukraine Repels 38 Russian Attacks as Front-Line Clashes Reach 240 - Межа. Новини України.",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5WeldweVZmTkFaMnBya0d6QVpQcTYwbS1IT1JIWVJzY2RPMGU0T3JtbDd3aHVuQnZzQU02aGY0c2ZKZUNkaDl1TXlocnBWczJUZXR2TGhaaWFFbEdVT2V2QlZpWkM?oc=5",
-      "score": -14,
-      "source": "\"ukraine frontline -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
-    },
-    {
-      "title": "Russian drone and missile strikes on Ukrainian capital kill two people - East Anglian Daily Times",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQV0ZmQzBVc0UzUmpOdTJMV1dGOU5yS0hnVFQ5eVZ0VHlXRnB6Y2dQdTFmVW5EY3dqRGR3SjdVMXRpQUw2cGhSNXkxQ1BZRWlRWXpWN0RCRUpSdl9pOEFyZ1ljN19xQ3NOMkFtM2ljQ2pGVWpVU01Ja1pMZGxyR0ZGRlBneVJseHFPRVRYNUF1QmlTdlROSXh4R0RvSS00Tlg5cmtMVWwtZmYyb3pBY3Fr?oc=5",
-      "score": -14,
-      "source": "\"russia missile attack ukraine -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
-    }
-  ],
-  "top_diplomatic_signals": [
-    {
-      "title": "'The war will continue' — US peace push fails to achieve deal after Witkoff, Kushner's first visit to Kyiv - The Kyiv Independent",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5teHZ1elUySWtCcmV5Q0t1NTlvZkstdkk1T1B2M0JySkZ2QThXYVJ1Z3diN1Fuc0hwcGtDbF9McnRMZlQ2Nnc5SUlWV195TVlUSkpocE56cU9BYTB2SUgwQW1Ib2MxSWs4a1N4Y3dSWVRZZjdVS0pMZjBkVGs?oc=5",
-      "score": 4,
-      "source": "\"ceasefire talks ukraine russia -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
-    },
-    {
-      "title": "Zelenskyy says US envoys presented 'decent ideas' for peace talks - Deccan Herald",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOTXp6dXI0SW9WWWJzcEQ2TEJBMTBlY3AyMlZLQ284WUsyWGxmQVR5NkR4bmtRVnA4ajRHTnNZQXgxRWtIZmNLNGNEaXlMRHZqamJTOWJTMXhBOVhpdjN2T2JBUHp2ZGJSYllvR0V5bTlEZS15b215RzRNWE8yWjd0Q3pTeTlKZ0tlOUVmRlNVemJyWG1kOE91U1pKRDlUYXl1NWhwOW1UZnN5MHg2QUJZVTVaaDlIbXI0LTZ6MkZrNkJJOVlmX3JvYTVNU1hLNUU?oc=5",
-      "score": 4,
-      "source": "\"donbas ukraine russia -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
-    },
-    {
-      "title": "'The war will continue' — US peace push fails to achieve deal after Witkoff, Kushner's first visit to Kyiv - The Kyiv Independent",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5teHZ1elUySWtCcmV5Q0t1NTlvZkstdkk1T1B2M0JySkZ2QThXYVJ1Z3diN1Fuc0hwcGtDbF9McnRMZlQ2Nnc5SUlWV195TVlUSkpocE56cU9BYTB2SUgwQW1Ib2MxSWs4a1N4Y3dSWVRZZjdVS0pMZjBkVGs?oc=5",
-      "score": 4,
-      "source": "\"kyiv moscow war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
-    },
-    {
-      "title": "President Putin says Ukraine peace deal possible - indiagazette.com",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONlExYk9fd0xzbDJ1a1JaUW9ta2NWbWZUUkJROXA0cGlnWUp1dTMxYlRoampwaG5MZzllZXBXakJLbDR3dG9jNEpjN2xUNHJROXZ4NTNHWGhDMWJoRlJMMDYxdmZYYjl0Mm43WTJkMHhoclFMYjBLRHJEd3E1NDFqRGxjSi16bEFfQWVzWXYxZUc3Ym5O?oc=5",
-      "score": 3,
-      "source": "\"russia ukraine war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
-    }
-  ],
-  "key_headlines": [
-    {
-      "title": "Ukraine strikes Russian depots, confirms MiG-29, Ka-27 destroyed in earlier attacks - The Kyiv Independent",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQ0EyZ3dZR1JKbmlCajFZekJpYmM3U01OdTdNOVRZcnNnQUpoQ2dSZF9jdDI2ZmJGLWM3OGt4WktNSmlENWlLUFNhSGUtejB5MmxwMjhYUEVvaW1JWjlORG9FQjRObDNGSzRaVmIxWjlzNjdTM0JycjFQR3JubFk4Ukc3WVFURy1MT1lJYV8zcG42ZnAybVFpR1MyTG1uZVZOSDltVWFsYnRSaDZZ?oc=5",
-      "score": -17,
-      "source": "\"ukraine frontline -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
-    },
-    {
-      "title": "Russia attacks Ukraine with missile and 121 drones: 103 UAVs shot down or jammed - Українська правда",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1mNDNHVFc2TWpGSks2Mzh1MThLeWF5LXBfa2pvbnBGNkhWWkI2OEZjdElnMlYycmJHYWtremJOVHBNbGxyTG9sd3hhLUNrU0tfZlJ5YW9CckdINVBkbjBucjhFakjSAXBBVV95cUxOY2VNUnEtSnpXODR4T2NaaXdFNDBLb2JtQXVGRElUZTduRmxxeWtrMlZRc0FxeU1zNmhULU41Y2dORE14V2pMTG5GSHhGbjhzNGhBdWRWVFB4T3ZfT054U0NjUHlJbVhncER1US1WRVhD?oc=5",
-      "score": -16,
-      "source": "\"russia missile attack ukraine -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
-    },
-    {
-      "title": "Ukraine Repels 38 Russian Attacks as Front-Line Clashes Reach 240 - Межа. Новини України.",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5WeldweVZmTkFaMnBya0d6QVpQcTYwbS1IT1JIWVJzY2RPMGU0T3JtbDd3aHVuQnZzQU02aGY0c2ZKZUNkaDl1TXlocnBWczJUZXR2TGhaaWFFbEdVT2V2QlZpWkM?oc=5",
-      "score": -14,
-      "source": "\"ukraine frontline -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
-    },
-    {
-      "title": "Russian drone and missile strikes on Ukrainian capital kill two people - East Anglian Daily Times",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQV0ZmQzBVc0UzUmpOdTJMV1dGOU5yS0hnVFQ5eVZ0VHlXRnB6Y2dQdTFmVW5EY3dqRGR3SjdVMXRpQUw2cGhSNXkxQ1BZRWlRWXpWN0RCRUpSdl9pOEFyZ1ljN19xQ3NOMkFtM2ljQ2pGVWpVU01Ja1pMZGxyR0ZGRlBneVJseHFPRVRYNUF1QmlTdlROSXh4R0RvSS00Tlg5cmtMVWwtZmYyb3pBY3Fr?oc=5",
-      "score": -14,
-      "source": "\"russia missile attack ukraine -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
-    },
-    {
-      "title": "Ukraine’s drone attacks caused turmoil for Russians throughout summer - myMotherLode.com",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNWnkwZ0wxVEFqY2pCTFZRZnY1TXlUTHhvdDNLa0hfQ1lLa3NVVzFSUDRtVXdRUXhYX2ltbEpXaUYxZzVJMUVDV2xOYWlzR2pNWm9GZGhGYldmVzlEc3IzZzVJNnhpd0xqcXBLemtUNFVGWVlCNXdWVUZFeEt1RW9kYjFrMUc2MmgyMnBwZ3NkYU1FMnEwT2NFQ29PSFhEcko2Z3JST2tNRjZVWjYzUWFlcXEtQlZ4ZjJlc1ZJQkJoOEhHcDFqOVBXcGVFZm43Um9va1NQM280LUNWM1JGZk14dnRTMU7SAeoBQVVfeXFMUE9MbUFUWDhSMjNkcmw1LUU1TWZoUlEwalYyUGJoa0V2TFVMRkxhV2duS1o2aEc5UnZybjFhbDZrbElHbHVycm1yWDhvRlpOMzdZVHlFdUJ0cG9XOWQtSjdDLVJHR0lySk9iOUpLdzFoXy1nSmVmM0JzUE1lbE90dVdhaFVYRW5BZ3FEU1JRVGExRnk1bkw0Mm5lazZyNTVTeExfTkY2WHRxbDRadWRkNm5DclI5X1FzaXJ0U3g4c2dJRlNXaDEyTmNOekw3b2pDNXh1b1ZMX2UzYk5vbHl1azBPS2RIM1dlaEZR?oc=5",
-      "score": -12,
-      "source": "\"russia ukraine war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
-    },
-    {
-      "title": "Ukraine Strikes Russian Military Targets in Crimea and Eastern Ukraine - Межа. Новини України.",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBYM0V2aTVwSlRON2tHV3hEek5qSVpnSnBFekJhX0R0YXNieU5KTFFYUng0aTFxaHBDQXVjT3BIZ2QyS09XZURsUzkydzYyd3R5YlVLTUxRU1o4RUZuMzJrY3pLMzRVRUJGOUZ1RQ?oc=5",
-      "score": -12,
-      "source": "\"ukraine frontline -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
-    }
-  ],
-  "external_operational_summary": "A külső fronthelyzeti becslés szerint az orosz ellenőrzés alatt álló terület nagysága megközelítőleg 117 095,44 km². Napi összevetésben a változás 14,52 km² volt, ami orosz területszerzés irányába mutat. Heti távlatban a változás 43,60 km², ami orosz területszerzés képet jelez. A napi térképi dinamika alapján a legfontosabb előretörési irány Pokrovsk térségében jelent meg, miközben a legkedvezőtlenebb elmozdulás Pokrovsk környezetében volt megfigyelhető. A dróntevékenység továbbra is jelentős, az elmúlt hét napban 701 UAV-eseményt rögzítettek.",
-  "external_change_summary": "A változásjelző réteg a 2026-09-08 és 2026-09-09 közötti elmozdulásokat mutatja. Az előretöréshez köthető fő súlypont koordinátája hozzávetőleg 37.4289, 48.51674. A veszteséghez köthető súlypont koordinátája hozzávetőleg 37.0624, 48.3192.",
-  "ua_operational_summary": "Az ukrán operatív források napi mintája alapján a dróntevékenységre utaló említések száma 2, a rakéta- vagy nagy hatótávolságú csapásokra utaló említéseké 0, míg a tüzérségi vagy egyéb csapásjellegű aktivitásra utaló jelzéseké 0 volt. A leggyakrabban előforduló helyszínjelöltek: Avdiivka, Pokrovsk, Куп'янськ, Kostiantynivka, Kherson. A napi operatív kép főként ezekből a forrásokból rajzolódott ki: generalstaffzsu, ukrainenow, deepstateua.",
+  "outlook": "vegyes, instabil környezet",
+  "commentary": "A mai összkép alapján a konfliktus médiás értékelése: vegyes / instabil. A napi információs környezet vegyes képet mutat, vagyis a katonai és a politikai-diplomáciai jelzések egyszerre maradtak jelen. A rövid távú pálya inkább enyhébb vagy javuló irányt jelez. A külső fronthelyzeti adatok ezt részben operatív oldalról is alátámasztják. Az ukrán operatív források alapján a drón- és csapásjellegű aktivitás továbbra is meghatározó maradt.",
+  "top_escalation_signals": [],
+  "top_diplomatic_signals": [],
+  "key_headlines": [],
+  "external_operational_summary": "A külső fronthelyzeti becslés szerint az orosz ellenőrzés alatt álló terület nagysága megközelítőleg 117 108,65 km². Napi összevetésben a változás 13,21 km² volt, ami orosz területszerzés irányába mutat. Heti távlatban a változás 56,81 km², ami orosz területszerzés képet jelez. A napi térképi dinamika alapján a legfontosabb előretörési irány Pokrovsk térségében jelent meg, miközben a legkedvezőtlenebb elmozdulás Bakhmut környezetében volt megfigyelhető. A dróntevékenység továbbra is jelentős, az elmúlt hét napban 708 UAV-eseményt rögzítettek.",
+  "external_change_summary": "A változásjelző réteg a 2026-09-09 és 2026-09-10 közötti elmozdulásokat mutatja. Az előretöréshez köthető fő súlypont koordinátája hozzávetőleg 37.47307, 48.42361. A veszteséghez köthető súlypont koordinátája hozzávetőleg 37.79668, 48.554.",
+  "ua_operational_summary": "Az ukrán operatív források napi mintája alapján a dróntevékenységre utaló említések száma 3, a rakéta- vagy nagy hatótávolságú csapásokra utaló említéseké 0, míg a tüzérségi vagy egyéb csapásjellegű aktivitásra utaló jelzéseké 0 volt. A leggyakrabban előforduló helyszínjelöltek: Avdiivka, Покровськ, Оріхів, Херсон, Lyman. A napi operatív kép főként ezekből a forrásokból rajzolódott ki: generalstaffzsu, deepstateua, ukrainenow.",
   "ua_operational_items": [
+    {
+      "title": "⚡️ ⚡️ Уражено Махачкалінський морський порт.",
+      "link": "https://t.me/GeneralStaffZSU/42187",
+      "source": "generalstaffzsu",
+      "score": 2
+    },
+    {
+      "title": "⚡️ ЗБИТО/ПОДАВЛЕНО 128 ВОРОЖИХ БПЛА У ніч на 10 вересня (з 18:00 09 вересня) противник атакував 149 ударними БпЛА типу S",
+      "link": "https://t.me/GeneralStaffZSU/42185",
+      "source": "generalstaffzsu",
+      "score": 2
+    },
     {
       "title": "⚡️ ЗБИТО/ПОДАВЛЕНО 165 БПЛА ПРОТИВНИКА У ніч на 09 вересня (з 18:00 08 вересня) противник атакував балістичними ракетами",
       "link": "https://t.me/GeneralStaffZSU/42173",
@@ -110,27 +35,15 @@
       "score": 2
     },
     {
-      "title": "⚡️ ЗБИТО/ПОДАВЛЕНО 175 ЦІЛЕЙ ПРОТИВНИКА У ніч на 08 вересня (з 18:00 07 вересня) противник атакував: - протикорабельними",
-      "link": "https://t.me/GeneralStaffZSU/42161",
-      "source": "generalstaffzsu",
-      "score": 2
-    },
-    {
-      "title": "РФ продовжує атакувати пасажирські потяги: сьогодні вранці «Шахед» влучив у поїзд «Харків — Ізюм».",
-      "link": "https://t.me/UkraineNow/83993",
+      "title": "росіяни вдарили шахедом по АЗС в Голосїівському районі Києва: четверо постраждалих Також виникла пожежа у 8-поверховій н",
+      "link": "https://t.me/UkraineNow/84011",
       "source": "ukrainenow",
       "score": 0
     },
     {
-      "title": "Оперативна інформація станом на 08:00 09.09.2026 щодо російського вторгнення Слава Україні!",
-      "link": "https://t.me/GeneralStaffZSU/42171",
+      "title": "Оперативна інформація станом на 08:00 10.09.2026 щодо російського вторгнення Слава Україні!",
+      "link": "https://t.me/GeneralStaffZSU/42184",
       "source": "generalstaffzsu",
-      "score": 0
-    },
-    {
-      "title": "Головні новини за 8 вересня ▪️ росіяни завдали масованого удару по Києву та області: 5 людей загинули, понад 20 поранени",
-      "link": "https://t.me/UkraineNow/83992",
-      "source": "ukrainenow",
       "score": 0
     }
   ]
