@@ -1,45 +1,45 @@
 # Napi konfliktusjelentés – Oroszország–Ukrajna
 
-**Dátum:** 2026-10-10
-**Feldolgozott cikkek száma:** 89
-**Összesített konfliktusindex:** -663
+**Dátum:** 2026-10-11
+**Feldolgozott cikkek száma:** 97
+**Összesített konfliktusindex:** -656
 **Minősítés:** erős eszkaláció
 
 ## 1. Helyzetkép
 
-A napi médiakép összességében erősen eszkalációs képet mutatott. A feldolgozott 89 cikk közül 85 hordozott kifejezetten konfliktuserősítő mintázatot, miközben a deeszkalációra utaló hírek száma mindössze 1 volt. Ez arra utal, hogy a napirendet elsősorban a katonai aktivitás, a csapásmérések és a harctéri nyomás fennmaradása alakította.
+A napi médiakép összességében erősen eszkalációs képet mutatott. A feldolgozott 97 cikk közül 88 hordozott kifejezetten konfliktuserősítő mintázatot, miközben a deeszkalációra utaló hírek száma mindössze 4 volt. Ez arra utal, hogy a napirendet elsősorban a katonai aktivitás, a csapásmérések és a harctéri nyomás fennmaradása alakította.
 
 ## 2. Fő trendek
 
-A napi cikkmegoszlás alapján **85** eszkalációs, **1** deeszkalációs és **3** semleges hír került a mintába. Ez a megoszlás rövid távú képet ad az információs környezet irányáról: minél nagyobb az eszkalációs arány, annál inkább katonai és biztonsági fejlemények uralják a napirendet, míg a pozitívabb elmozdulás inkább a diplomáciai nyitás jele.
+A napi cikkmegoszlás alapján **88** eszkalációs, **4** deeszkalációs és **5** semleges hír került a mintába. Ez a megoszlás rövid távú képet ad az információs környezet irányáról: minél nagyobb az eszkalációs arány, annál inkább katonai és biztonsági fejlemények uralják a napirendet, míg a pozitívabb elmozdulás inkább a diplomáciai nyitás jele.
 
 ## 3. Operatív helyzetkép
 
-A napi tudósításokban a rakéta-, drón- és egyéb légi csapások hangsúlyosabb szerepet kaptak (45 releváns cím), miközben a klasszikus frontvonalhoz kötődő hírek kisebb súllyal jelentek meg (19 cím). Ez arra utal, hogy a konfliktus napi médiaképe inkább a mélységi csapásmérés és az infrastruktúra elleni támadások irányába tolódott.
+A napi tudósításokban a rakéta-, drón- és egyéb légi csapások hangsúlyosabb szerepet kaptak (42 releváns cím), miközben a klasszikus frontvonalhoz kötődő hírek kisebb súllyal jelentek meg (20 cím). Ez arra utal, hogy a konfliktus napi médiaképe inkább a mélységi csapásmérés és az infrastruktúra elleni támadások irányába tolódott.
 
 ## 4. Külső fronthelyzeti napi brief
 
-A külső operatív adatforrás napi összegzése szerint **Ukraine War Daily Brief – Russian pressure continues near Kupiansk**. A becsült orosz ellenőrzés alatt álló terület nagysága megközelítőleg 117 135,20 km². Napi szinten a területi változás 8,80 km² volt, ami orosz területszerzés képet jelez. Heti összevetésben a változás 30,86 km², ami orosz területszerzés képet rajzol ki. A napi térképi dinamika alapján a legfontosabb előretörési irány Kupiansk térségében jelent meg. A dróntevékenység továbbra is jelentős: az összes rögzített UAV-esemény száma 1 523, ebből 715 az elmúlt hét naphoz köthető. A külső napi brief összképe szerint a hadműveleti környezet továbbra is fokozatos, felőrlő jellegű nyomást mutat, nem pedig gyors áttörésszerű változást.
+A külső operatív adatforrás napi összegzése szerint **Ukraine War Daily Brief – Limited territorial movement along the frontline**. A becsült orosz ellenőrzés alatt álló terület nagysága megközelítőleg 117 135,20 km². Napi szinten a területi változás 0,00 km² volt, ami nincs érdemi változás képet jelez. Heti összevetésben a változás 22,82 km², ami orosz területszerzés képet rajzol ki. A dróntevékenység továbbra is jelentős: az összes rögzített UAV-esemény száma 1 517, ebből 709 az elmúlt hét naphoz köthető. A külső napi brief összképe szerint a hadműveleti környezet továbbra is fokozatos, felőrlő jellegű nyomást mutat, nem pedig gyors áttörésszerű változást.
 
 ## 5. Külső változásjelző összefoglaló
 
-A változásjelző adatforrás a 2026-10-10 és 2026-10-09 közötti állapotkülönbséget rögzíti. Az előretöréshez köthető fő súlypont koordinátája megközelítőleg 37.54039, 50.21473. A napi összevetés alapján külön veszteségi súlypont nem került azonosításra.
+A változásjelző adatforrás a 2026-10-11 és 2026-10-10 közötti állapotkülönbséget rögzíti. A napi összevetés alapján külön veszteségi súlypont nem került azonosításra.
 
 ## 6. Ukrán operatív források fő jelzései
 
-Az ukrán operatív források napi mintája alapján a dróntevékenységre utaló említések száma 1, a rakéta- vagy egyéb nagy hatótávolságú csapásokra utaló említéseké 0, míg a tüzérségi vagy egyéb csapásjellegű aktivitásra utaló jelzéseké 0 volt. A leggyakrabban előforduló helyszínjelöltek: Avdiivka, Kupiansk, Bakhmut, Kurakhove, Роботине. A napi operatív kép főként ezekből a forrásokból rajzolódott ki: generalstaffzsu, ukrainenow, deepstateua.
+Az ukrán operatív források napi mintája alapján a dróntevékenységre utaló említések száma 2, a rakéta- vagy egyéb nagy hatótávolságú csapásokra utaló említéseké 0, míg a tüzérségi vagy egyéb csapásjellegű aktivitásra utaló jelzéseké 0 volt. A leggyakrabban előforduló helyszínjelöltek: Курахове, Dnipro, Херсон, Orikhiv, Гуляйполе. A napi operatív kép főként ezekből a forrásokból rajzolódott ki: generalstaffzsu, ukrainenow, deepstateua.
 
 ## 7. Katonai dimenzió
 
-A katonai dimenzióban a légi csapásokhoz, rakéta- és dróntámadásokhoz kapcsolódó hírek domináltak (45 releváns cím), miközben a klasszikus frontvonalhoz kötődő tudósítások kisebb súllyal jelentek meg (19 cím). Ez olyan napi képet jelez, amelyben a mélységi csapásmérés és az infrastruktúra elleni támadások erősebben tematizálták a konfliktust.
+A katonai dimenzióban a légi csapásokhoz, rakéta- és dróntámadásokhoz kapcsolódó hírek domináltak (42 releváns cím), miközben a klasszikus frontvonalhoz kötődő tudósítások kisebb súllyal jelentek meg (20 cím). Ez olyan napi képet jelez, amelyben a mélységi csapásmérés és az infrastruktúra elleni támadások erősebben tematizálták a konfliktust.
 
 ## 8. Diplomáciai és politikai dimenzió
 
-A diplomáciai-politikai dimenzió korlátozott, de érzékelhető súllyal maradt jelen: 1 cím utalt tárgyalásokra, egyeztetésekre vagy rendezési törekvésekre, miközben 35 cím vezetői szintű politikai kommunikációt vagy döntéshozói kontextust emelt be. Ez azt mutatja, hogy a napi napirend nem kizárólag a harctéri események köré szerveződött.
+A diplomáciai-politikai dimenzió korlátozott, de érzékelhető súllyal maradt jelen: 7 cím utalt tárgyalásokra, egyeztetésekre vagy rendezési törekvésekre, miközben 37 cím vezetői szintű politikai kommunikációt vagy döntéshozói kontextust emelt be. Ez azt mutatja, hogy a napi napirend nem kizárólag a harctéri események köré szerveződött.
 
 ## 9. Nemzetközi támogatás és külső környezet
 
-A nemzetközi támogatási környezet a napi médiaképben is látható maradt (2 releváns cím). Ez arra utal, hogy a konfliktus értelmezésében továbbra is fontos szerepet játszik a nyugati katonai támogatás, a védelmi képességek fenntartása és a gazdasági nyomásgyakorlás dimenziója.
+A nemzetközi támogatási környezet a napi médiaképben is látható maradt (4 releváns cím). Ez arra utal, hogy a konfliktus értelmezésében továbbra is fontos szerepet játszik a nyugati katonai támogatás, a védelmi képességek fenntartása és a gazdasági nyomásgyakorlás dimenziója.
 
 ## 10. Médiakeretezés
 
@@ -51,18 +51,18 @@ A médiás index egyértelműen feszült, eszkalációs képet jelez. A külső 
 
 ## 12. Domináns kulcsszavak
 
-- `russia` (russia_context) – 66 előfordulás
-- `ukraine` (ukraine_context) – 61 előfordulás
+- `russia` (russia_context) – 68 előfordulás
+- `ukraine` (ukraine_context) – 64 előfordulás
 - `russian` (russia_context) – 55 előfordulás
-- `russia+ukraine` (joint_conflict_context) – 47 előfordulás
-- `strike` (escalation) – 43 előfordulás
-- `strikes` (escalation) – 21 előfordulás
-- `kyiv` (ukraine_context) – 20 előfordulás
-- `attack` (escalation) – 17 előfordulás
-- `attacks` (escalation) – 14 előfordulás
-- `dead` (escalation) – 12 előfordulás
+- `russia+ukraine` (joint_conflict_context) – 49 előfordulás
+- `strike` (escalation) – 38 előfordulás
+- `attack` (escalation) – 23 előfordulás
+- `kyiv` (ukraine_context) – 19 előfordulás
+- `strikes` (escalation) – 19 előfordulás
+- `attacks` (escalation) – 16 előfordulás
+- `dead` (escalation) – 13 előfordulás
 - `ukrainian` (ukraine_context) – 12 előfordulás
-- `offensive` (escalation) – 8 előfordulás
+- `putin` (russia_context) – 11 előfordulás
 
 ## 13. Kiemelt eszkalációs jellegű hírek
 
@@ -74,6 +74,9 @@ A médiás index egyértelműen feszült, eszkalációs képet jelez. A külső 
 
 ## 14. Kiemelt deeszkalációs jellegű hírek
 
+- **[Jared Kushner and Steve Witkoff to discuss ‘new’ peace plan with Ukrainian delegation, sources say - AOL.com](https://news.google.com/rss/articles/CBMihAFBVV95cUxPRDhvNGUxdDhvZ3NwVkZEbjhiMFVPN2d4TXdreFNHNDJ0Q05QM3BRclEzZXlEc2l2ZVJMYlVSUHVfX3ZyZUwxTER6dHNBeHc1VTgtdW8zYV9tLVI1SnRqOWxVTFZCY0plWlg5UXZxRVRyQlBJb0luVEE2Q213VkFGX19XVXQ?oc=5)** — pontszám: `5`, forrás: "ceasefire talks ukraine russia -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d" - Google News
+- **[Kremlin admits stalemate as source says talks set - China Daily Global Edition](https://news.google.com/rss/articles/CBMiggFBVV95cUxOdGE3M185VWx0VERZRnNCTzlsNWdKNkNCdW84N2xRbXpaX1dLdXN6VzBtWnRuQlVTMTFFOUtkQ3ZqcW1NT2xEMHNaLUpBNENBV1ZRRmVIVjJ3eW44cU1MLURhMy12UGdVMmFDQ0VhQl9HaVFQakJUa3V1VFFZM1NNOFpB?oc=5)** — pontszám: `1`, forrás: "ceasefire talks ukraine russia -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d" - Google News
+- **[With four new ceasefire proposals, will the Russia-Ukraine conflict find a way out? - Vietnam.vn](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRk50VHFwbDNkZDBFNWRJaUs5TWpnX19sV2dGdWFmZFlxSUZHaFY1eUNONmJZZG9pMGJXdUhMbEFPRkFUTTFXRVNYOElyc3RqTEd0VXZ4SC1ROXdOZDRJd2tWbDhULU9ELWRaRkFzZEVlTEZ6azRFWTJKYlFzUkJBTTJua0cyMDExam5wUjlBdEdaZUxsb0VjRjVEVlg5NWNoU3dscmZDdjFrQQ?oc=5)** — pontszám: `1`, forrás: "ceasefire talks ukraine russia -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d" - Google News
 - **[Five Years of War Have Weakened Russia, While Poland Maintains Its Tough Stance – A 2026 Geopolitical Dialogue - Inkorr](https://news.google.com/rss/articles/CBMivAFBVV95cUxPTmp2Ymc3YUV2emFtUlc1S2tvQ21ZSFBPeURtcndWWG8xdG1vVUZDZWtjMXFYeTAtTXV1MGJhWXRzTUhvcXVDY0tOYTFvUG5odlh3MkxRQ3dVa0JaTDNXNTFxYVpmV2Jsc2pCVTl0ZG00NUVGb21RVkp2VjdMaUhZc0JNZWlPcnB2clJXX2FweW5QeXhWU1hkUVJxay04cVJoX3lSbk1YajBCdWtVekx4dzdRVlRmTm1DZ2VjaNIBvAFBVV95cUxPTmp2Ymc3YUV2emFtUlc1S2tvQ21ZSFBPeURtcndWWG8xdG1vVUZDZWtjMXFYeTAtTXV1MGJhWXRzTUhvcXVDY0tOYTFvUG5odlh3MkxRQ3dVa0JaTDNXNTFxYVpmV2Jsc2pCVTl0ZG00NUVGb21RVkp2VjdMaUhZc0JNZWlPcnB2clJXX2FweW5QeXhWU1hkUVJxay04cVJoX3lSbk1YajBCdWtVekx4dzdRVlRmTm1DZ2VjaA?oc=5)** — pontszám: `1`, forrás: "ceasefire talks ukraine russia -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d" - Google News
 
 ## 15. Rövid távú kockázati indikátor
