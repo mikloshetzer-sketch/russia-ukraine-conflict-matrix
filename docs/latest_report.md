@@ -1,45 +1,45 @@
 # Napi konfliktusjelentés – Oroszország–Ukrajna
 
-**Dátum:** 2026-10-16
-**Feldolgozott cikkek száma:** 109
-**Összesített konfliktusindex:** -419
+**Dátum:** 2026-10-17
+**Feldolgozott cikkek száma:** 105
+**Összesített konfliktusindex:** -487
 **Minősítés:** erős eszkaláció
 
 ## 1. Helyzetkép
 
-A napi médiakép összességében erősen eszkalációs képet mutatott. A feldolgozott 109 cikk közül 87 hordozott kifejezetten konfliktuserősítő mintázatot, miközben a deeszkalációra utaló hírek száma mindössze 16 volt. Ez arra utal, hogy a napirendet elsősorban a katonai aktivitás, a csapásmérések és a harctéri nyomás fennmaradása alakította.
+A napi médiakép összességében erősen eszkalációs képet mutatott. A feldolgozott 105 cikk közül 92 hordozott kifejezetten konfliktuserősítő mintázatot, miközben a deeszkalációra utaló hírek száma mindössze 5 volt. Ez arra utal, hogy a napirendet elsősorban a katonai aktivitás, a csapásmérések és a harctéri nyomás fennmaradása alakította.
 
 ## 2. Fő trendek
 
-A napi cikkmegoszlás alapján **87** eszkalációs, **16** deeszkalációs és **6** semleges hír került a mintába. Ez a megoszlás rövid távú képet ad az információs környezet irányáról: minél nagyobb az eszkalációs arány, annál inkább katonai és biztonsági fejlemények uralják a napirendet, míg a pozitívabb elmozdulás inkább a diplomáciai nyitás jele.
+A napi cikkmegoszlás alapján **92** eszkalációs, **5** deeszkalációs és **8** semleges hír került a mintába. Ez a megoszlás rövid távú képet ad az információs környezet irányáról: minél nagyobb az eszkalációs arány, annál inkább katonai és biztonsági fejlemények uralják a napirendet, míg a pozitívabb elmozdulás inkább a diplomáciai nyitás jele.
 
 ## 3. Operatív helyzetkép
 
-A napi tudósításokban a rakéta-, drón- és egyéb légi csapások hangsúlyosabb szerepet kaptak (31 releváns cím), miközben a klasszikus frontvonalhoz kötődő hírek kisebb súllyal jelentek meg (19 cím). Ez arra utal, hogy a konfliktus napi médiaképe inkább a mélységi csapásmérés és az infrastruktúra elleni támadások irányába tolódott.
+A napi tudósításokban a rakéta-, drón- és egyéb légi csapások hangsúlyosabb szerepet kaptak (36 releváns cím), miközben a klasszikus frontvonalhoz kötődő hírek kisebb súllyal jelentek meg (13 cím). Ez arra utal, hogy a konfliktus napi médiaképe inkább a mélységi csapásmérés és az infrastruktúra elleni támadások irányába tolódott.
 
 ## 4. Külső fronthelyzeti napi brief
 
-A külső operatív adatforrás napi összegzése szerint **Ukraine War Daily Brief – Russian pressure continues near Bakhmut**. A becsült orosz ellenőrzés alatt álló terület nagysága megközelítőleg 117 095,02 km². Napi szinten a területi változás 8,59 km² volt, ami orosz területszerzés képet jelez. Heti összevetésben a változás -31,38 km², ami ukrán visszafoglalás képet rajzol ki. A napi térképi dinamika alapján a legfontosabb előretörési irány Bakhmut térségében jelent meg. A dróntevékenység továbbra is jelentős: az összes rögzített UAV-esemény száma 0, ebből 0 az elmúlt hét naphoz köthető. A külső napi brief összképe szerint a hadműveleti környezet továbbra is fokozatos, felőrlő jellegű nyomást mutat, nem pedig gyors áttörésszerű változást.
+A külső operatív adatforrás napi összegzése szerint **Ukraine War Daily Brief – Russian pressure continues near Pokrovsk**. A becsült orosz ellenőrzés alatt álló terület nagysága megközelítőleg 117 102,24 km². Napi szinten a területi változás 7,22 km² volt, ami orosz területszerzés képet jelez. Heti összevetésben a változás -32,96 km², ami ukrán visszafoglalás képet rajzol ki. A napi térképi dinamika alapján a legfontosabb előretörési irány Pokrovsk térségében jelent meg. A dróntevékenység továbbra is jelentős: az összes rögzített UAV-esemény száma 0, ebből 0 az elmúlt hét naphoz köthető. A külső napi brief összképe szerint a hadműveleti környezet továbbra is fokozatos, felőrlő jellegű nyomást mutat, nem pedig gyors áttörésszerű változást.
 
 ## 5. Külső változásjelző összefoglaló
 
-A változásjelző adatforrás a 2026-10-16 és 2026-10-15 közötti állapotkülönbséget rögzíti. Az előretöréshez köthető fő súlypont koordinátája megközelítőleg 37.86492, 48.78834. A napi összevetés alapján külön veszteségi súlypont nem került azonosításra.
+A változásjelző adatforrás a 2026-10-17 és 2026-10-16 közötti állapotkülönbséget rögzíti. Az előretöréshez köthető fő súlypont koordinátája megközelítőleg 37.12005, 48.38938. A napi összevetés alapján külön veszteségi súlypont nem került azonosításra.
 
 ## 6. Ukrán operatív források fő jelzései
 
-Az ukrán operatív források napi mintája alapján a dróntevékenységre utaló említések száma 3, a rakéta- vagy egyéb nagy hatótávolságú csapásokra utaló említéseké 0, míg a tüzérségi vagy egyéb csapásjellegű aktivitásra utaló jelzéseké 0 volt. A leggyakrabban előforduló helyszínjelöltek: Херсон, Кремінна, Avdiivka, Siversk, Pokrovsk. A napi operatív kép főként ezekből a forrásokból rajzolódott ki: generalstaffzsu, ukrainenow, deepstateua.
+Az ukrán operatív források napi mintája alapján a dróntevékenységre utaló említések száma 3, a rakéta- vagy egyéb nagy hatótávolságú csapásokra utaló említéseké 0, míg a tüzérségi vagy egyéb csapásjellegű aktivitásra utaló jelzéseké 0 volt. A leggyakrabban előforduló helyszínjelöltek: Huliaipole, Оріхів, Лиман, Robotyne, Kupiansk. A napi operatív kép főként ezekből a forrásokból rajzolódott ki: generalstaffzsu, ukrainenow, deepstateua.
 
 ## 7. Katonai dimenzió
 
-A katonai dimenzióban a légi csapásokhoz, rakéta- és dróntámadásokhoz kapcsolódó hírek domináltak (31 releváns cím), miközben a klasszikus frontvonalhoz kötődő tudósítások kisebb súllyal jelentek meg (19 cím). Ez olyan napi képet jelez, amelyben a mélységi csapásmérés és az infrastruktúra elleni támadások erősebben tematizálták a konfliktust.
+A katonai dimenzióban a légi csapásokhoz, rakéta- és dróntámadásokhoz kapcsolódó hírek domináltak (36 releváns cím), miközben a klasszikus frontvonalhoz kötődő tudósítások kisebb súllyal jelentek meg (13 cím). Ez olyan napi képet jelez, amelyben a mélységi csapásmérés és az infrastruktúra elleni támadások erősebben tematizálták a konfliktust.
 
 ## 8. Diplomáciai és politikai dimenzió
 
-A diplomáciai-politikai dimenzió korlátozott, de érzékelhető súllyal maradt jelen: 24 cím utalt tárgyalásokra, egyeztetésekre vagy rendezési törekvésekre, miközben 40 cím vezetői szintű politikai kommunikációt vagy döntéshozói kontextust emelt be. Ez azt mutatja, hogy a napi napirend nem kizárólag a harctéri események köré szerveződött.
+A diplomáciai-politikai dimenzió korlátozott, de érzékelhető súllyal maradt jelen: 11 cím utalt tárgyalásokra, egyeztetésekre vagy rendezési törekvésekre, miközben 37 cím vezetői szintű politikai kommunikációt vagy döntéshozói kontextust emelt be. Ez azt mutatja, hogy a napi napirend nem kizárólag a harctéri események köré szerveződött.
 
 ## 9. Nemzetközi támogatás és külső környezet
 
-A nemzetközi támogatási környezet a napi médiaképben is látható maradt (1 releváns cím). Ez arra utal, hogy a konfliktus értelmezésében továbbra is fontos szerepet játszik a nyugati katonai támogatás, a védelmi képességek fenntartása és a gazdasági nyomásgyakorlás dimenziója.
+A nemzetközi támogatási környezet a napi médiaképben is látható maradt (4 releváns cím). Ez arra utal, hogy a konfliktus értelmezésében továbbra is fontos szerepet játszik a nyugati katonai támogatás, a védelmi képességek fenntartása és a gazdasági nyomásgyakorlás dimenziója.
 
 ## 10. Médiakeretezés
 
@@ -51,34 +51,34 @@ A médiás index egyértelműen feszült, eszkalációs képet jelez. A külső 
 
 ## 12. Domináns kulcsszavak
 
-- `russia` (russia_context) – 69 előfordulás
-- `ukraine` (ukraine_context) – 60 előfordulás
-- `russia+ukraine` (joint_conflict_context) – 40 előfordulás
-- `russian` (russia_context) – 28 előfordulás
-- `zelensky` (ukraine_context) – 21 előfordulás
-- `ukrainian` (ukraine_context) – 17 előfordulás
-- `ceasefire` (deescalation) – 16 előfordulás
-- `strike` (escalation) – 15 előfordulás
-- `kyiv` (ukraine_context) – 12 előfordulás
-- `offensive` (escalation) – 11 előfordulás
-- `drone` (escalation) – 11 előfordulás
-- `missile` (escalation) – 10 előfordulás
+- `russia` (russia_context) – 65 előfordulás
+- `ukraine` (ukraine_context) – 59 előfordulás
+- `russia+ukraine` (joint_conflict_context) – 35 előfordulás
+- `russian` (russia_context) – 31 előfordulás
+- `strike` (escalation) – 19 előfordulás
+- `zelensky` (ukraine_context) – 16 előfordulás
+- `ukrainian` (ukraine_context) – 15 előfordulás
+- `kyiv` (ukraine_context) – 14 előfordulás
+- `strikes` (escalation) – 14 előfordulás
+- `missile` (escalation) – 13 előfordulás
+- `drone` (escalation) – 10 előfordulás
+- `missiles` (escalation) – 9 előfordulás
 
 ## 13. Kiemelt eszkalációs jellegű hírek
 
 - **[Ukraine war latest: Russian missiles slam central Kyiv before air raid alert sounds - The Kyiv Independent](https://news.google.com/rss/articles/CBMisAFBVV95cUxOTHJBVVFFb1gyMTZUMkJ2X3ZuT1FCTGItdUl6ZmQzMWNvdUtodTR3LW5IOGZPQkVjMXBJdjhXaV9UWTBmbHdydmlpQzhqVVFXVng1Sjd4UFBJTDNHNnVyZlQ1dHlaXzJ3cEFJT3U3WFIza25KdkY3VzR5X3BvZFR0clY2YWZiRnpnaTh3bXZpbjh2SUZueUt5WXFXOFFmeUFHWm9OcXprZkhiNVFRV1VpYg?oc=5)** — pontszám: `-16`, forrás: "russia missile attack ukraine -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d" - Google News
+- **[Russia attacked Ukraine with nearly a hundred drones and Zircon missiles - UA.NEWS](https://news.google.com/rss/articles/CBMimwFBVV95cUxPVnNoQUkzdjZlbUpEa1lMdm5JQ1NsRWVnRjlTTG93V19EZTZYUnNiOHdZcllqZXhDaUswb2pQV0k3WEw5eHlwQ2RQSXR2ZlBCbmN5UHFxQTlxclU2QVJGb293a1p3NEpUMXJ1a3paYksxUlVaTUNicWFqZjRaME5pVHUtMjdybU52NC0tcUJGbDRxXzdSV3RjSU1zYw?oc=5)** — pontszám: `-16`, forrás: "russia missile attack ukraine -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d" - Google News
+- **[Ukraine war latest: Russian missiles slam central Kyiv before air raid alert sounds - The Kyiv Independent](https://news.google.com/rss/articles/CBMisAFBVV95cUxOTHJBVVFFb1gyMTZUMkJ2X3ZuT1FCTGItdUl6ZmQzMWNvdUtodTR3LW5IOGZPQkVjMXBJdjhXaV9UWTBmbHdydmlpQzhqVVFXVng1Sjd4UFBJTDNHNnVyZlQ1dHlaXzJ3cEFJT3U3WFIza25KdkY3VzR5X3BvZFR0clY2YWZiRnpnaTh3bXZpbjh2SUZueUt5WXFXOFFmeUFHWm9OcXprZkhiNVFRV1VpYg?oc=5)** — pontszám: `-16`, forrás: "kyiv moscow war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d" - Google News
+- **[Russian attacks kill 20 in Ukraine after Trump strikes diesel deal with Putin - Idaho State Journal](https://news.google.com/rss/articles/CBMiggJBVV95cUxPZ0JtZmdhaVFweHFnN2FRZVNGdGpsR09HTE1mS1AtRDBOeDJ5ampUV3dpOHFSOV9wcGJiLUg3UU1RRlZkN2IyMDVmUFRqOHU5S2FNUVlodEUyS253b00tbnVtcmVvdll0N0dtdDQ2Y3dpWnN3Mi1TanZtekRlQWxaMkJiSTZ5NDhuTnNLNG5LV3Vwbzhoa1AtNlFEXzJNWm1uc2dPQVFlaWJ5V0JpZHZnWHZvQjA5TzZsWHpjM0hqcFRSUUFHbGJ3dDUwUDZCQjU1NFJCSmtFZWtjUVQ4d1NpcUxWMlR6N1dMUDRqSHZ4QXBWQlh6WklBNkFPVjdmVVkzNWc?oc=5)** — pontszám: `-15`, forrás: "russia ukraine war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d" - Google News
 - **[Russian attacks kill 12 in Ukraine after Trump strikes diesel deal with Putin - Idaho State Journal](https://news.google.com/rss/articles/CBMigAJBVV95cUxOWEptVWV4aVB5VjRtYzloZDRIMjFKRGtlTGVZTEpnZTlZZC1mR01rNTlDUUtvX1VLbmt2TXdMbFhPUklaOXV0Z01yMEpVT1ppOF9LanNvSlNwUjFmdUd2RU1DT1h1VkxkVDAySENSNmpSOHBnVWtTc3ZQSG9HOXh6TVFfTlBNbXZEdzctc2pRMFRVSGIzaHJINm4xYmFWd1oyUEtBMUJ4cXBsUFAwVXZUX0d5N0RpWWFXc0JGWklFVXU4Y1A4WXlrWEQ1SGJpTFJ6bzVvX1JaQnZ2QURhVWZTblowUGU1N3FEc2JldkdhbGNIYnJUajQxam1KbXNLd3RQ?oc=5)** — pontszám: `-15`, forrás: "russia ukraine war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d" - Google News
-- **[Russian attacks kill 20 in Ukraine after Trump strikes diesel deal with Putin - Idaho State Journal](https://news.google.com/rss/articles/CBMiggJBVV95cUxPZ0JtZmdhaVFweHFnN2FRZVNGdGpsR09HTE1mS1AtRDBOeDJ5ampUV3dpOHFSOV9wcGJiLUg3UU1RRlZkN2IyMDVmUFRqOHU5S2FNUVlodEUyS253b00tbnVtcmVvdll0N0dtdDQ2Y3dpWnN3Mi1TanZtekRlQWxaMkJiSTZ5NDhuTnNLNG5LV3Vwbzhoa1AtNlFEXzJNWm1uc2dPQVFlaWJ5V0JpZHZnWHZvQjA5TzZsWHpjM0hqcFRSUUFHbGJ3dDUwUDZCQjU1NFJCSmtFZWtjUVQ4d1NpcUxWMlR6N1dMUDRqSHZ4QXBWQlh6WklBNkFPVjdmVVkzNWc?oc=5)** — pontszám: `-15`, forrás: "russia missile attack ukraine -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d" - Google News
-- **[Russian attacks kill 20 in Ukraine after Trump strikes diesel deal with Putin - Rocky Mount Telegram](https://news.google.com/rss/articles/CBMiggJBVV95cUxPNjBPVnNkblE2VHNqQXV4WVBiVkR6RHF4eE01YTRsSnF5RXZkVVR0a2R4RTVsVUtRUXotTnhBaFVhZHJPZkFSRHJ0RVd0VzcyNVdiX0tvNG1JcFlXOFRFR1A2VlVjLWxfaGZya3BJOE9jTmFWTDNYRGpWVzVjZU01LU51WnV1QjJFc2tBOE5kWmVZX2M5UlhNZ0NJS2lFd3ljVm5jd0hSY0hmR3JiVGNaeEVHYWZoYTBCSmhIZ19aMTlZQm04N3VjY3ZzWjM4cFVhTGhpd3NBeGpvYnBIREoxUGlERWgwX05kUXc1TmFldE9GRGtMQjlOczlSR1hNN0x6OFE?oc=5)** — pontszám: `-15`, forrás: "kyiv moscow war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d" - Google News
-- **[Nearly 500 Ukrainian Drones Target Moscow Overnight in One of Largest Attacks in Two Years, Russia Says - UNITED24 Media](https://news.google.com/rss/articles/CBMi4wFBVV95cUxPSy1MeVBqbUprd3Z2OGs2b3VBSFp4VXFFM1NwNHNraU9COWxqQmtvTVRJQlF0YXBqWm1BNkRvZHJiSlBOVWhXU3VrRWhob2FlNG93bS15NFFqeG50YVo0SGRrdXM0RWNPNkJFOTZKU0JDMk5VYmM1Y1JHVTBhODNtS0ZDcm9hbVVuZ2VHMVpPVU5kUlcwWTFQSHg3NjVncHktbGJ4aFFmUlZqZUs2VzR6TDRXUFBfZXBGLWp4ZTBGZElXZ3RjUkVBQS1vaUZtdmVueVFQOVVHd00xd0ptVnFSM0RzTQ?oc=5)** — pontszám: `-13`, forrás: "kyiv moscow war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d" - Google News
 
 ## 14. Kiemelt deeszkalációs jellegű hírek
 
-- **[Jared Kushner and Steve Witkoff to discuss ‘new’ peace plan with Ukrainian delegation, sources say - AOL.com](https://news.google.com/rss/articles/CBMihAFBVV95cUxPRDhvNGUxdDhvZ3NwVkZEbjhiMFVPN2d4TXdreFNHNDJ0Q05QM3BRclEzZXlEc2l2ZVJMYlVSUHVfX3ZyZUwxTER6dHNBeHc1VTgtdW8zYV9tLVI1SnRqOWxVTFZCY0plWlg5UXZxRVRyQlBJb0luVEE2Q213VkFGX19XVXQ?oc=5)** — pontszám: `5`, forrás: "ceasefire talks ukraine russia -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d" - Google News
-- **[Jared Kushner and Steve Witkoff to discuss ‘new’ peace plan with Ukrainian delegation, sources say - AOL.ca](https://news.google.com/rss/articles/CBMigwFBVV95cUxOYWpKUWJOSDFyUGgwd21RZHJVNS1yMGRpNzhDMS1YQllkUnBWNllqcXRrd2dvS3lVX1JxbWxwdkJCSXhncVJiNDRIMkpCeW5RRWZGY2YyNmdGRjdSNGdjSE16VXphSnVBNUM3dW1rRVBlR2pNZUNneWllRk9maUl5VDU1aw?oc=5)** — pontszám: `5`, forrás: "donbas ukraine russia -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d" - Google News
-- **[Ukrainian and European officials fly to Miami for US-led peace talks - AOL.ca](https://news.google.com/rss/articles/CBMiiAFBVV95cUxQY0FqeXNBUW5tY3dWMzV1cWdqOTlzeW9yel94VnhUUG9JN3BjZWtVRk1EenNxUW84NGVtMnJMLVMtZWxrQXJZUWliRVluSUFwSVkweHVCWXNnSTdoQkdQLUVhU090Wk80NGI5elc2WmpVTVB0ZVNEZXl0OEh3Nmh3S1FhdmMyUklH?oc=5)** — pontszám: `4`, forrás: "ceasefire talks ukraine russia -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d" - Google News
-- **[Carney backs Ukraine-Russia energy ceasefire in Thanksgiving weekend talks with Trump - Your Kenora](https://news.google.com/rss/articles/CBMirAFBVV95cUxNTi1rcU53aFhJMmZwNjRHbVlDeFM2dG1YUm9Zd2F4LVpLeURnM191WG5oSnpUaDAyYmhvczdmVXg2dWYzR3hMVlhKTlBDTEN5cGNDNmRfdXFhUVg4SVhXSXBfUHh6Rm9PWkVqakdtRnkxaTdVRHBXZ0hOaTM3eW1oclVmRllrVUh5eDc0aTZFTmdIZFdPSUJKRHRqN0ptWDJVZzNrMXl1LVhoWklN?oc=5)** — pontszám: `3`, forrás: "ceasefire talks ukraine russia -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d" - Google News
+- **[Carney backs Ukraine-Russia energy ceasefire in Thanksgiving weekend talks with Trump - Your Quad Counties](https://news.google.com/rss/articles/CBMitAFBVV95cUxPVThSQW1XUzFpTTNqWnJ2RzlZN1BLWm9iLWZQdElTZk9qMl9pWU11ZWlzRXRPMEM3cGxBQUxzX0R6OVFJdGpFcGRpM2lhTjVXV3pIcjlsVVloZ1ZvZzU1Vmp1eDBOVWw3d3hGVVp0dFZXMDJGeFlSTGh0TFFVYXRIbjF6d2h3RnAzQW1TdGFlbkx0ZGdxRDhSSXU5WExDZ1BUcDZJOWwwRnRzU19fUkxWakkzY1I?oc=5)** — pontszám: `3`, forrás: "ceasefire talks ukraine russia -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d" - Google News
 - **[Ukraine leader says he welcomes energy ceasefire - TVB](https://news.google.com/rss/articles/CBMif0FVX3lxTE9SdDctdlVzUkk3N1VKZnA2NmxPbHhfa2ZDaEYxc3IzSGg3cDNmVFp5eGRwNmxnTHNfOTBWT3hjSktRVnJqdmJLZVZHb2o0cE5WMHhsUkxNYzlkSU5YOTA5ZW1vbTZtbmJMTC1iU1hObTh6ZXlRNWVUdnNRcDY2cGc?oc=5)** — pontszám: `3`, forrás: "kyiv moscow war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d" - Google News
+- **[Zelensky Accuses Russia of Breaking Energy Ceasefire as Kremlin Says Talks Ongoing - The Moscow Times](https://news.google.com/rss/articles/CBMiywFBVV95cUxPRHMzQ19la2lYNE83dUlyVVoyWmRjdkdfR3hpRnFJSER4VTAzM2kwdU81Nlg5cE1fbEtxeWgxaFVGSHR1U3lxYTdYQ0VIMjhaMG9HTlM2Q2xGdklCZ05PN0ktY3FZRk8ydUZPMVZCY29KVHhpb1ZNdGxrdFNvWmNMVUtCNWZXTVMzQUFfVURUSnpKVlMxLXlmUTd6N00wUFNDZUtORmlONndrZlhmblNXai13VHRCX0t6eUk3c3dGVDlyT2JEN2x6XzFOMA?oc=5)** — pontszám: `2`, forrás: "ceasefire talks ukraine russia -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d" - Google News
+- **[Trump declares Russia and Ukraine agreed to energy ceasefire after Putin call, diesel deal - KVII](https://news.google.com/rss/articles/CBMigwNBVV95cUxOUmtTZGIxNjN4WkJidHNfZlN1dVdfakZaY2JoZnBXdjNCdkRxRVdCMUtNZ0NqVlQxWjVxSk9CRkNBUUZyQlpMZXMyTEJIaXpTWUUxc2RqQlF5dHRqUlg5al9UbVAxY2o1WWdhQWR4dUZFS0Z1YVhySFBiSVI0NHhkMkxldXVBWVB3Mk0xSm8tTGtHaXowdWpWNGczc0NtM2kyN25HWWJWUXllTlhLdjk0ZFZyVUNaWGtUX2xXZjZXNnMwLXdURzU3endaelhGd2FyanR1eWswMnB0OWZTVHFiNTBiY1JVc3c4ZHM3UG5iaWxHUnp4bWZ2TnNWVjNoZ1NrMzRMYTFVV3dxd1pMRnBibExCRjdEcDFPMWFBWXpneUxmcjBvb29BLU1YdWxibGNUNU9ZbVUweHZCQ0xNZkhDQmtSNUt5ZTQ0NzA5M2Nha0pLNkVUM3pmY0RHTi14SmJ5a3l1d1VRcy1pRGJBelJjLXo5ckRMVHZvUVA5ZXhKb3R0NjA?oc=5)** — pontszám: `2`, forrás: "ceasefire talks ukraine russia -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d" - Google News
+- **[Russia has no interest in peace, Burnham and Zelensky say - East Anglian Daily Times](https://news.google.com/rss/articles/CBMilwFBVV95cUxQRHBfM3M4OS0zU1JZOHlmeUppMEZYdzFhdVR2SWcyZWRibHFvd21IMzU0T3BTU1pYVktlcUFZWkRTMmNFeEtCMjhnTVk4bmxRRW00bmtieXVOVjRuT2pvWElWWXdxZEViblhPOVVWeVU3MUIwU1BTS011T1RNc1dONlFuQXM5MjM1SmFYMElhdUFYclpSWFp3?oc=5)** — pontszám: `1`, forrás: "kyiv moscow war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d" - Google News
 
 ## 15. Rövid távú kockázati indikátor
 
