@@ -1,15 +1,15 @@
 {
   "status_code": 200,
-  "url": "https://a.liveuamap.com/api?a=mpts&resid=3&time=1792469014&count=50&key=d95ff061bac14ad76aa4dba6450059ea",
+  "url": "https://a.liveuamap.com/api?a=mpts&resid=3&time=1792494480&count=50&key=d95ff061bac14ad76aa4dba6450059ea",
   "content_type": "application/json; charset=UTF-8",
   "headers": {
-    "Date": "Tue, 20 Oct 2026 04:03:34 GMT",
+    "Date": "Tue, 20 Oct 2026 11:08:00 GMT",
     "Content-Type": "application/json; charset=UTF-8",
     "Transfer-Encoding": "chunked",
     "Connection": "keep-alive",
     "Server": "cloudflare",
     "Vary": "Accept-Encoding",
-    "Set-Cookie": "PHPSESSID=2a35b60421e9044d438c98b942f4c80f; path=/; domain=.liveuamap.com",
+    "Set-Cookie": "PHPSESSID=d615e0f9bb30e932d079d44b57b1797b; path=/; domain=.liveuamap.com",
     "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
     "Cache-Control": "no-store, no-cache, must-revalidate",
     "Pragma": "no-cache",
@@ -19,7 +19,7 @@
     "Referrer-Policy": "strict-origin-when-cross-origin",
     "Content-Encoding": "gzip",
     "cf-cache-status": "DYNAMIC",
-    "CF-RAY": "a4d5222bf990113a-ORD"
+    "CF-RAY": "a4d78fe6c8e458da-LAX"
   },
-  "saved_at": "2026-10-20T04:03:34.822946"
+  "saved_at": "2026-10-20T11:08:01.232264"
 }
