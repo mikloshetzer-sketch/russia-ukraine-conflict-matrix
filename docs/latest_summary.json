@@ -1,15 +1,21 @@
 {
-  "report_date": "2026-11-06",
-  "created_at": "2026-11-06T13:17:11.178873",
-  "article_count": 80,
-  "total_score": -320,
-  "conflict_index": -4.0,
+  "report_date": "2026-11-07",
+  "created_at": "2026-11-07T11:57:16.756194",
+  "article_count": 94,
+  "total_score": -437,
+  "conflict_index": -4.65,
   "assessment": "erős eszkaláció",
   "assessment_raw": "strong escalation",
-  "trajectory": "javuló",
+  "trajectory": "romló",
   "outlook": "fokozott eszkalációs kockázat",
-  "commentary": "A mai összkép alapján a konfliktus médiás értékelése: erős eszkaláció. A hírek súlypontját továbbra is a katonai nyomás, a csapásmérések és a biztonsági kockázatok alakítják. A rövid távú pálya inkább enyhébb vagy javuló irányt jelez. A külső fronthelyzeti adatok ezt részben operatív oldalról is alátámasztják. Az ukrán operatív források alapján a drón- és csapásjellegű aktivitás továbbra is meghatározó maradt.",
+  "commentary": "A mai összkép alapján a konfliktus médiás értékelése: erős eszkaláció. A hírek súlypontját továbbra is a katonai nyomás, a csapásmérések és a biztonsági kockázatok alakítják. A rövid távú pálya inkább romló irányba mutat. A külső fronthelyzeti adatok ezt részben operatív oldalról is alátámasztják. Az ukrán operatív források alapján a drón- és csapásjellegű aktivitás továbbra is meghatározó maradt.",
   "top_escalation_signals": [
+    {
+      "title": "Russia attacks Ukraine with missiles and 172 drones, air defenses intercept 149 UAVs - The New Voice of Ukraine",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQTDhyV2E0aFFpaU9nLVM1WEFud1p3REZ5cFJOQm8wZ3E3Wk04MFNScTFnNFEtUGthT3FYMWpyNlVIRGVMM1RHZXF3ekJxM2tkVThZdlN0MTRiamtfWERON0RHNE4zdEZvTW9RZkJhMzB4VWx6TWJoX1k2QTZaMkg3TlZwWEFJMTRHcUVvTXFiRDlEZEpZQ3NOMkM4VXBMeWJVT1F2c1hrSWstY1hCMHVqMi1MZGJMcmdlWlBv0gG7AUFVX3lxTFBMOHJXYTRoUWlpT2ctUzVYQW53WndERnlwUk5CbzBncTdaTTgwU1JxMWc0US1Qa2FPcVgxanI2VUhEZUwzVEdlcXd6QnEza2RVOFl2U3QxNGJqa19YRE43REc0TjN0Rm9Nb1FmQmEzMHhVbHpNYmhfWTZBNloySDdOVnBYQUkxNEdxRW9NcWJEOURkSllDc04yQzhVcEx5YlVPUXZzWGtJay1jWEIwdWoyLUxkYkxyZ2VaUG8?oc=5",
+      "score": -20,
+      "source": "\"russia missile attack ukraine -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
+    },
     {
       "title": "Russia suffers ‘deadliest month of war so far’ as Ukraine strikes missile plant and oil refinery - Newswav",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZXBrLU84OWFEX0hmWFFQbk5xM0V4VXgwTnFsalNnN0dTalVmR25nLUZzM093ZnNiYlpTR2c0QUdHUEpoYWx6dFR1NE9nLWR3QUJXdEFCeEFjcDNhS0FodDhYWVlBR1Zva1kydzNEX3FMVHQ5MjZtcXQ0S2hyY21RdTVLTGtZZ25RMERILTY4Y3k1Q1o5OFM2dzh3NmZMclI5NlVuNFNhYVVHN3ljbVhBRE5MRVBqb00?oc=5",
@@ -17,21 +23,15 @@
       "source": "\"ukraine frontline -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
     },
     {
+      "title": "Ukraine attacks Russian frontline with 28 ground robots in one of the largest clashes involving UGVs caught on camera - Daily Mail",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOUWd6R1g4TTR2VGl5VDRUbmpVOWdoUDRjS3BJTXE3UGxpamViTnBXQmlTMHpWY1dCRldua1huTGdZY2ZMbkhDbHkydmphQlZ6ZDhqTmRZOGhGTkM4WFNfcWJiUGtmYThZZmp1TmJmZV9UWEZFck1leGVEdXJCOXd1YXpmdUR5cjVhNXUyZlh2eGdzY0xINW5oRERYU0NaVDNyUWJnWE81bHNGN2M3MGx4dzJWdWxlVm1VY0ZQTTdBNkRwSDFsZnUyRi03T3h0NXdkdVM1YmJianQ4dnQ1QW5vU09SZEVJMU3SAewBQVVfeXFMUHpsdTRoUS0tRUVUR3piLWR3RnJUcnc2QXczVTFUblZjSFZtbnNUSmx5b1cyYXM4S3ljMmFxWUlsd1Npa1N2cm9kUGJUcG5QLTNSU3dySXBZLW0yVUR4X1l1YWRCWndHTFE3aUl1N0ptSXlGUzdpZ3FuRWk5N0dpRHZhODNoaVNUU05kQjh1cU5tVEhZM1dpTlNMUnhyckp5eC1GYnNreHVud0ZJMFg4MHBfeGVXNDdpS09rcFNSTjZqNzkwZmYtSlZVZzVtemptT2lSWWRsQzJ5bldaUnVlSVVfUUZ6TGFwQjNGVjM?oc=5",
+      "score": -15,
+      "source": "\"ukraine frontline -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
+    },
+    {
       "title": "\"East\" Air Command has shown footage of destruction of Russian cruise missiles and attack drones during night-time attack by Russian Federation. VIDEO - Цензор.НЕТ",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOUGw3Y2VxdFFMV3dfRXpuNVpBNFhDZ2VUekNiS1E1bllVU0QwNFVNcUJtM2syaUZMOTJDWm1rQjBGb19WaG5iUTJzX0xTQ0dqNUgzQ2xZOGV2dHJTb2VVTUxQeWlUUEVTSlpVelJKQTFwX1RXcVNsNkZkWmx3elFyNElNcVJfTU1femYxZEIzaVUwY1pKM19yOXpRWksyYldyX3lfYmM4ZzVOeWJFei1yRDFEcG1nYU9sSFZTOEttVk9rNjZldnNGWmt5VGxGdw?oc=5",
       "score": -15,
-      "source": "\"russia missile attack ukraine -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
-    },
-    {
-      "title": "Russia suffers ‘deadliest month of war so far’ as Ukraine strikes missile plant and oil refinery - Newswav",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZXBrLU84OWFEX0hmWFFQbk5xM0V4VXgwTnFsalNnN0dTalVmR25nLUZzM093ZnNiYlpTR2c0QUdHUEpoYWx6dFR1NE9nLWR3QUJXdEFCeEFjcDNhS0FodDhYWVlBR1Zva1kydzNEX3FMVHQ5MjZtcXQ0S2hyY21RdTVLTGtZZ25RMERILTY4Y3k1Q1o5OFM2dzh3NmZMclI5NlVuNFNhYVVHN3ljbVhBRE5MRVBqb00?oc=5",
-      "score": -15,
-      "source": "\"russia missile attack ukraine -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
-    },
-    {
-      "title": "Ukraine Shoots Down More Than 8,000 Russian Missiles and Drones in One Month - UNITED24 Media",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQS1cyYUNINWlBNjBURjdISlZfaDhwejdCSG5sMjJGcmdzWnNmd2hUNG82UWpDcFFETExaTEN6SDVyRk9HVWM0NlQydVRIaUUwNXVyOWJFZlhrMnNPVnktbWpDSTdqc01zWlJjdDNvRFlORUlJektSRWkxMEpWcDNpN09VQUZwV0RWaUp2NWJNYVUzVUlUcjliYjFaNFdfZnZVRWhnZTlPaWhrTURQRjRCTUpmQUp4SWM5N24yWDlzQQ?oc=5",
-      "score": -14,
       "source": "\"russia missile attack ukraine -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
     }
   ],
@@ -44,7 +44,7 @@
     },
     {
       "title": "Russia must show it is serious about ceasefire at Abu Dhabi talks, Germany's Merz says - Deccan Herald",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxORnB4LURTUVA5eGxwdXRnaGc2cUFRM0hybDZDUDVtM09nME44c1J1QkRMVlJpUC1tdmZ4S2x0OS1MTFVLYTNvMEdBNVJtNnNlM1BTc2VNWGhPV21lSjJONTFxMDFmb0JLTmRZLTNJM1A2blhMcS1DakVPMEtUTDJMZ0tqR3hMVHpIN0ZnaldHSVZOdkpWUi1hUmdtR1didkJobjhUTlhpT3BkSHgwelk2NGxRajZ6TnNoNnFIdWF0dDBSVmpmdnJZZW9PeWpSelRtVGRLV0FxbFVjbWVrcElzeTRn?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNeXJGWmJRRUp3WkhQaWdXbV9lRFU1TEpPUHluaGZZYWNUMDZxaUZqY0N0NG1yY2xtYk5jWFNsWm43cldIbmJZQ3poNEtBUkZqcWhZRjhfWTBfLXZjMlRiX0ZNazJiVkkyUVoySXI4UDBpWktiRzFjN2YzZVEtbUtBRTJCalVTa3lTUFRjZjZUTzdrR1lHSVNsa3ZqcF9iVHdwRHVlZTE2akpSY1Jqd2dYUGhMOGFsdnR4MG1TU00wVm9hclFQVTVaZGVMTzdmcTA?oc=5",
       "score": 5,
       "source": "\"ceasefire talks ukraine russia -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
     },
@@ -55,16 +55,28 @@
       "source": "\"ceasefire talks ukraine russia -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
     },
     {
-      "title": "How much did the Holy See contribute to the Oleshky ceasefire? - The Pillar",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5LUU1kMWUyQklnd2RtT294UE4waFZSbnhOWF9vSUc0a1RFMk1aQXRlQmhqcFdxUGw5ZW9jeV9Tb1kzdV9lWXJ6ajRBQmJhNTd0R3BnQU10Z2FCUk5CNkk4TW1QVFFLcmQ0dG5rclBLc3N4OTNpd3V3OQ?oc=5",
+      "title": "Zelensky: ‘Raids on four regions, hundreds of thousands without electricity’. Pope calls for new peace initiatives following the Oleshky ceasefire - Il Sole 24 ORE",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQS3lpdkFydWxabkdwQnoxd013NUFDSGVBV09YV2Rsb042bEVUaUdIYkQ4SWFBSjNhRWR3cjVBWjhrd0N3c2h5enRmRGxWaWNWUjlEaV9BS3NnMWF3Zm1pQXp3b3U1MzAzb05udHJZSVh2VTBNYlNjRGJxVTFLWGo1OVdhcmJZZFpmcnJIeUNDSHQ4QkNwZ1paZFk1SjctNVVWUUZmbDBRUmdUTXUzV0FUcGNzOFNjM080OFFYaVVqcHRMUDBuRGIyVllaV1l1cTA?oc=5",
       "score": 4,
-      "source": "\"ceasefire talks ukraine russia -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
+      "source": "\"russia missile attack ukraine -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
     }
   ],
   "key_headlines": [
     {
+      "title": "Russia attacks Ukraine with missiles and 172 drones, air defenses intercept 149 UAVs - The New Voice of Ukraine",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQTDhyV2E0aFFpaU9nLVM1WEFud1p3REZ5cFJOQm8wZ3E3Wk04MFNScTFnNFEtUGthT3FYMWpyNlVIRGVMM1RHZXF3ekJxM2tkVThZdlN0MTRiamtfWERON0RHNE4zdEZvTW9RZkJhMzB4VWx6TWJoX1k2QTZaMkg3TlZwWEFJMTRHcUVvTXFiRDlEZEpZQ3NOMkM4VXBMeWJVT1F2c1hrSWstY1hCMHVqMi1MZGJMcmdlWlBv0gG7AUFVX3lxTFBMOHJXYTRoUWlpT2ctUzVYQW53WndERnlwUk5CbzBncTdaTTgwU1JxMWc0US1Qa2FPcVgxanI2VUhEZUwzVEdlcXd6QnEza2RVOFl2U3QxNGJqa19YRE43REc0TjN0Rm9Nb1FmQmEzMHhVbHpNYmhfWTZBNloySDdOVnBYQUkxNEdxRW9NcWJEOURkSllDc04yQzhVcEx5YlVPUXZzWGtJay1jWEIwdWoyLUxkYkxyZ2VaUG8?oc=5",
+      "score": -20,
+      "source": "\"russia missile attack ukraine -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
+    },
+    {
       "title": "Russia suffers ‘deadliest month of war so far’ as Ukraine strikes missile plant and oil refinery - Newswav",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZXBrLU84OWFEX0hmWFFQbk5xM0V4VXgwTnFsalNnN0dTalVmR25nLUZzM093ZnNiYlpTR2c0QUdHUEpoYWx6dFR1NE9nLWR3QUJXdEFCeEFjcDNhS0FodDhYWVlBR1Zva1kydzNEX3FMVHQ5MjZtcXQ0S2hyY21RdTVLTGtZZ25RMERILTY4Y3k1Q1o5OFM2dzh3NmZMclI5NlVuNFNhYVVHN3ljbVhBRE5MRVBqb00?oc=5",
+      "score": -15,
+      "source": "\"ukraine frontline -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
+    },
+    {
+      "title": "Ukraine attacks Russian frontline with 28 ground robots in one of the largest clashes involving UGVs caught on camera - Daily Mail",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOUWd6R1g4TTR2VGl5VDRUbmpVOWdoUDRjS3BJTXE3UGxpamViTnBXQmlTMHpWY1dCRldua1huTGdZY2ZMbkhDbHkydmphQlZ6ZDhqTmRZOGhGTkM4WFNfcWJiUGtmYThZZmp1TmJmZV9UWEZFck1leGVEdXJCOXd1YXpmdUR5cjVhNXUyZlh2eGdzY0xINW5oRERYU0NaVDNyUWJnWE81bHNGN2M3MGx4dzJWdWxlVm1VY0ZQTTdBNkRwSDFsZnUyRi03T3h0NXdkdVM1YmJianQ4dnQ1QW5vU09SZEVJMU3SAewBQVVfeXFMUHpsdTRoUS0tRUVUR3piLWR3RnJUcnc2QXczVTFUblZjSFZtbnNUSmx5b1cyYXM4S3ljMmFxWUlsd1Npa1N2cm9kUGJUcG5QLTNSU3dySXBZLW0yVUR4X1l1YWRCWndHTFE3aUl1N0ptSXlGUzdpZ3FuRWk5N0dpRHZhODNoaVNUU05kQjh1cU5tVEhZM1dpTlNMUnhyckp5eC1GYnNreHVud0ZJMFg4MHBfeGVXNDdpS09rcFNSTjZqNzkwZmYtSlZVZzVtemptT2lSWWRsQzJ5bldaUnVlSVVfUUZ6TGFwQjNGVjM?oc=5",
       "score": -15,
       "source": "\"ukraine frontline -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
     },
@@ -78,31 +90,25 @@
       "title": "Ukraine Shoots Down More Than 8,000 Russian Missiles and Drones in One Month - UNITED24 Media",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQS1cyYUNINWlBNjBURjdISlZfaDhwejdCSG5sMjJGcmdzWnNmd2hUNG82UWpDcFFETExaTEN6SDVyRk9HVWM0NlQydVRIaUUwNXVyOWJFZlhrMnNPVnktbWpDSTdqc01zWlJjdDNvRFlORUlJektSRWkxMEpWcDNpN09VQUZwV0RWaUp2NWJNYVUzVUlUcjliYjFaNFdfZnZVRWhnZTlPaWhrTURQRjRCTUpmQUp4SWM5N24yWDlzQQ?oc=5",
       "score": -14,
-      "source": "\"russia missile attack ukraine -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
+      "source": "\"russia ukraine war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
     },
     {
       "title": "Ukraine: At least 26 killed in Russian strikes on aid center - Times of Oman",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNVg5RGp3Ukdfb19NVzRXX1NrbUhMcC0tbjY5Sm1ybGN3UEg5enRCS0x0MDkxempMLWE1N1UydlYwelNFUWlHd1p1VTduS0d1SHNDZXBmQWg3ejIxR1VfS3NseEJjV2wwYzN2QkZlS1ZWZ0RrcGtOcXBpVjBOeHJZaE1zQ2FTdmJ3aldLZ3UtTWczZ3lnbGF6UlpHekN1ZDQ?oc=5",
       "score": -13,
       "source": "\"ukraine frontline -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
-    },
-    {
-      "title": "Ukraine Soccer Jersey - Ukraine war Russia destroys hospital in latest missile attack BBC News - auroradesio.it",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBZeEt2MHd2VUZyOUN1aVhxaEJpOVQ0ZG85TDZVcDVMdkUzQ1Zsd0gtc2R2SkRQSjh6WkNBTTdYUXFkaEhnYy0tRkVtRjRhYW56cTcw?oc=5",
-      "score": -9,
-      "source": "\"russia ukraine war -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
-    },
-    {
-      "title": "Ukraine and Russia are taking the war underground as drones saturate the battlefield - Modern Ghana",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNN1o4ZlF3MUFYdS1DdnJQS3Ywci1TOUxoVDZhRjJ4YTNCN2VJZ2pRQzZETDR2TzFIaUNseUV0Ry1fcVNIb2MtTVc1UEhNVTZBeFRLaHZxZ2ZkMkVHdkJnRE9WdlBMaVJjZHFGeHpEaXF5YlZ4alFOX1lyVkNWc1BmRUlLZFVmUWVoU2EtVlMtN0RSMk9PY1Nrb3Z30gGaAUFVX3lxTE03WjhmUXcxQVh1LUN2clBLdjByLVM5TGhUNmFGMnhhM0I3ZUlnalFDNkRMNHZPMUhpQ2x5RXRHLV9xU0hvYy1NVzVQSE1VNkF4VEtodnFnZmQyRUd2QmdET1Z2UExpUmNkcUZ4ekRpcXliVnhqUU5fWXJWQ1ZzUGZFSUtkVWZRZWhTYS1WUy03RFIyT09jU2tvdnc?oc=5",
-      "score": -9,
-      "source": "\"ukraine frontline -iran -israel -gaza -hamas -hezbollah -tehran -middle east when:7d\" - Google News"
     }
   ],
-  "external_operational_summary": "A külső fronthelyzeti becslés szerint az orosz ellenőrzés alatt álló terület nagysága megközelítőleg 117 175,38 km². Napi összevetésben a változás 0,00 km² volt, ami nincs érdemi változás irányába mutat. Heti távlatban a változás 31,52 km², ami orosz területszerzés képet jelez. A dróntevékenység továbbra is jelentős, az elmúlt hét napban 704 UAV-eseményt rögzítettek.",
-  "external_change_summary": "A változásjelző réteg a 2026-11-05 és 2026-11-06 közötti elmozdulásokat mutatja. Külön veszteségi súlypont nem került azonosításra.",
-  "ua_operational_summary": "Az ukrán operatív források napi mintája alapján a dróntevékenységre utaló említések száma 2, a rakéta- vagy nagy hatótávolságú csapásokra utaló említéseké 0, míg a tüzérségi vagy egyéb csapásjellegű aktivitásra utaló jelzéseké 0 volt. A leggyakrabban előforduló helyszínjelöltek: Авдіївка, Kostiantynivka, Toretsk, Оріхів, Robotyne. A napi operatív kép főként ezekből a forrásokból rajzolódott ki: generalstaffzsu, ukrainenow, deepstateua.",
+  "external_operational_summary": "A külső fronthelyzeti becslés szerint az orosz ellenőrzés alatt álló terület nagysága megközelítőleg 117 179,62 km². Napi összevetésben a változás 4,24 km² volt, ami orosz területszerzés irányába mutat. Heti távlatban a változás 26,70 km², ami orosz területszerzés képet jelez. A napi térképi dinamika alapján a legfontosabb előretörési irány Pokrovsk térségében jelent meg. A dróntevékenység továbbra is jelentős, az elmúlt hét napban 0 UAV-eseményt rögzítettek.",
+  "external_change_summary": "A változásjelző réteg a 2026-11-06 és 2026-11-07 közötti elmozdulásokat mutatja. Az előretöréshez köthető fő súlypont koordinátája hozzávetőleg 37.07855, 48.38395. Külön veszteségi súlypont nem került azonosításra.",
+  "ua_operational_summary": "Az ukrán operatív források napi mintája alapján a dróntevékenységre utaló említések száma 3, a rakéta- vagy nagy hatótávolságú csapásokra utaló említéseké 0, míg a tüzérségi vagy egyéb csapásjellegű aktivitásra utaló jelzéseké 0 volt. A leggyakrabban előforduló helyszínjelöltek: Orikhiv, Lyman, Avdiivka, Торецьк, Куп'янськ. A napi operatív kép főként ezekből a forrásokból rajzolódott ki: generalstaffzsu, ukrainenow, deepstateua.",
   "ua_operational_items": [
+    {
+      "title": "⚡️ ЗБИТО/ПОДАВЛЕНО 153 ЦІЛІ У ніч на 7 листопада (з 18:00 6 листопада) противник завдав масованого комбінованого удару п",
+      "link": "https://t.me/GeneralStaffZSU/42832",
+      "source": "generalstaffzsu",
+      "score": 2
+    },
     {
       "title": "⚡️ ЗБИТО/ПОДАВЛЕНО 196 ВОРОЖИХ ЦІЛЕЙ У ніч на 6 листопада (з 18:00 5 листопада) противник атакував 227 ударними БпЛА тип",
       "link": "https://t.me/GeneralStaffZSU/42824",
@@ -116,20 +122,14 @@
       "score": 2
     },
     {
-      "title": "Є новий оборонний пакет від Іспанії на €437 млн.",
-      "link": "https://t.me/UkraineNow/85146",
+      "title": "Наслідки російської атаки в Соломʼянському районі Києва.",
+      "link": "https://t.me/UkraineNow/85166",
       "source": "ukrainenow",
       "score": 0
     },
     {
-      "title": "UPD: Вже 53 загиблих, - Запорізька ОВА Кількість загиблих внаслідок російського авіаудару по Комишувасі 2 листопада зрос",
-      "link": "https://t.me/UkraineNow/85143",
-      "source": "ukrainenow",
-      "score": 0
-    },
-    {
-      "title": "Дрони атакували Афіпський НПЗ у Краснодарському краї рф На підприємстві спалахнула пожежа.",
-      "link": "https://t.me/UkraineNow/85137",
+      "title": "Гарна новина з Брянщини: уражено дві пускові установки «Іскандер».",
+      "link": "https://t.me/UkraineNow/85165",
       "source": "ukrainenow",
       "score": 0
     }
